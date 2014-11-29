@@ -330,7 +330,9 @@ POSTS & CONTENT STYLES
 	transform: translateZ(0);
 }
 .parallax__layer--back-hero {
-	background: url('../images/darkwood.jpg') top left repeat fixed;
+	background: 	url('../images/KatStahrWebsiteGrungePattern_Left.png') top left repeat-y fixed,
+					url('../images/KatStahrWebsiteGrungePattern_Right.png') top right repeat-y fixed,
+					url('../images/darkwood.jpg') top left repeat fixed;
 }
 
 .parallax__layer--base {
@@ -338,7 +340,10 @@ POSTS & CONTENT STYLES
 }
 .parallax__layer--back {
 	// transform: translateZ(-1px);
-	background: url('../images/Kat_Sepia.jpg') center center fixed;
+	
+	background: 	url('../images/KatStahrWebsiteGrungePattern_Left.png') top left repeat-y fixed,
+					url('../images/KatStahrWebsiteGrungePattern_Right.png') top right repeat-y fixed,
+					url('../images/Kat_Sepia.jpg') center 100px fixed;
 	// width:100%;
 }
 .hero {
