@@ -336,14 +336,15 @@ POSTS & CONTENT STYLES
 }
 
 .parallax__layer--base {
-	transform: translateZ(0);
+	background: 	url('../images/KatStahrWebsiteGrungePattern_Left.png') top left repeat-y fixed,
+					url('../images/KatStahrWebsiteGrungePattern_Right.png') top right repeat-y fixed;
+	// transform: translateZ(1);
 }
 .parallax__layer--back {
+	
 	// transform: translateZ(-1px);
 	
-	background: 	url('../images/KatStahrWebsiteGrungePattern_Left.png') top left repeat-y fixed,
-					url('../images/KatStahrWebsiteGrungePattern_Right.png') top right repeat-y fixed,
-					url('../images/Kat_Sepia.jpg') center 100px fixed;
+	background: 	url('../images/Kat_Sepia.jpg') center 100px fixed;
 	// width:100%;
 }
 .hero {

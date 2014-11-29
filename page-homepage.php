@@ -6,6 +6,8 @@
 
 <?php get_header(); ?>
 
+<?php $parallax_1 = get_field('parallax_1'); $parallax_2 = get_field('parallax_2'); ?>
+
 	<div id="hero">
 		<div class="parallax">
 			<div class="parallax__layer parallax__layer--back-hero"></div>
@@ -27,7 +29,7 @@
 		</div>
 
 	<div class="parallax">
-		<div class="parallax__layer parallax__layer--back"></div>
+		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_1['url']; ?>') center center fixed"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
@@ -39,7 +41,7 @@
 		</div>
 
 	<div class="parallax">
-		<div class="parallax__layer parallax__layer--back"></div>
+		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_2['url']; ?>') center center fixed"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
