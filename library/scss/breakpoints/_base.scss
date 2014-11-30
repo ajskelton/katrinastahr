@@ -362,26 +362,34 @@ POSTS & CONTENT STYLES
 }
 
 .bandsintown {
+	margin:0 auto;
 	// border-collapse: collapse;
 	// border-spacing:.5rem;
 	tr {
 		margin-bottom: 5px;
 	}
-	td:first-child {
-		background-color: $katrina-blue;
+	td {
 		padding:1em;
 		color:white;
+	}
+	a {
+		color:white;
+	}
+	td:first-child {
+		background-color: $katrina-blue;
 	}
 	td:nth-child(2) {
 		background-color: black;
-		padding:1em;
-		color:white;
 	}
 	td:nth-child(3) {
-		padding:1em;
-		color:white;
 		background-color: gray;
 	}
+	td:nth-child(4) {
+		background-color:$katrina-blue;
+	}
+}
+.wrap p {
+	text-align: center;
 }
 
 		.hentry {
