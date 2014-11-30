@@ -17,7 +17,7 @@
 		</div>
 	</div>
 
-		<div id="about" class="cf">
+		<section id="about" name="about" class="cf">
 			<div class="m-all t-1of2 d-1of2">
 				<img src="<?php echo $about_image['url']; ?>" alt="">
 			</div>
@@ -26,26 +26,26 @@
 					<?php the_field('about_section'); ?>
 				</p>
 			</div>
-		</div>
+		</section>
 
 	<div class="parallax">
 		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_1['url']; ?>') center center fixed"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
-		<div id="music" class="cf">
+		<section id="music" name="music" class="cf">
 			<h2>Music</h2>
 			<div class="wrap">
 				<?php the_field('music_section'); ?>
 			</div>
-		</div>
+		</section>
 
 	<div class="parallax">
 		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_2['url']; ?>') center center fixed"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
-		<div id="shows" class="cf">
+		<section id="shows" name="shows" class="cf">
 			<h2>Upcoming Shows</h2>
 			<div class="wrap">
 				<?php the_field('shows_section'); ?>
@@ -54,27 +54,27 @@
 			<div class="wrap">
 				<?php the_field('shows_archive'); ?>
 			</div>
-		</div>
+		</section>
 
 	<div class="parallax">
 		<div class="parallax__layer parallax__layer--back"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
-		<div id="videos">
+		<section id="videos" name="videos" class="cf">
 			
-		</div>
+		</section>
 
 	<div class="parallax">
 		<div class="parallax__layer parallax__layer--back"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
-		<div id="contact">
+		<section id="contact" name="contact">
 			<h2>Contact Me</h2>
 			<div class="wrap">
 				<?php echo do_shortcode( '[contact-form-7 id="887" title="Contact form 1"]' ); ?>
 			</div>
-		</div>
+		</section>
 
 <?php get_footer(); ?>
