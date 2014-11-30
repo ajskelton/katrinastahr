@@ -6,7 +6,7 @@
 
 <?php get_header(); ?>
 
-<?php $parallax_1 = get_field('parallax_1'); $parallax_2 = get_field('parallax_2'); ?>
+<?php $about_image = get_field('about_image'); $parallax_1 = get_field('parallax_1'); $parallax_2 = get_field('parallax_2');  ?>
 
 	<div id="hero">
 		<div class="parallax">
@@ -19,7 +19,7 @@
 
 		<div id="about" class="cf">
 			<div class="m-all t-1of2 d-1of2">
-				<img src="<?php echo get_template_directory_uri(); ?>/library/images/katrinaportrait.jpg" alt="">
+				<img src="<?php echo $about_image['url']; ?>" alt="">
 			</div>
 			<div class="m-all t-1of2 d-1of2 last-col">
 				<p>
@@ -46,7 +46,7 @@
 	</div>
 
 		<div id="shows" class="cf">
-			<h2>Upcomming Shows</h2>
+			<h2>Upcoming Shows</h2>
 			<div class="wrap">
 				<?php the_field('shows_section'); ?>
 			</div>
