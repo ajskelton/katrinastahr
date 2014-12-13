@@ -17,7 +17,9 @@ come into play. Have fun!
 GENERAL STYLES
 *********************/
 
-body {}
+body {
+	background-color:black;
+}
 
 /*********************
 LAYOUT & GRID STYLES
@@ -31,7 +33,9 @@ LAYOUT & GRID STYLES
 HEADER STYLES
 *********************/
 
-.header {}
+.header {
+	padding-left:24px;
+}
 
 	#logo {}
 
