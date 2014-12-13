@@ -234,14 +234,15 @@ POSTS & CONTENT STYLES
   margin-right: 1.5em;
   display: inline;
   float: left;
+  margin-top: 6px;
 }
-/* line 90, ../scss/breakpoints/_481up.scss */
+/* line 91, ../scss/breakpoints/_481up.scss */
 .entry-content .alignright, .entry-content img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right;
 }
-/* line 95, ../scss/breakpoints/_481up.scss */
+/* line 96, ../scss/breakpoints/_481up.scss */
 .entry-content .aligncenter, .entry-content img.aligncenter {
   margin-right: auto;
   margin-left: auto;
@@ -457,6 +458,11 @@ be seen on the Desktop.
 /* line 22, ../scss/breakpoints/_1030up.scss */
 .nav li a {
   font-size: 1.5em;
+}
+
+/* line 28, ../scss/breakpoints/_1030up.scss */
+.entry-content p {
+  font-size: 1.2em;
 }
 
 /*

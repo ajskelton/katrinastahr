@@ -73,6 +73,10 @@ LAYOUT & GRID STYLES
 	width: 100%;
 	margin: 0 auto;
 }
+section {
+	background-color:white;
+	padding:0 0 6em 0;
+}
 
 /*********************
 LINK STYLES
@@ -127,9 +131,10 @@ h1, .h1 {
 }
 
 h2, .h2 {
-	font-size: 1.75em;
+	font-size: 2.5em;
+	margin: 1em 0;
 	line-height: 1.4em;
-	margin-bottom: 0.375em;
+	// margin-bottom: 0.375em;
 }
 
 h3, .h3 {
@@ -298,8 +303,8 @@ POSTS & CONTENT STYLES
 section:before { 
   display: block; 
   content: " "; 
-  margin-top: -140px; 
-  height: 140px; 
+  margin-top: -115px; 
+  height: 115px; 
   visibility: hidden; 
 }
 
@@ -398,9 +403,6 @@ section:before {
 		background-color:$katrina-blue;
 	}
 }
-.wrap p {
-	text-align: center;
-}
 
 		.hentry {
 			// background-color: $white;
@@ -459,7 +461,7 @@ section:before {
 
 		/* entry content */
 		.entry-content {
-			padding: 1.5em 1.5em 0;
+			// padding: 1.5em 1.5em 0;
 
 			p {
 				margin: 0 0 1.5em;

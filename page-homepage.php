@@ -17,14 +17,17 @@
 		</div>
 	</div>
 
-		<section id="about" name="about" class="cf">
-			<div class="m-all t-1of2 d-1of2">
-				<img src="<?php echo $about_image['url']; ?>" alt="">
-			</div>
-			<div class="m-all t-1of2 d-1of2 last-col">
-				<p>
-					<?php the_field('about_section'); ?>
-				</p>
+		<section id="about" name="about" class="entry-content cf">
+			<header><h2>About Katrina</h2></header>
+			<div class="wrap">
+				<!-- <div class="m-all t-1of2 d-1of2">
+					<img src="<?php echo $about_image['url']; ?>" alt="">
+				</div>
+				<div class="m-all t-1of2 d-1of2 last-col"> -->
+					<!-- <p> -->
+						<?php the_field('about_section'); ?>
+					<!-- </p> -->
+				<!-- </div> -->
 			</div>
 		</section>
 
@@ -33,7 +36,7 @@
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
-		<section id="music" name="music" class="cf">
+		<section id="music" name="music" class="entry-content cf">
 			<h2>Music</h2>
 			<div class="wrap">
 				<?php the_field('music_section'); ?>
@@ -45,7 +48,7 @@
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
-		<section id="shows" name="shows" class="cf">
+		<section id="shows" name="shows" class="entry-content cf">
 			<h2>Upcoming Shows</h2>
 			<div class="wrap">
 				<?php the_field('shows_section'); ?>
@@ -61,8 +64,10 @@
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
-		<section id="videos" name="videos" class="cf">
-			
+		<section id="videos" name="videos" class="entry-content cf">
+			<div class="wrap">
+				
+			</div>
 		</section>
 
 	<div class="parallax">
