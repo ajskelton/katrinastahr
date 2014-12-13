@@ -33,9 +33,7 @@ LAYOUT & GRID STYLES
 HEADER STYLES
 *********************/
 
-.header {
-	padding-left:24px;
-}
+.header {}
 
 	#logo {}
 
@@ -45,16 +43,14 @@ NAVIGATION STYLES
 
 .nav {
 	border: 0;
-	ul {
-		background:$black;
-		margin-top:0;
-	}
+	margin-right:24px;
 	li {
 		float: left;
 		position: relative;
 
 		a {
 			border-bottom: 0;
+			font-size:1.1em;
 
 			/*
 			you can use hover styles here even though this size
@@ -144,6 +140,10 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
+
+.hero {
+	font-size:1.2em;
+}
 
 .sidebar {
 	margin-top: 2.2em;

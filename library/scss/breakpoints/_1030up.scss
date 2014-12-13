@@ -13,6 +13,14 @@ be seen on the Desktop.
   width: 1040px;
 }
 
-.header {
-	padding-left:48px;
+#logo {
+	margin: 1em 0 1em 2em;
+}
+.nav {
+	margin-right:48px;
+	li {
+		a {
+			font-size:1.5em;
+		}
+	}
 }
