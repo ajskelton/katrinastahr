@@ -12,7 +12,7 @@
 		<div class="parallax">
 			<div class="parallax__layer parallax__layer--back-hero"></div>
 			<div class="parallax__layer parallax__layer--base-hero">
-				<p class="hero">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus corrupti dicta odit perspiciatis, at harum sit perferendis aspernatur numquam error iure odio pariatur, eius laboriosam cupiditate eligendi alias id dolor.</p>
+				<p class="hero">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus corrupti dicta odit perspiciatis.</p>
 			</div>
 		</div>
 	</div>
