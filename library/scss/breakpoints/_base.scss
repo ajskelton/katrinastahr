@@ -70,7 +70,7 @@ LAYOUT & GRID STYLES
 *********************/
 
 .wrap {
-	width: 100%;
+	width: 95%;
 	margin: 0 auto;
 }
 section {
@@ -635,6 +635,18 @@ section:before {
 		.size-large {}
 		.size-medium {}
 		.size-thumbnail {}
+
+		input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], select, textarea, .field {
+			width:100%;
+			max-width:100%;
+		}
+
+		input[type="submit"] {
+			background-color: $katrina-blue;
+			color:white;
+			border:none;
+			padding:5px 15px;
+		}
 
 	// the tag output
 	.tags {

@@ -76,10 +76,15 @@
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
-		<section id="contact" name="contact">
-			<h2>Contact Me</h2>
-			<div class="wrap">
-				<?php echo do_shortcode( '[contact-form-7 id="887" title="Contact form 1"]' ); ?>
+		<section id="connect" name="connect">
+			<h2>Connect With Katrina</h2>
+			<div class="wrap cf">
+				<div class="left-half">
+					<?php echo do_shortcode( '[contact-form-7 id="887" title="Contact form 1"]' ); ?>					
+				</div>
+				<div class="right-half">
+					<?php the_field('connect'); ?>
+				</div>
 			</div>
 		</section>
 
