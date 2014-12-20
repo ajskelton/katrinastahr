@@ -64,9 +64,10 @@
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
-		<section id="videos" name="videos" class="entry-content cf">
+		<section id="gallery" name="gallery" class="entry-content cf">
 			<div class="wrap">
-				
+				<h2>Gallery</h2>
+				<?php echo do_shortcode( '[si_feed size=medium limit=16]' ); ?>
 			</div>
 		</section>
 

@@ -581,6 +581,14 @@ section:before {
 				border-radius: 3px;
 			}
 
+			.si_item {
+				width:50%;
+				margin:0;
+				img {
+					margin:0;
+				}
+			}
+
 		} /* end .entry-content */
 
 		.wp-caption {
