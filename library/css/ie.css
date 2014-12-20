@@ -253,6 +253,10 @@ POSTS & CONTENT STYLES
 .entry-content .wp-playlist-item {
   padding: 1em 0;
 }
+/* line 112, ../scss/breakpoints/_481up.scss */
+.entry-content table td {
+  padding: 1.5em 1em;
+}
 
 /* end .entry-content */
 /*********************
@@ -475,21 +479,26 @@ be seen on the Desktop.
   position: relative;
 }
 
-/* line 19, ../scss/breakpoints/_1030up.scss */
+/* line 18, ../scss/breakpoints/_1030up.scss */
+h3 {
+  margin-bottom: 0;
+}
+
+/* line 22, ../scss/breakpoints/_1030up.scss */
 #logo {
   margin: 1em 0 1em 2em;
 }
 
-/* line 22, ../scss/breakpoints/_1030up.scss */
+/* line 25, ../scss/breakpoints/_1030up.scss */
 .nav {
   margin-right: 48px;
 }
-/* line 25, ../scss/breakpoints/_1030up.scss */
+/* line 28, ../scss/breakpoints/_1030up.scss */
 .nav li a {
   font-size: 1.5em;
 }
 
-/* line 31, ../scss/breakpoints/_1030up.scss */
+/* line 34, ../scss/breakpoints/_1030up.scss */
 .entry-content p {
   font-size: 1.2em;
 }

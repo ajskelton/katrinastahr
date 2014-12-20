@@ -373,30 +373,31 @@ section:before {
 
 .bandsintown {
 	margin:0 auto;
+
 	// border-collapse: collapse;
 	// border-spacing:.5rem;
 	tr {
 		margin-bottom: 5px;
+		border-bottom:1px solid black;
 	}
 	td {
 		padding:1em;
-		color:white;
+		border-right:1px solid black;
 	}
 	a {
-		color:white;
 	}
-	td:first-child {
-		background-color: $katrina-blue;
-	}
-	td:nth-child(2) {
-		background-color: black;
-	}
-	td:nth-child(3) {
-		background-color: gray;
-	}
-	td:nth-child(4) {
-		background-color:$katrina-blue;
-	}
+	// td:first-child {
+	// 	background-color: $katrina-blue;
+	// }
+	// td:nth-child(2) {
+	// 	background-color: black;
+	// }
+	// td:nth-child(3) {
+	// 	background-color: gray;
+	// }
+	// td:nth-child(4) {
+	// 	background-color:$katrina-blue;
+	// }
 }
 
 		.hentry {
@@ -485,7 +486,7 @@ section:before {
 
 			table {
 				width: 100%;
-				border: 1px solid $gray;
+				border: 1px solid $black;
 				margin-bottom: 1.5em;
 
 				caption {
@@ -498,7 +499,7 @@ section:before {
 			}
 
 			tr {
-				border-bottom: 1px solid $gray;
+				border-bottom: 1px solid $black;
 
 				&:nth-child(even) {
 					background-color: $light-gray;
@@ -507,7 +508,7 @@ section:before {
 
 			td {
 				padding: 7px;
-				border-right: 1px solid $gray;
+				border-right: 1px solid $black;
 
 				&:last-child {
 					border-right: 0;
@@ -516,8 +517,8 @@ section:before {
 
 			th {
 				background-color: $light-gray;
-				border-bottom: 1px solid $gray;
-				border-right: 1px solid $gray;
+				border-bottom: 1px solid $black;
+				border-right: 1px solid $black;
 
 				&:last-child {
 					border-right: 0;

@@ -53,7 +53,7 @@
 			<div class="wrap">
 				<?php the_field('shows_section'); ?>
 			</div>
-			<h3>Recent Shows</h3>
+			<h3>Past Shows</h3>
 			<div class="wrap">
 				<?php the_field('shows_archive'); ?>
 			</div>
