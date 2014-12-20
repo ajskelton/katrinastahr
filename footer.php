@@ -18,7 +18,7 @@
 						)); ?>
 					</nav>
 
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
+					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. Web Design by <a class="redcart" href="http://www.redcartstudios.com" target="_blank">Red Cart Studios</a></p>
 
 				</div>
 
