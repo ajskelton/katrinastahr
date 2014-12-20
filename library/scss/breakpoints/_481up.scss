@@ -100,6 +100,14 @@ POSTS & CONTENT STYLES
 		clear: both;
 	}
 
+	.wp-playlist {
+		&-tracks {}
+		&-item {
+			padding:1em 0;
+		}
+
+	}
+
 } /* end .entry-content */
 
 /*********************

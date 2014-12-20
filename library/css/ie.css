@@ -249,6 +249,10 @@ POSTS & CONTENT STYLES
   display: block;
   clear: both;
 }
+/* line 105, ../scss/breakpoints/_481up.scss */
+.entry-content .wp-playlist-item {
+  padding: 1em 0;
+}
 
 /* end .entry-content */
 /*********************
@@ -413,6 +417,28 @@ SIDEBARS & ASIDES
 /* recent-comments widget */
 /* search widget */
 /* text widget */
+/* line 267, ../scss/breakpoints/_768up.scss */
+.wp-playlist-current-item {
+  height: 100px;
+}
+/* line 269, ../scss/breakpoints/_768up.scss */
+.wp-playlist-current-item .wp-playlist-item-title {
+  font-size: 1.5em;
+}
+/* line 272, ../scss/breakpoints/_768up.scss */
+.wp-playlist-current-item .wp-playlist-item-album {
+  font-size: 1.5em;
+}
+/* line 275, ../scss/breakpoints/_768up.scss */
+.wp-playlist-current-item .wp-playlist-item-artist {
+  font-size: 1.5em;
+}
+
+/* line 280, ../scss/breakpoints/_768up.scss */
+.wp-playlist-item-title {
+  font-size: 1.5em;
+}
+
 /*********************
 FOOTER STYLES
 *********************/
@@ -421,7 +447,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 278, ../scss/breakpoints/_768up.scss */
+/* line 296, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
@@ -443,24 +469,27 @@ be seen on the Desktop.
 ******************************************************************/
 /* line 12, ../scss/breakpoints/_1030up.scss */
 .wrap {
-  width: 1040px;
+  width: 900px;
+  padding: 2em;
+  margin: 0 auto;
+  position: relative;
 }
 
-/* line 16, ../scss/breakpoints/_1030up.scss */
+/* line 19, ../scss/breakpoints/_1030up.scss */
 #logo {
   margin: 1em 0 1em 2em;
 }
 
-/* line 19, ../scss/breakpoints/_1030up.scss */
+/* line 22, ../scss/breakpoints/_1030up.scss */
 .nav {
   margin-right: 48px;
 }
-/* line 22, ../scss/breakpoints/_1030up.scss */
+/* line 25, ../scss/breakpoints/_1030up.scss */
 .nav li a {
   font-size: 1.5em;
 }
 
-/* line 28, ../scss/breakpoints/_1030up.scss */
+/* line 31, ../scss/breakpoints/_1030up.scss */
 .entry-content p {
   font-size: 1.2em;
 }

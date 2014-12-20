@@ -263,6 +263,24 @@ SIDEBARS & ASIDES
 	.widget_text {}
 	.textwidget p {}
 
+	.wp-playlist {
+		&-current-item {
+			height:100px;
+			.wp-playlist-item-title {
+				font-size:1.5em;
+			}
+			.wp-playlist-item-album {
+				font-size:1.5em;
+			}
+			.wp-playlist-item-artist {
+				font-size:1.5em;
+			}
+		}
+	}
+	.wp-playlist-item-title {
+		font-size:1.5em;
+	}
+
 
 /*********************
 FOOTER STYLES
