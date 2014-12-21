@@ -41,6 +41,8 @@
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
 
+		<?php require("library/svg-defs.svg"); ?>
+
 		<div id="container">
 
 			<?php $image = get_field('main_image'); ?>

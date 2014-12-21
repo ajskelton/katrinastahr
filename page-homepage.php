@@ -18,16 +18,11 @@
 	</div>
 
 		<section id="about" name="about" class="entry-content cf">
-			<header><h2>About Katrina</h2></header>
+			<header>
+				<h2>About Katrina</h2>
+			</header>
 			<div class="wrap">
-				<!-- <div class="m-all t-1of2 d-1of2">
-					<img src="<?php echo $about_image['url']; ?>" alt="">
-				</div>
-				<div class="m-all t-1of2 d-1of2 last-col"> -->
-					<!-- <p> -->
-						<?php the_field('about_section'); ?>
-					<!-- </p> -->
-				<!-- </div> -->
+				<?php the_field('about_section'); ?>				
 			</div>
 		</section>
 
@@ -65,8 +60,10 @@
 	</div>
 
 		<section id="gallery" name="gallery" class="entry-content cf">
+			<header>
+				<h2>Gallery</h2>		
+			</header>
 			<div class="wrap">
-				<h2>Gallery</h2>
 				<?php echo do_shortcode( '[si_feed size=medium limit=16]' ); ?>
 			</div>
 		</section>
@@ -84,7 +81,38 @@
 				</div>
 				<div class="right-half">
 					<?php the_field('connect'); ?>
+					<div class="social">
+						<div class="icon-wrap">
+							<a href="https://www.facebook.com/katrinastahr" target="_blank">
+								<svg class="icon">
+									<use xlink:href="#shape-facebook" />
+								</svg>
+							</a>
+						</div>
+						<div class="icon-wrap">
+							<a href="https://twitter.com/KatrinaStahr" target="_blank">
+								<svg class="icon">
+									<use xlink:href="#shape-twitter" />
+								</svg>
+							</a>
+						</div>
+						<div class="icon-wrap">
+							<a href="#">
+								<svg class="icon">
+									<use xlink:href="#shape-instagram" />
+								</svg>
+							</a>
+						</div>
+						<div class="icon-wrap">
+							<a href="https://soundcloud.com/katrina-stahr">
+								<svg class="icon">
+									<use xlink:href="#shape-soundcloud" />
+								</svg>
+							</a>
+						</div>
+					</div>
 				</div>
+
 			</div>
 		</section>
 

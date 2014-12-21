@@ -134,6 +134,7 @@ h2, .h2 {
 	font-size: 2.5em;
 	margin: 1em 0;
 	line-height: 1.4em;
+	padding-top:1em;
 	// margin-bottom: 0.375em;
 }
 
@@ -651,6 +652,16 @@ section:before {
 	// the tag output
 	.tags {
 		margin: 0;
+	}
+
+	.social {
+		text-align:center;
+		color:white;
+		.icon {
+			height:64px;
+			fill:white;
+			background-color:$katrina-blue;
+		}
 	}
 
 /******************************************************************
