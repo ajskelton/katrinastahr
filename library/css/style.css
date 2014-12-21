@@ -2616,13 +2616,13 @@ you can add resource intensive styles.
 
   /* line 293, ../scss/breakpoints/_768up.scss */
   .left-half {
-    width: 50%;
+    width: 48%;
     float: left;
   }
 
   /* line 297, ../scss/breakpoints/_768up.scss */
   .right-half {
-    width: 50%;
+    width: 48%;
     float: right;
   }
 
