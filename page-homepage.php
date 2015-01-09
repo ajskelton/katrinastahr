@@ -47,7 +47,14 @@
 		<section id="shows" name="shows" class="entry-content cf">
 			<h2>Upcoming Shows</h2>
 			<div class="wrap">
-				<?php the_field('shows_section'); ?>
+				<?php if(the_field('shows_section')) {
+					the_field('shows_section');
+					} else {
+						?>
+						<p>No upcoming shows scheduled. Check back or follow Katrina for future shows</p>
+						<?php
+					}
+				?>
 			</div>
 			<h3>Past Shows</h3>
 			<div class="wrap">
