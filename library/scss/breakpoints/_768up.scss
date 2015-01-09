@@ -140,10 +140,22 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
+.hero-parallax {
+	color:$black;
+	font-family: $walkway;
+	font-size:3em;
+	text-align:center;
+	width:80%;
+	// height:184px;
+	padding:20px;
+	z-index:20;
 
-// .hero {
-// 	font-size:1.2em;
-// }
+	position:absolute;
+	top:50%;
+	// left:50%;
+
+	margin: -90px 0 0 10%;
+}
 
 .sidebar {
 	margin-top: 2.2em;
@@ -301,19 +313,19 @@ CONTENT STYLES
 
 	.social {
 		.icon {
-			height:82px;
-			width:82px;
-			float:left;
-			padding:10px;
+			// height:82px;
+			// width:82px;
+			// float:left;
+			// padding:10px;
 		}
 		.icon-wrap {
-			float:left;
-			width:82px;
-			margin-right:24px;
+			// float:left;
+			// width:82px;
+			// margin-right:24px;
 
-			&:last-child {
-				margin-right:0;
-			}
+			// &:last-child {
+			// 	margin-right:0;
+			// }
 		}
 	}
 

@@ -263,6 +263,21 @@ POSTS & CONTENT STYLES
 }
 
 /* end .entry-content */
+/* line 124, ../scss/breakpoints/_481up.scss */
+.social .icon-wrap {
+  width: 36px;
+}
+/* line 127, ../scss/breakpoints/_481up.scss */
+.social .icon {
+  width: 36px;
+  height: 36px;
+  padding: 5px;
+}
+/* line 132, ../scss/breakpoints/_481up.scss */
+.social .bandsintown {
+  padding: 0;
+}
+
 /*********************
 FOOTER STYLES
 *********************/
@@ -387,28 +402,42 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 148, ../scss/breakpoints/_768up.scss */
+/* line 143, ../scss/breakpoints/_768up.scss */
+.hero-parallax {
+  color: #323944;
+  font-family: "walkway_boldregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  text-align: center;
+  width: 80%;
+  padding: 20px;
+  z-index: 20;
+  position: absolute;
+  top: 50%;
+  margin: -90px 0 0 10%;
+}
+
+/* line 160, ../scss/breakpoints/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 152, ../scss/breakpoints/_768up.scss */
+/* line 164, ../scss/breakpoints/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 157, ../scss/breakpoints/_768up.scss */
+/* line 169, ../scss/breakpoints/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 162, ../scss/breakpoints/_768up.scss */
+/* line 174, ../scss/breakpoints/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 170, ../scss/breakpoints/_768up.scss */
+/* line 182, ../scss/breakpoints/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -425,24 +454,24 @@ SIDEBARS & ASIDES
 /* recent-comments widget */
 /* search widget */
 /* text widget */
-/* line 267, ../scss/breakpoints/_768up.scss */
+/* line 279, ../scss/breakpoints/_768up.scss */
 .wp-playlist-current-item {
   height: 100px;
 }
-/* line 269, ../scss/breakpoints/_768up.scss */
+/* line 281, ../scss/breakpoints/_768up.scss */
 .wp-playlist-current-item .wp-playlist-item-title {
   font-size: 1.5em;
 }
-/* line 272, ../scss/breakpoints/_768up.scss */
+/* line 284, ../scss/breakpoints/_768up.scss */
 .wp-playlist-current-item .wp-playlist-item-album {
   font-size: 1.5em;
 }
-/* line 275, ../scss/breakpoints/_768up.scss */
+/* line 287, ../scss/breakpoints/_768up.scss */
 .wp-playlist-current-item .wp-playlist-item-artist {
   font-size: 1.5em;
 }
 
-/* line 280, ../scss/breakpoints/_768up.scss */
+/* line 292, ../scss/breakpoints/_768up.scss */
 .wp-playlist-item-title {
   font-size: 1.5em;
 }
@@ -450,39 +479,21 @@ SIDEBARS & ASIDES
 /*********************
 CONTENT STYLES
 *********************/
-/* line 289, ../scss/breakpoints/_768up.scss */
+/* line 301, ../scss/breakpoints/_768up.scss */
 .entry-content .si_item {
   width: 25%;
 }
 
-/* line 293, ../scss/breakpoints/_768up.scss */
+/* line 305, ../scss/breakpoints/_768up.scss */
 .left-half {
   width: 48%;
   float: left;
 }
 
-/* line 297, ../scss/breakpoints/_768up.scss */
+/* line 309, ../scss/breakpoints/_768up.scss */
 .right-half {
   width: 48%;
   float: right;
-}
-
-/* line 303, ../scss/breakpoints/_768up.scss */
-.social .icon {
-  height: 82px;
-  width: 82px;
-  float: left;
-  padding: 10px;
-}
-/* line 309, ../scss/breakpoints/_768up.scss */
-.social .icon-wrap {
-  float: left;
-  width: 82px;
-  margin-right: 24px;
-}
-/* line 314, ../scss/breakpoints/_768up.scss */
-.social .icon-wrap:last-child {
-  margin-right: 0;
 }
 
 /*********************
@@ -493,7 +504,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 333, ../scss/breakpoints/_768up.scss */
+/* line 345, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
