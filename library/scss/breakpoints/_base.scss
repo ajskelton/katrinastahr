@@ -192,6 +192,7 @@ and more scalable.
 	height:120px;
 	position:fixed;
 	z-index: 20;
+	background-color: rgba(18,118,189,0);
 }
 
 .nav {
@@ -322,7 +323,7 @@ section:before {
 
 .parallax {
 	perspective: 1px;
-	height: 50vh;
+	height: 600px;
 	overflow-x: hidden;
 	overflow-y: auto;
 }
