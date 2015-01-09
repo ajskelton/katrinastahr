@@ -1,13 +1,16 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="175.000000pt" height="175.000000pt" viewBox="0 0 175.000000 175.000000"
- preserveAspectRatio="xMidYMid meet">
-<metadata>
-Created by potrace 1.11, written by Peter Selinger 2001-2013
-</metadata>
-<g transform="translate(0.000000,175.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" enable-background="new 0 0 18 18" xml:space="preserve">
+<g>
+	<rect x="1.479" y="0.961" fill="#00B4B3" width="15.041" height="16.078"/>
+	<g>
+		<rect x="6.313" y="5.833" fill="#FFFFFF" width="2.438" height="3.417"/>
+		<rect x="9.251" y="5.833" fill="#FFFFFF" width="2.438" height="3.417"/>
+		<rect x="12.167" y="2.916" fill="#FFFFFF" width="2.438" height="6.334"/>
+		<polygon fill="#FFFFFF" points="12.563,9.749 12.167,9.749 6.313,9.749 6.313,12.187 12.167,12.187 12.167,12.667 5.834,12.667 
+			5.834,2.916 3.396,2.916 3.396,15.104 5.626,15.104 5.834,15.104 12.167,15.104 12.396,15.104 14.604,15.104 14.604,9.749 		"/>
+	</g>
 </g>
 </svg>
