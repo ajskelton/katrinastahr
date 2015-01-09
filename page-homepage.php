@@ -6,7 +6,7 @@
 
 <?php get_header(); ?>
 
-<?php $about_image = get_field('about_image'); $parallax_1 = get_field('parallax_1'); $parallax_2 = get_field('parallax_2');  ?>
+<?php $about_image = get_field('about_image'); $parallax_1 = get_field('parallax_1'); $parallax_2 = get_field('parallax_2'); $parallax_3 = get_field('parallax_3'); $parallax_4 = get_field('parallax_4'); ?>
 
 	<div id="hero">
 		<div class="parallax">
@@ -22,12 +22,30 @@
 				<h2>About Katrina</h2>
 			</header>
 			<div class="wrap">
-				<?php the_field('about_section'); ?>				
+				<?php the_field('about_section'); ?>
+				<div class="quick-links">
+					<p>Follow Katrina on</p>
+					<div class="icon-wrap">
+						<a href="https://www.facebook.com/katrinastahr">
+							<svg class="icon facebook">
+								<use xlink:href="#shape-facebook" />
+							</svg>
+						</a>
+					</div>
+					<p>and</p>
+					<div class="icon-wrap">
+						<a href="https://twitter.com/KatrinaStahr">
+							<svg class="icon twitter">
+								<use xlink:href="#shape-twitter" />
+							</svg>
+						</a>
+					</div>
+				</div>				
 			</div>
 		</section>
 
 	<div class="parallax">
-		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_1['url']; ?>') center 100px fixed"></div>
+		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_1['url']; ?>') center 120px fixed"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
@@ -35,12 +53,22 @@
 			<h2>Music</h2>
 			<div class="wrap">
 				<?php the_field('music_section'); ?>
+				<div class="quick-links">
+					<p>Hear more music on</p>
+					<div class="icon-wrap">
+						<a href="https://soundcloud.com/katrina-stahr">
+							<svg class="icon soundcloud">
+								<use xlink:href="#shape-soundcloud" />
+							</svg>
+						</a>
+					</div>
+				</div>
 			</div>
 		</section>
 
 	<div class="parallax">
 		<h3 class="hero-parallax">Lorem ipsum dolor sit amet, consectetur.</h3>
-		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_2['url']; ?>') center center fixed"></div>
+		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_2['url']; ?>') center 120px fixed"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
@@ -51,7 +79,7 @@
 					the_field('shows_section');
 					} else {
 						?>
-						<p>No upcoming shows scheduled. Check back or follow Katrina for future shows</p>
+						<p style="text-align:center;">No upcoming shows scheduled. Check back or follow Katrina for future shows</p>
 						<?php
 					}
 				?>
@@ -59,11 +87,21 @@
 			<h3>Past Shows</h3>
 			<div class="wrap">
 				<?php the_field('shows_archive'); ?>
+				<div class="quick-links">
+				<p>View more past shows on</p>
+					<div class="icon-wrap">
+						<a href="http://www.bandsintown.com/KatrinaStahr">
+							<svg class="icon bandsintown-social">
+								<use xlink:href="#shape-bandsintown" />
+							</svg>
+						</a>
+					</div>
+				</div>
 			</div>
 		</section>
 
 	<div class="parallax">
-		<div class="parallax__layer parallax__layer--back"></div>
+		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_3['url']; ?>') center 120px fixed"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
@@ -73,11 +111,21 @@
 			</header>
 			<div class="wrap">
 				<?php echo do_shortcode( '[si_feed size=medium limit=16]' ); ?>
+				<div class="quick-links">
+				<p>See more photos on</p>
+					<div class="icon-wrap">
+						<a href="https://soundcloud.com/katrina-stahr">
+							<svg class="icon instagram">
+								<use xlink:href="#shape-instagram" />
+							</svg>
+						</a>
+					</div>
+				</div>
 			</div>
 		</section>
 
 	<div class="parallax">
-		<div class="parallax__layer parallax__layer--back"></div>
+		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_4['url']; ?>') center 120px fixed"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
@@ -117,7 +165,7 @@
 						</div>
 						<div class="icon-wrap">
 							<a href="http://www.bandsintown.com/KatrinaStahr">
-								<svg class="icon bandsintown">
+								<svg class="icon bandsintown-social">
 									<use xlink:href="#shape-bandsintown" />
 								</svg>
 							</a>

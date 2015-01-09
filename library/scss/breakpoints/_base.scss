@@ -674,22 +674,43 @@ section:before {
 			padding:2px;
 			fill:white;
 		}
-		.facebook {
-			background-color:#3b5998;
+		p {
+			display: inline-block;
+			color:black;
 		}
-		.twitter {
-			background-color:#00aced;
+	}
+	.quick-links {
+		text-align:center;
+		color:white;
+		.icon-wrap, p {
+			display:inline-block;
 		}
-		.soundcloud {
-			background-color:#f80;
+		p {
+			color:black;
 		}
-		.instagram {
-			background-color:#517fa4;
+		.icon {
+			height:36px;
+			width:36px;
+			padding:5px;
+			fill:white;
+			margin: 0 9px -9px 9px;
 		}
-		.bandsintown {
-			background-color:rgb(0, 180, 179);
-			padding:0;
-		}
+	}
+	.facebook {
+		background-color:#3b5998;
+	}
+	.twitter {
+		background-color:#00aced;
+	}
+	.soundcloud {
+		background-color:#f80;
+	}
+	.instagram {
+		background-color:#517fa4;
+	}
+	.bandsintown-social {
+		background-color:rgb(0, 180, 179);
+		padding:0;
 	}
 
 /******************************************************************
