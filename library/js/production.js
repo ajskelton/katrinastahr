@@ -105,6 +105,23 @@ function loadGravatars() {
 	}
 } // end function
 
+// (function(){
+
+//   var parallax = document.querySelectorAll(".parallax__layer--back"),
+//       speed = 0.3;
+
+//   window.onscroll = function(){
+//     [].slice.call(parallax).forEach(function(el,i){
+
+//       var windowYOffset = window.pageYOffset,
+//           elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
+      
+//       el.style.backgroundPosition = elBackgrounPos;
+
+//     });
+//   };
+
+// })();
 
 /*
  * Put all your regular jQuery in here.
