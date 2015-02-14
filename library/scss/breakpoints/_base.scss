@@ -323,7 +323,7 @@ section:before {
 
 .parallax {
 	perspective: 1px;
-	height: 600px;
+	height: 300px;
 	overflow-x: hidden;
 	overflow-y: auto;
 }
@@ -362,15 +362,25 @@ section:before {
 	font-family: $walkway;
 	font-size:2em;
 	text-align:center;
-	width:600px;
-	height:184px;
 	padding:20px;
+	width:100%
+}
+
+.hero-parallax {
+	color:$black;
+	font-family: $walkway;
+	font-size:24px;
+	text-align:center;
+	// width:80%;
+	// height:184px;
+	// padding:20px;
+	z-index:20;
 
 	position:absolute;
 	top:50%;
 	left:50%;
+	transform: translate( -50%, -58%);
 
-	margin: -90px 0 0 -320px;
 }
 
 .bandsintown {

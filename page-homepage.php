@@ -6,13 +6,19 @@
 
 <?php get_header(); ?>
 
-<?php $about_image = get_field('about_image'); $parallax_1 = get_field('parallax_1'); $parallax_2 = get_field('parallax_2'); $parallax_3 = get_field('parallax_3'); $parallax_4 = get_field('parallax_4'); ?>
+<?php  $about_image = get_field('about_image');
+		// $hero_statement = get_field('hero_statement');
+		$parallax_1 = get_field('parallax_1');
+		$parallax_2 = get_field('parallax_2');
+		$parallax_3 = get_field('parallax_3');
+		$parallax_4 = get_field('parallax_4');
+ ?>
 
 	<div id="hero">
 		<div class="parallax">
 			<div class="parallax__layer parallax__layer--back-hero"></div>
 			<div class="parallax__layer parallax__layer--base-hero">
-				<p class="hero">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus corrupti dicta odit perspiciatis.</p>
+				<p class="hero"><?php the_field('hero_statement');?></p>
 			</div>
 		</div>
 	</div>
@@ -67,7 +73,7 @@
 		</section>
 
 	<div class="parallax">
-		<h3 class="hero-parallax">Lorem ipsum dolor sit amet, consectetur.</h3>
+		<h3 class="hero-parallax">Meet me under the moon tonight where I'll seduce you with a wink of an eye</h3>
 		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_2['url']; ?>') center 120px fixed"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
@@ -101,6 +107,7 @@
 		</section>
 
 	<div class="parallax">
+		<h3 class="hero-parallax">I glimpse the white light then I felt the chains arise spirit arise a voice says this place isn't done with you yet my second chance has arrived I'm singing AIAIA</h3>
 		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_3['url']; ?>') center 120px fixed"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
@@ -125,6 +132,7 @@
 		</section>
 
 	<div class="parallax">
+		<h3 class="hero-parallax">I see you near your cryslal clear I feel you near I have no fear lift me up take me home with you  I have no fear</h3>
 		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_4['url']; ?>') center 120px fixed"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>

@@ -140,21 +140,35 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
+.hero {
+	margin: -140px 0 0 -320px;
+	width:600px;
+	height:280px;
+	position:absolute;
+	top:50%;
+	left:50%;
+}
+
+
 .hero-parallax {
 	color:$black;
 	font-family: $walkway;
-	font-size:3em;
+	font-size:42px;
 	text-align:center;
-	width:80%;
+	// width:80%;
 	// height:184px;
-	padding:20px;
+	// padding:20px;
 	z-index:20;
 
-	position:absolute;
-	top:50%;
+	// position:absolute;
+	// top:50%;
 	// left:50%;
 
-	margin: -90px 0 0 10%;
+	// margin: -90px 0 0 10%;
+}
+
+.parallax {
+	height:600px;
 }
 
 .sidebar {
