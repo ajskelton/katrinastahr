@@ -126,16 +126,16 @@ jQuery(document).ready(function($) {
 
   var t = $('#hero').offset().top - 100;
 
-  $(document).scroll(function(){
-    if($(this).scrollTop() > t)
-    {
-      $('#sticky-nav').css({"background": "#1276BD"});
-    }
-    else
-    {
-      $('#sticky-nav').css({"background": "none"});
-    }
-  });
+  // $(document).scroll(function(){
+  //   if($(this).scrollTop() > t)
+  //   {
+  //     $('#sticky-nav').css({"background": "#1276BD"});
+  //   }
+  //   else
+  //   {
+  //     $('#sticky-nav').css({"background": "none"});
+  //   }
+  // });
 
   $('a[href^="#"]').on('click', function (e) {
     e.preventDefault();
@@ -149,6 +149,9 @@ jQuery(document).ready(function($) {
       window.location.hash = target;
     });
   });
+
+  var s = skrollr.init();
+  var offset = s.relativeToAbsolute(document.getElementById('hero'), 'top', 'bottom');
 
 
 }); /* end of as page load scripts */

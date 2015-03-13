@@ -17,7 +17,7 @@
 		<div class="parallax">
 			<div class="parallax__layer parallax__layer--back-hero"></div>
 			<div class="parallax__layer parallax__layer--base-hero">
-				<p class="hero"><?php the_field('hero_statement');?></p>
+				<p class="hero" data-bottom-top="margin-top:-200px;" data-top-bottom="margin-top:100px;"><?php the_field('hero_statement');?></p>
 			</div>
 		</div>
 	</div>
@@ -77,7 +77,7 @@
 		?>
 
 	<div class="parallax">
-		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">Meet me under the moon tonight where I'll seduce you with a wink of an eye</h3>
+		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>" data-bottom-top="margin-top:-100px;" data-top-bottom="margin-top:100px;">Meet me under the moon tonight where I'll seduce you with a wink of an eye</h3>
 		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_2['url']; ?>') center 120px fixed"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
@@ -85,15 +85,10 @@
 		<section id="shows" name="shows" class="entry-content cf">
 			<h2>Upcoming Shows</h2>
 			<div class="wrap">
-				<?php if(the_field('shows_section')) {
-					the_field('shows_section');
-					} else {
-						?>
-						<p style="text-align:center;">No upcoming shows scheduled. Check back or follow Katrina for future shows</p>
-						<?php
-					}
-				?>
+				<?php the_field('shows_section'); ?>
+				<div class="widget_iframe" style="display:inline-block;width:100%;height:550px;margin:0;padding:0;border:0;"><iframe class="widget_iframe" src="http://www.reverbnation.com/widget_code/html_widget/artist_4211802?widget_id=52&pwc[design]=default&pwc[background_color]=%23333333&pwc[layout]=detailed&pwc[show_map]=0%2C1&pwc[size]=fit" width="100%" height="100%" frameborder="0" scrolling="no"></iframe><div class="footer_branding" style="margin-top:-5px;font-size:10px;font-family:Arial;"><center><a href="http://www.reverbnation.com/band-promotion/how-to-sell-music-on-itunes?utm_campaign=a_features_distribution&utm_medium=widget&utm_source=HTML5_Show_Schedule&utm_content=widgetfooter_Sell music on Amazon at ReverbNation.com" target="_blank" style="text-decoration:none;color:#444;">Sell music on Amazon at ReverbNation.com</a></center></div></div>
 			</div>
+			<!-- <?php echo '<pre>'; print_r( _get_cron_array() ); echo '</pre>'; ?> -->
 			<h3>Past Shows</h3>
 			<div class="wrap">
 				<?php the_field('shows_archive'); ?>
@@ -116,7 +111,7 @@
 		?>
 
 	<div class="parallax">
-		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">I glimpse the white light then I felt the chains arise spirit arise a voice says this place isn't done with you yet my second chance has arrived I'm singing AIAIA</h3>
+		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>" data-bottom-top="margin-top:-100px;" data-top-bottom="margin-top:100px;">I glimpse the white light then I felt the chains arise spirit arise a voice says this place isn't done with you yet my second chance has arrived I'm singing AIAIA</h3>
 		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_3['url']; ?>') center 120px fixed"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
@@ -147,7 +142,7 @@
 		?>
 
 	<div class="parallax">
-		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">I see you near your cryslal clear I feel you near I have no fear lift me up take me home with you  I have no fear</h3>
+		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>" data-bottom-top="margin-top:-150px;" data-top-bottom="margin-top:100px;">I see you near your crystal clear I feel you near I have no fear lift me up take me home with you  I have no fear</h3>
 		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_4['url']; ?>') center 120px fixed"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
