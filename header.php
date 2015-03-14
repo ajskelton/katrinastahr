@@ -50,7 +50,7 @@
 			<header class="header" role="banner" style="background: url('<?php echo $image['url']; ?>') no-repeat center center;" itemscope itemtype="http://schema.org/WPHeader" >
 
 				<div id="sticky-nav" data-bottom="background-color:rgba(43,43,43,0);" data-top="background-color:rgba(43,43,43,1);" data-anchor-target="#hero">
-					<a href="<?php echo home_url(); ?>" id="logo" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/KatStahrLogo_web.png" alt="Katrina Stahr"></a>
+					<a href="<?php echo home_url(); ?>" id="logo" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/KatStahrLogo.png" alt="Katrina Stahr"></a>
 
 					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 						<?php wp_nav_menu(array(
