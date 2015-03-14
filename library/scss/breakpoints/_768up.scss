@@ -33,14 +33,27 @@ LAYOUT & GRID STYLES
 HEADER STYLES
 *********************/
 
-.header {}
+.header {
+	height:700px;
+	position:relative;
+	padding-top:0px;
+	width:100%;
+}
 
-	#logo {}
+	#logo {
+		position:fixed;
+	}
 
 /*********************
 NAVIGATION STYLES
 *********************/
-
+#sticky-nav {
+	width:100%;
+	height:120px;
+	position:fixed;
+	z-index: 20;
+	background-color: rgba(43,43,43,0);
+}
 .nav {
 	border: 0;
 	margin-right:24px;
@@ -51,6 +64,8 @@ NAVIGATION STYLES
 		a {
 			border-bottom: 0;
 			font-size:1.1em;
+			display:block;
+			color:$white;
 
 			/*
 			you can use hover styles here even though this size
@@ -343,6 +358,67 @@ CONTENT STYLES
 			// 	margin-right:0;
 			// }
 		}
+	}
+	.parallax {
+		perspective: 1px;
+		height: 300px;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+
+	.parallax__layer {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+
+	.parallax__layer--hero-back {
+		transform: translateZ(0);
+	}
+	.parallax__layer--back-hero {
+		background: 	url('../images/KatStahrWebsiteGrungePattern_Left.png') top left repeat-y fixed,
+						url('../images/KatStahrWebsiteGrungePattern_Right.png') top right repeat-y fixed,
+						url('../images/darkwood.jpg') top left repeat fixed;
+	}
+
+	.parallax__layer--base {
+		background: 	url('../images/KatStahrWebsiteGrungePattern_Left.png') top left repeat-y fixed,
+						url('../images/KatStahrWebsiteGrungePattern_Right.png') top right repeat-y fixed;
+		// transform: translateZ(1);
+	}
+	.parallax__layer--back {
+		
+		// transform: translateZ(-1px);
+		
+		background: 	url('../images/Kat_Sepia.jpg') center 100px fixed;
+		// width:100%;
+	}
+	.hero {
+		color:$white;
+		font-family: $walkway;
+		font-size:2em;
+		text-align:center;
+		padding:20px;
+		width:100%
+	}
+
+	.hero-parallax {
+		color:$black;
+		font-family: $walkway;
+		font-size:24px;
+		text-align:center;
+		// width:80%;
+		// height:184px;
+		// padding:20px;
+		z-index:20;
+
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform: translate( -50%, -58%);
+
 	}
 
 	
