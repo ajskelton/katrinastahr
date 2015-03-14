@@ -412,6 +412,7 @@ section:before {
 	// }
 }
 
+
 		.hentry {
 			// background-color: $white;
 			border-radius: 3px;
@@ -625,6 +626,7 @@ section:before {
 
 		/* image gallery styles */
 		.gallery {
+			margin:0 0 1.5em 0;
 
 			dl {
 
@@ -637,6 +639,14 @@ section:before {
 			dt {}
 
 			dd {}
+
+			ul {
+				@include grid(2);
+			}
+			img {
+				width:100%;
+				margin:0;
+			}
 
 		} /* end .gallery */
 

@@ -114,8 +114,10 @@ POSTS & CONTENT STYLES
 		}
 	}
 
-	.si_item {
-		padding:1em;
+	.gallery {
+		ul {
+			@include grid(3);
+		}
 	}
 
 } /* end .entry-content */

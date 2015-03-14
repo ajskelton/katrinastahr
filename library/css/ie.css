@@ -156,6 +156,9 @@ BOX SIZING
 /* @include box-sizing(border-box); */
 /* NOTE: value of "padding-box" is only supported in Gecko. So
 probably best not to use it. I mean, were you going to anyway? */
+/*********************
+ADAPTABLE IMAGE GALLERY
+*********************/
 /******************************************************************
 Site Name:
 Author:
@@ -257,23 +260,57 @@ POSTS & CONTENT STYLES
 .entry-content table td {
   padding: 1.5em 1em;
 }
-/* line 117, ../scss/breakpoints/_481up.scss */
-.entry-content .si_item {
-  padding: 1em;
+/* line 118, ../scss/breakpoints/_481up.scss */
+.entry-content .gallery ul {
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+/* line 83, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li {
+  float: left;
+  width: 31.66667%;
+  *width: 31.33333%;
+}
+/* line 85, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li:nth-child(1n) {
+  margin: 5% 0 0 0;
+}
+/* line 89, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li:nth-child(1n) {
+  margin: 2.5% 2.5% 0 0;
+}
+/* line 95, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li:nth-child(3n) {
+  margin-right: 0;
+}
+/* line 98, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li:nth-child(-n+3) {
+  margin-top: 0;
+}
+/* line 101, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li img, .entry-content .gallery ul li a {
+  float: left;
+}
+/* line 104, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li a {
+  text-align: center;
+  width: 100%;
 }
 
 /* end .entry-content */
-/* line 124, ../scss/breakpoints/_481up.scss */
+/* line 126, ../scss/breakpoints/_481up.scss */
 .social .icon-wrap {
   width: 36px;
 }
-/* line 127, ../scss/breakpoints/_481up.scss */
+/* line 129, ../scss/breakpoints/_481up.scss */
 .social .icon {
   width: 36px;
   height: 36px;
   padding: 5px;
 }
-/* line 132, ../scss/breakpoints/_481up.scss */
+/* line 134, ../scss/breakpoints/_481up.scss */
 .social .bandsintown {
   padding: 0;
 }
@@ -489,18 +526,52 @@ SIDEBARS & ASIDES
 /*********************
 CONTENT STYLES
 *********************/
-/* line 315, ../scss/breakpoints/_768up.scss */
-.entry-content .si_item {
-  width: 25%;
+/* line 316, ../scss/breakpoints/_768up.scss */
+.entry-content .gallery ul {
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+/* line 83, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li {
+  float: left;
+  width: 23.75%;
+  *width: 23.5%;
+}
+/* line 85, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li:nth-child(1n) {
+  margin: 5% 0 0 0;
+}
+/* line 89, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li:nth-child(1n) {
+  margin: 1.66667% 1.66667% 0 0;
+}
+/* line 95, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li:nth-child(4n) {
+  margin-right: 0;
+}
+/* line 98, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li:nth-child(-n+4) {
+  margin-top: 0;
+}
+/* line 101, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li img, .entry-content .gallery ul li a {
+  float: left;
+}
+/* line 104, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li a {
+  text-align: center;
+  width: 100%;
 }
 
-/* line 319, ../scss/breakpoints/_768up.scss */
+/* line 321, ../scss/breakpoints/_768up.scss */
 .left-half {
   width: 48%;
   float: left;
 }
 
-/* line 323, ../scss/breakpoints/_768up.scss */
+/* line 325, ../scss/breakpoints/_768up.scss */
 .right-half {
   width: 48%;
   float: right;
@@ -514,7 +585,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 359, ../scss/breakpoints/_768up.scss */
+/* line 361, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
@@ -565,8 +636,46 @@ h3 {
 .entry-content p {
   font-size: 1.2em;
 }
-
 /* line 38, ../scss/breakpoints/_1030up.scss */
+.entry-content .gallery ul {
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+/* line 83, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li {
+  float: left;
+  width: 19%;
+  *width: 18.8%;
+}
+/* line 85, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li:nth-child(1n) {
+  margin: 5% 0 0 0;
+}
+/* line 89, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li:nth-child(1n) {
+  margin: 1.25% 1.25% 0 0;
+}
+/* line 95, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li:nth-child(5n) {
+  margin-right: 0;
+}
+/* line 98, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li:nth-child(-n+5) {
+  margin-top: 0;
+}
+/* line 101, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li img, .entry-content .gallery ul li a {
+  float: left;
+}
+/* line 104, ../scss/partials/_mixins.scss */
+.entry-content .gallery ul li a {
+  text-align: center;
+  width: 100%;
+}
+
+/* line 43, ../scss/breakpoints/_1030up.scss */
 .hero {
   width: 824px;
   margin: -90px 0 0 -412px;

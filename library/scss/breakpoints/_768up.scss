@@ -312,8 +312,10 @@ CONTENT STYLES
 *********************/
 
 	.entry-content {
-		.si_item {
-			width: 25%;
+		.gallery {
+			ul {
+				@include grid(4);
+			}
 		}
 	}
 	.left-half {

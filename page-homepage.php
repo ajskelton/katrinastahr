@@ -120,13 +120,31 @@
 				<h2>Gallery</h2>		
 			</header>
 			<div class="wrap">
-				<?php echo do_shortcode( '[si_feed size=medium limit=16]' ); ?>
+				<div class="gallery">
+					<ul>
+					<?php while (have_rows('gallery') ): the_row();
+					//vars
+					$image = get_sub_field('image');
+					$thumb = $image['sizes']['thumbnail'];
+					$fullSize = $image['sizes']['large'];
+					?>
+						<li>
+							<?php if($image): ?>
+								<a href="<?php echo $fullSize ?>">
+							<?php endif; ?>
+								<img src="<?php echo $thumb; ?>" alt="<?php echo $image['alt'] ?>"/>
+							<?php if ($image): ?>
+								</a>
+							<?php endif; ?>
+						</li>
+					<?php endwhile; ?>
+				</div>				
 				<div class="quick-links">
 				<p>See more photos on</p>
 					<div class="icon-wrap">
-						<a href="https://soundcloud.com/katrina-stahr">
-							<svg class="icon instagram">
-								<use xlink:href="#shape-instagram" />
+						<a href="https://facebook.com/katrina-stahr">
+							<svg class="icon facebook">
+								<use xlink:href="#shape-facebook" />
 							</svg>
 						</a>
 					</div>
