@@ -2669,10 +2669,10 @@ you can add resource intensive styles.
   *********************/
   /* line 36, ../scss/breakpoints/_768up.scss */
   .header {
-    height: 700px;
+    height: 100vh;
+    width: 100vw;
     position: relative;
     padding-top: 0px;
-    width: 100%;
   }
 
   /* line 43, ../scss/breakpoints/_768up.scss */
