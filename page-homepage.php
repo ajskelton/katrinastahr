@@ -130,7 +130,7 @@
 					?>
 						<li>
 							<?php if($image): ?>
-								<a href="<?php echo $fullSize ?>">
+								<a class="lightbox-trigger" href="<?php echo $fullSize ?>">
 							<?php endif; ?>
 								<img src="<?php echo $thumb; ?>" alt="<?php echo $image['alt'] ?>"/>
 							<?php if ($image): ?>

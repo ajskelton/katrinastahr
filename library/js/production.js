@@ -24,12 +24,12 @@
  * returns object with viewport dimensions to match css in width and height properties
  * ( source: http://andylangton.co.uk/blog/development/get-viewport-size-width-and-height-javascript )
 */
-function updateViewportDimensions() {
-	var w=window,d=document,e=d.documentElement,g=d.getElementsByTagName('body')[0],x=w.innerWidth||e.clientWidth||g.clientWidth,y=w.innerHeight||e.clientHeight||g.clientHeight;
-	return { width:x,height:y }
-}
+// function updateViewportDimensions() {
+// 	var w=window,d=document,e=d.documentElement,g=d.getElementsByTagName('body')[0],x=w.innerWidth||e.clientWidth||g.clientWidth,y=w.innerHeight||e.clientHeight||g.clientHeight;
+// 	return { width:x,height:y }
+// }
 // setting the viewport width
-var viewport = updateViewportDimensions();
+// var viewport = updateViewportDimensions();
 
 
 /*
@@ -37,17 +37,17 @@ var viewport = updateViewportDimensions();
  * Wrap your actions in this function to throttle the frequency of firing them off, for better performance, esp. on mobile.
  * ( source: http://stackoverflow.com/questions/2854407/javascript-jquery-window-resize-how-to-fire-after-the-resize-is-completed )
 */
-var waitForFinalEvent = (function () {
-	var timers = {};
-	return function (callback, ms, uniqueId) {
-		if (!uniqueId) { uniqueId = "Don't call this twice without a uniqueId"; }
-		if (timers[uniqueId]) { clearTimeout (timers[uniqueId]); }
-		timers[uniqueId] = setTimeout(callback, ms);
-	};
-})();
+// var waitForFinalEvent = (function () {
+// 	var timers = {};
+// 	return function (callback, ms, uniqueId) {
+// 		if (!uniqueId) { uniqueId = "Don't call this twice without a uniqueId"; }
+// 		if (timers[uniqueId]) { clearTimeout (timers[uniqueId]); }
+// 		timers[uniqueId] = setTimeout(callback, ms);
+// 	};
+// })();
 
 // how long to wait before deciding the resize has stopped, in ms. Around 50-100 should work ok.
-var timeToWaitForLast = 100;
+// var timeToWaitForLast = 100;
 
 
 /*
@@ -96,16 +96,16 @@ var timeToWaitForLast = 100;
  * images on mobile to save bandwidth. Once we hit an acceptable viewport
  * then we can swap out those images since they are located in a data attribute.
 */
-function loadGravatars() {
-  // set the viewport using the function above
-  viewport = updateViewportDimensions();
-  // if the viewport is tablet or larger, we load in the gravatars
-  if (viewport.width >= 768) {
-  jQuery('.comment img[data-gravatar]').each(function(){
-    jQuery(this).attr('src',jQuery(this).attr('data-gravatar'));
-  });
-	}
-} // end function
+// function loadGravatars() {
+//   // set the viewport using the function above
+//   viewport = updateViewportDimensions();
+//   // if the viewport is tablet or larger, we load in the gravatars
+//   if (viewport.width >= 768) {
+//   jQuery('.comment img[data-gravatar]').each(function(){
+//     jQuery(this).attr('src',jQuery(this).attr('data-gravatar'));
+//   });
+// 	}
+// } // end function
 
 // (function(){
 
@@ -130,7 +130,7 @@ function loadGravatars() {
 */
 jQuery(document).ready(function($) {
 
-  var t = $('#hero').offset().top - 100;
+  // var t = $('#hero').offset().top - 100;
 
   // $(document).scroll(function(){
   //   if($(this).scrollTop() > t)
@@ -158,6 +158,54 @@ jQuery(document).ready(function($) {
 
   var s = skrollr.init();
   var offset = s.relativeToAbsolute(document.getElementById('hero'), 'top', 'bottom');
+
+
+  $('.lightbox-trigger').click(function(e) {
+    
+    //prevent default action (hyperlink)
+    e.preventDefault();
+    
+    //Get clicked link href
+    var image_href = $(this).attr("href");
+    
+    /*  
+    If the lightbox window HTML already exists in document, 
+    change the img src to to match the href of whatever link was clicked
+    
+    If the lightbox window HTML doesn't exists, create it and insert it.
+    (This will only happen the first time around)
+    */
+    
+    if ($('#lightbox').length > 0) { // #lightbox exists
+      
+      //place href as img src value
+      $('#content').html('<img src="' + image_href + '" />');
+        
+      //show lightbox window - you could use .show('fast') for a transition
+      $('#lightbox').show();
+    }
+    
+    else { //#lightbox does not exist - create and insert (runs 1st time only)
+      
+      //create HTML markup for lightbox window
+      var lightbox = 
+      '<div id="lightbox">' +
+        '<p>Click to close</p>' +
+        '<div id="content">' + //insert clicked link's href into img src
+          '<img src="' + image_href +'" />' +
+        '</div>' +  
+      '</div>';
+        
+      //insert lightbox HTML into page
+      $('body').append(lightbox);
+    }
+    
+  });
+  
+  //Click anywhere on the page to get rid of lightbox window
+  $('#lightbox').live('click', function() { //must use live, as the lightbox element is inserted into the DOM
+    $('#lightbox').hide();
+  });
 
 
 }); /* end of as page load scripts */
