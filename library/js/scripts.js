@@ -111,7 +111,7 @@
 
 //       var windowYOffset = window.pageYOffset,
 //           elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
-      
+			
 //       el.style.backgroundPosition = elBackgrounPos;
 
 //     });
@@ -124,82 +124,103 @@
 */
 jQuery(document).ready(function($) {
 
-  // var t = $('#hero').offset().top - 100;
+	// var t = $('#hero').offset().top - 100;
 
-  // $(document).scroll(function(){
-  //   if($(this).scrollTop() > t)
-  //   {
-  //     $('#sticky-nav').css({"background": "#1276BD"});
-  //   }
-  //   else
-  //   {
-  //     $('#sticky-nav').css({"background": "none"});
-  //   }
-  // });
+	// $(document).scroll(function(){
+	//   if($(this).scrollTop() > t)
+	//   {
+	//     $('#sticky-nav').css({"background": "#1276BD"});
+	//   }
+	//   else
+	//   {
+	//     $('#sticky-nav').css({"background": "none"});
+	//   }
+	// });
 
-  $('a[href^="#"]').on('click', function (e) {
-    e.preventDefault();
+	$('a[href^="#"]').on('click', function (e) {
+		e.preventDefault();
 
-    var target = this.hash;
-    $target = $(target);
+		var target = this.hash;
+		$target = $(target);
 
-    $('html, body').stop().animate({
-      'scrollTop': $target.offset().top
-    }, 900, 'swing', function () {
-      window.location.hash = target;
+		$('html, body').stop().animate({
+			'scrollTop': $target.offset().top
+		}, 900, 'swing', function () {
+			window.location.hash = target;
+		});
+	});
+
+	//var s = skrollr.init();
+	//var offset = s.relativeToAbsolute(document.getElementById('hero'), 'top', 'bottom');
+
+	$(function () {
+		// initialize skrollr if the window width is large enough
+		if ($(window).width() > 767) {
+			skrollr.init();
+		}
+
+		// disable skrollr if the window is resized below 768px wide
+		$(window).on('resize', function () {
+			if ($(window).width() <= 767) {
+				skrollr.init().destroy(); // skrollr.init() returns the singleton created above
+			}
+		});
+	});
+
+
+	$('.lightbox-trigger').click(function(e) {
+		
+		//prevent default action (hyperlink)
+		e.preventDefault();
+		
+		//Get clicked link href
+		var image_href = $(this).attr("href");
+		
+		/*  
+		If the lightbox window HTML already exists in document, 
+		change the img src to to match the href of whatever link was clicked
+		
+		If the lightbox window HTML doesn't exists, create it and insert it.
+		(This will only happen the first time around)
+		*/
+		
+		if ($('#lightbox').length > 0) { // #lightbox exists
+			
+			//place href as img src value
+			$('#content').html('<img src="' + image_href + '" />');
+				
+			//show lightbox window - you could use .show('fast') for a transition
+			$('#lightbox').show();
+		}
+		
+		else { //#lightbox does not exist - create and insert (runs 1st time only)
+			
+			//create HTML markup for lightbox window
+			var lightbox = 
+			'<div id="lightbox">' +
+				'<p>Click to close</p>' +
+				'<div id="content">' + //insert clicked link's href into img src
+					'<img src="' + image_href +'" />' +
+				'</div>' +  
+			'</div>';
+				
+			//insert lightbox HTML into page
+			$('body').append(lightbox);
+		}
+		
+	});
+	
+	//Click anywhere on the page to get rid of lightbox window
+	$('#lightbox').live('click', function() { //must use live, as the lightbox element is inserted into the DOM
+		$('#lightbox').hide();
+	});
+
+	$(document).keyup(function(e) { 
+        if (e.keyCode == 27) { // esc keycode
+            $('#lightbox').hide();
+            // $('#mask').remove();
+        }
     });
-  });
-
-  var s = skrollr.init();
-  var offset = s.relativeToAbsolute(document.getElementById('hero'), 'top', 'bottom');
-
-
-  $('.lightbox-trigger').click(function(e) {
-    
-    //prevent default action (hyperlink)
-    e.preventDefault();
-    
-    //Get clicked link href
-    var image_href = $(this).attr("href");
-    
-    /*  
-    If the lightbox window HTML already exists in document, 
-    change the img src to to match the href of whatever link was clicked
-    
-    If the lightbox window HTML doesn't exists, create it and insert it.
-    (This will only happen the first time around)
-    */
-    
-    if ($('#lightbox').length > 0) { // #lightbox exists
-      
-      //place href as img src value
-      $('#content').html('<img src="' + image_href + '" />');
-        
-      //show lightbox window - you could use .show('fast') for a transition
-      $('#lightbox').show();
-    }
-    
-    else { //#lightbox does not exist - create and insert (runs 1st time only)
-      
-      //create HTML markup for lightbox window
-      var lightbox = 
-      '<div id="lightbox">' +
-        '<p>Click to close</p>' +
-        '<div id="content">' + //insert clicked link's href into img src
-          '<img src="' + image_href +'" />' +
-        '</div>' +  
-      '</div>';
-        
-      //insert lightbox HTML into page
-      $('body').append(lightbox);
-    }
-    
-  });
-  
-  //Click anywhere on the page to get rid of lightbox window
-  $('#lightbox').live('click', function() { //must use live, as the lightbox element is inserted into the DOM
-    $('#lightbox').hide();
-  });
 
 
 }); /* end of as page load scripts */
