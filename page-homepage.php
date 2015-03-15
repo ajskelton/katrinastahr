@@ -17,7 +17,7 @@
 		<div class="parallax">
 			<div class="parallax__layer parallax__layer--back-hero"></div>
 			<div class="parallax__layer parallax__layer--base-hero">
-				<p class="hero" data-bottom-top="margin-top:-200px;" data-top-bottom="margin-top:100px;"><?php the_field('hero_statement');?></p>
+				<h3 class="hero-parallax main-hero"><?php the_field('hero_statement');?></h3>
 			</div>
 		</div>
 	</div>
@@ -77,7 +77,7 @@
 		?>
 
 	<div class="parallax">
-		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>" data-bottom-top="margin-top:-100px;" data-top-bottom="margin-top:100px;">Meet me under the moon tonight where I'll seduce you with a wink of an eye</h3>
+		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">Meet me under the moon tonight where I'll seduce you with a wink of an eye</h3>
 		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_2['url']; ?>') center 120px fixed"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
@@ -110,7 +110,7 @@
 		?>
 
 	<div class="parallax">
-		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>" data-bottom-top="margin-top:-100px;" data-top-bottom="margin-top:100px;">I glimpse the white light then I felt the chains arise spirit arise a voice says this place isn't done with you yet my second chance has arrived I'm singing AIAIA</h3>
+		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">I glimpse the white light then I felt the chains arise spirit arise a voice says this place isn't done with you yet my second chance has arrived I'm singing AIAIA</h3>
 		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_3['url']; ?>') center 120px fixed"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
@@ -159,7 +159,7 @@
 		?>
 
 	<div class="parallax">
-		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>" data-bottom-top="margin-top:-150px;" data-top-bottom="margin-top:100px;">I see you near your crystal clear I feel you near I have no fear lift me up take me home with you  I have no fear</h3>
+		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">I see you near your crystal clear I feel you near I have no fear lift me up take me home with you  I have no fear</h3>
 		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_4['url']; ?>') center 120px fixed"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>

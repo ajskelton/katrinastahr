@@ -384,11 +384,13 @@ NAVIGATION STYLES
 .nav {
   border: 0;
   margin-right: 24px;
+  margin-top: 20px;
+  float: right;
   /* end .menu ul li */
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 60, ../scss/breakpoints/_768up.scss */
+/* line 62, ../scss/breakpoints/_768up.scss */
 .nav li {
   float: left;
   position: relative;
@@ -397,7 +399,7 @@ NAVIGATION STYLES
   */
   /* showing sub-menus */
 }
-/* line 64, ../scss/breakpoints/_768up.scss */
+/* line 66, ../scss/breakpoints/_768up.scss */
 .nav li a {
   border-bottom: 0;
   font-size: 1.1em;
@@ -408,12 +410,12 @@ NAVIGATION STYLES
   has the possibility of being a mobile device.
   */
 }
-/* line 74, ../scss/breakpoints/_768up.scss */
+/* line 76, ../scss/breakpoints/_768up.scss */
 .nav li a:hover, .nav li a:focus {
   color: #fff;
   text-decoration: underline;
 }
-/* line 86, ../scss/breakpoints/_768up.scss */
+/* line 88, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu,
 .nav li ul.children {
   margin-top: 0;
@@ -424,7 +426,7 @@ NAVIGATION STYLES
   z-index: 8999;
   /* highlight sub-menu current page */
 }
-/* line 95, ../scss/breakpoints/_768up.scss */
+/* line 97, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li,
 .nav li ul.children li {
   /*
@@ -433,7 +435,7 @@ NAVIGATION STYLES
   for usability. k, bai.
   */
 }
-/* line 97, ../scss/breakpoints/_768up.scss */
+/* line 99, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 10px;
@@ -442,18 +444,18 @@ NAVIGATION STYLES
   width: 180px;
   border-bottom: 1px solid #ccc;
 }
-/* line 114, ../scss/breakpoints/_768up.scss */
+/* line 116, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li:last-child a,
 .nav li ul.children li:last-child a {
   border-bottom: 0;
 }
-/* line 124, ../scss/breakpoints/_768up.scss */
+/* line 126, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li ul,
 .nav li ul.children li ul {
   top: 0;
   left: 100%;
 }
-/* line 139, ../scss/breakpoints/_768up.scss */
+/* line 141, ../scss/breakpoints/_768up.scss */
 .nav li:hover > ul {
   top: auto;
   visibility: visible;
@@ -463,7 +465,7 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 158, ../scss/breakpoints/_768up.scss */
+/* line 160, ../scss/breakpoints/_768up.scss */
 .hero {
   margin: -140px 0 0 -320px;
   width: 600px;
@@ -473,42 +475,42 @@ SIDEBARS & ASIDES
   left: 50%;
 }
 
-/* line 168, ../scss/breakpoints/_768up.scss */
+/* line 170, ../scss/breakpoints/_768up.scss */
 .hero-parallax {
-  color: #323944;
   font-family: "walkway_boldregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 42px;
   text-align: center;
   z-index: 20;
+  width: 650px;
 }
 
-/* line 185, ../scss/breakpoints/_768up.scss */
+/* line 188, ../scss/breakpoints/_768up.scss */
 .parallax {
   height: 600px;
 }
 
-/* line 189, ../scss/breakpoints/_768up.scss */
+/* line 192, ../scss/breakpoints/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 193, ../scss/breakpoints/_768up.scss */
+/* line 196, ../scss/breakpoints/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 198, ../scss/breakpoints/_768up.scss */
+/* line 201, ../scss/breakpoints/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 203, ../scss/breakpoints/_768up.scss */
+/* line 206, ../scss/breakpoints/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 211, ../scss/breakpoints/_768up.scss */
+/* line 214, ../scss/breakpoints/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -525,24 +527,24 @@ SIDEBARS & ASIDES
 /* recent-comments widget */
 /* search widget */
 /* text widget */
-/* line 308, ../scss/breakpoints/_768up.scss */
+/* line 311, ../scss/breakpoints/_768up.scss */
 .wp-playlist-current-item {
   height: 100px;
 }
-/* line 310, ../scss/breakpoints/_768up.scss */
+/* line 313, ../scss/breakpoints/_768up.scss */
 .wp-playlist-current-item .wp-playlist-item-title {
   font-size: 1.5em;
 }
-/* line 313, ../scss/breakpoints/_768up.scss */
+/* line 316, ../scss/breakpoints/_768up.scss */
 .wp-playlist-current-item .wp-playlist-item-album {
   font-size: 1.5em;
 }
-/* line 316, ../scss/breakpoints/_768up.scss */
+/* line 319, ../scss/breakpoints/_768up.scss */
 .wp-playlist-current-item .wp-playlist-item-artist {
   font-size: 1.5em;
 }
 
-/* line 321, ../scss/breakpoints/_768up.scss */
+/* line 324, ../scss/breakpoints/_768up.scss */
 .wp-playlist-item-title {
   font-size: 1.5em;
 }
@@ -550,7 +552,7 @@ SIDEBARS & ASIDES
 /*********************
 CONTENT STYLES
 *********************/
-/* line 331, ../scss/breakpoints/_768up.scss */
+/* line 334, ../scss/breakpoints/_768up.scss */
 .entry-content .gallery ul {
   list-style: none;
   margin: 0;
@@ -589,27 +591,19 @@ CONTENT STYLES
   width: 100%;
 }
 
-/* line 336, ../scss/breakpoints/_768up.scss */
+/* line 339, ../scss/breakpoints/_768up.scss */
 .left-half {
   width: 48%;
   float: left;
 }
 
-/* line 340, ../scss/breakpoints/_768up.scss */
+/* line 343, ../scss/breakpoints/_768up.scss */
 .right-half {
   width: 48%;
   float: right;
 }
 
-/* line 362, ../scss/breakpoints/_768up.scss */
-.parallax {
-  perspective: 1px;
-  height: 300px;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
-/* line 369, ../scss/breakpoints/_768up.scss */
+/* line 366, ../scss/breakpoints/_768up.scss */
 .parallax__layer {
   position: absolute;
   top: 0;
@@ -618,27 +612,27 @@ CONTENT STYLES
   left: 0;
 }
 
-/* line 377, ../scss/breakpoints/_768up.scss */
+/* line 374, ../scss/breakpoints/_768up.scss */
 .parallax__layer--hero-back {
   transform: translateZ(0);
 }
 
-/* line 380, ../scss/breakpoints/_768up.scss */
+/* line 377, ../scss/breakpoints/_768up.scss */
 .parallax__layer--back-hero {
   background: url("../images/KatStahrWebsiteGrungePattern_Left.png") top left repeat-y fixed, url("../images/KatStahrWebsiteGrungePattern_Right.png") top right repeat-y fixed, url("../images/darkwood.jpg") top left repeat fixed;
 }
 
-/* line 386, ../scss/breakpoints/_768up.scss */
+/* line 383, ../scss/breakpoints/_768up.scss */
 .parallax__layer--base {
   background: url("../images/KatStahrWebsiteGrungePattern_Left.png") top left repeat-y fixed, url("../images/KatStahrWebsiteGrungePattern_Right.png") top right repeat-y fixed;
 }
 
-/* line 391, ../scss/breakpoints/_768up.scss */
+/* line 388, ../scss/breakpoints/_768up.scss */
 .parallax__layer--back {
   background: url("../images/Kat_Sepia.jpg") center 100px fixed;
 }
 
-/* line 398, ../scss/breakpoints/_768up.scss */
+/* line 395, ../scss/breakpoints/_768up.scss */
 .hero {
   color: #fff;
   font-family: "walkway_boldregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -646,19 +640,6 @@ CONTENT STYLES
   text-align: center;
   padding: 20px;
   width: 100%;
-}
-
-/* line 407, ../scss/breakpoints/_768up.scss */
-.hero-parallax {
-  color: #323944;
-  font-family: "walkway_boldregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 24px;
-  text-align: center;
-  z-index: 20;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -58%);
 }
 
 /*********************
@@ -669,7 +650,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 437, ../scss/breakpoints/_768up.scss */
+/* line 418, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.

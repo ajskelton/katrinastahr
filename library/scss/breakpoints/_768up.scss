@@ -57,6 +57,8 @@ NAVIGATION STYLES
 .nav {
 	border: 0;
 	margin-right:24px;
+	margin-top:20px;
+	float:right;
 	li {
 		float: left;
 		position: relative;
@@ -166,7 +168,7 @@ SIDEBARS & ASIDES
 
 
 .hero-parallax {
-	color:$black;
+	// color:$black;
 	font-family: $walkway;
 	font-size:42px;
 	text-align:center;
@@ -174,6 +176,7 @@ SIDEBARS & ASIDES
 	// height:184px;
 	// padding:20px;
 	z-index:20;
+	width:650px;
 
 	// position:absolute;
 	// top:50%;
@@ -359,12 +362,6 @@ CONTENT STYLES
 			// }
 		}
 	}
-	.parallax {
-		perspective: 1px;
-		height: 300px;
-		overflow-x: hidden;
-		overflow-y: auto;
-	}
 
 	.parallax__layer {
 		position: absolute;
@@ -404,22 +401,6 @@ CONTENT STYLES
 		width:100%
 	}
 
-	.hero-parallax {
-		color:$black;
-		font-family: $walkway;
-		font-size:24px;
-		text-align:center;
-		// width:80%;
-		// height:184px;
-		// padding:20px;
-		z-index:20;
-
-		position:absolute;
-		top:50%;
-		left:50%;
-		transform: translate( -50%, -58%);
-
-	}
 
 	
 
