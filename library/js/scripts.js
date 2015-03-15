@@ -175,6 +175,7 @@ jQuery(document).ready(function($) {
 		
 		//Get clicked link href
 		var image_href = $(this).attr("href");
+		$(this).addClass('current');
 		
 		/*  
 		If the lightbox window HTML already exists in document, 
@@ -196,12 +197,12 @@ jQuery(document).ready(function($) {
 		else { //#lightbox does not exist - create and insert (runs 1st time only)
 			
 			//create HTML markup for lightbox window
-			var lightbox = 
+			var lightbox =
 			'<div id="lightbox">' +
 				'<p>Click to close</p>' +
 				'<div id="content">' + //insert clicked link's href into img src
 					'<img src="' + image_href +'" />' +
-				'</div>' +  
+				'</div>' +
 			'</div>';
 				
 			//insert lightbox HTML into page
@@ -213,12 +214,19 @@ jQuery(document).ready(function($) {
 	//Click anywhere on the page to get rid of lightbox window
 	$('#lightbox').live('click', function() { //must use live, as the lightbox element is inserted into the DOM
 		$('#lightbox').hide();
+		$('.current').removeClass('current');
 	});
 
-	$(document).keyup(function(e) { 
+	$(document).keyup(function(e) {
         if (e.keyCode == 27) { // esc keycode
             $('#lightbox').hide();
-            // $('#mask').remove();
+            $('.current').removeClass('current');
+        } else if (e.keyCode == 37) {
+        	// Animate to Previous Child
+        	$('.current').removeClass('current').parent().prev().find('a').click();
+        } else if (e.keyCode == 39) {
+        	// Animate to Next Child
+        	$('.current').removeClass('current').parent().next().find('a').click();
         }
     });
 
