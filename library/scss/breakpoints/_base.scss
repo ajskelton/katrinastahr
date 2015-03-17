@@ -339,6 +339,7 @@ section:before {
 
 .parallax__layer--hero-back {
 	transform: translateZ(0);
+
 }
 .parallax__layer--back-hero {
 	background: url('../images/darkwood.jpg') top left repeat fixed;
@@ -352,8 +353,9 @@ section:before {
 .parallax__layer--back {
 	
 	// transform: translateZ(-1px);
-	
-	background: 	url('../images/Kat_Sepia.jpg') center 100px fixed;
+	background-position: -50px center;
+	background-attachment: fixed;
+	// background: 	url('../images/Kat_Sepia.jpg') center 100px fixed;
 	// width:100%;
 }
 .hero {

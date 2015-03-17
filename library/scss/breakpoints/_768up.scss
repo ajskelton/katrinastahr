@@ -379,6 +379,7 @@ CONTENT STYLES
 
 	.parallax__layer--hero-back {
 		transform: translateZ(0);
+		
 	}
 	.parallax__layer--back-hero {
 		background: 	url('../images/KatStahrWebsiteGrungePattern_Left.png') top left repeat-y fixed,
@@ -392,7 +393,7 @@ CONTENT STYLES
 		// transform: translateZ(1);
 	}
 	.parallax__layer--back {
-		
+		background-position: center 120px;
 		// transform: translateZ(-1px);
 		
 		background: 	url('../images/Kat_Sepia.jpg') center 100px fixed;
