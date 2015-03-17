@@ -706,13 +706,13 @@ section:before {
 	}
 
 	.social {
-		text-align:center;
+		// text-align:center;
 		color:white;
 		.icon-wrap {
 			margin:0 auto;
 			width:24px;
 			display:inline-block;
-
+	
 			margin-right:20px;
 			&:last-child {
 				margin-right:0;

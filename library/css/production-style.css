@@ -2077,7 +2077,6 @@ input[type="submit"] {
 
 /* line 708, ../scss/breakpoints/_base.scss */
 .social {
-  text-align: center;
   color: white;
 }
 /* line 711, ../scss/breakpoints/_base.scss */
@@ -2939,7 +2938,7 @@ you can add resource intensive styles.
     float: right;
   }
 
-  /* line 372, ../scss/breakpoints/_768up.scss */
+  /* line 354, ../scss/breakpoints/_768up.scss */
   .parallax__layer {
     position: absolute;
     top: 0;
@@ -2948,29 +2947,29 @@ you can add resource intensive styles.
     left: 0;
   }
 
-  /* line 380, ../scss/breakpoints/_768up.scss */
+  /* line 362, ../scss/breakpoints/_768up.scss */
   .parallax__layer--hero-back {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
   }
 
-  /* line 384, ../scss/breakpoints/_768up.scss */
+  /* line 366, ../scss/breakpoints/_768up.scss */
   .parallax__layer--back-hero {
     background: url("../images/KatStahrWebsiteGrungePattern_Left.png") top left repeat-y fixed, url("../images/KatStahrWebsiteGrungePattern_Right.png") top right repeat-y fixed, url("../images/darkwood.jpg") top left repeat fixed;
   }
 
-  /* line 390, ../scss/breakpoints/_768up.scss */
+  /* line 372, ../scss/breakpoints/_768up.scss */
   .parallax__layer--base {
     background: url("../images/KatStahrWebsiteGrungePattern_Left.png") top left repeat-y fixed, url("../images/KatStahrWebsiteGrungePattern_Right.png") top right repeat-y fixed;
   }
 
-  /* line 395, ../scss/breakpoints/_768up.scss */
+  /* line 377, ../scss/breakpoints/_768up.scss */
   .parallax__layer--back {
     background-position: center 120px;
     background: url("../images/Kat_Sepia.jpg") center 100px fixed;
   }
 
-  /* line 402, ../scss/breakpoints/_768up.scss */
+  /* line 384, ../scss/breakpoints/_768up.scss */
   .hero {
     color: #fff;
     font-family: "walkway_boldregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2988,7 +2987,7 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  /* line 425, ../scss/breakpoints/_768up.scss */
+  /* line 407, ../scss/breakpoints/_768up.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.
