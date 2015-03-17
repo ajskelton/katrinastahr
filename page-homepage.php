@@ -185,13 +185,6 @@
 							</a>
 						</div>
 						<div class="icon-wrap">
-							<a href="#">
-								<svg class="icon instagram">
-									<use xlink:href="#shape-instagram" />
-								</svg>
-							</a>
-						</div>
-						<div class="icon-wrap">
 							<a href="https://soundcloud.com/katrina-stahr">
 								<svg class="icon soundcloud">
 									<use xlink:href="#shape-soundcloud" />
@@ -202,6 +195,13 @@
 							<a href="http://www.bandsintown.com/KatrinaStahr">
 								<svg class="icon bandsintown-social">
 									<use xlink:href="#shape-bandsintown" />
+								</svg>
+							</a>
+						</div>
+						<div class="icon-wrap">
+							<a href="http://www.reverbnation.com/katrinastahr">
+								<svg class="icon reverbnation">
+									<use xlink:href="#shape-reverbnation" />
 								</svg>
 							</a>
 						</div>
