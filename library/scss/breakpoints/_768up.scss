@@ -1,6 +1,6 @@
 /******************************************************************
-Site Name:
-Author:
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
 Stylesheet: Tablet & Small Desktop Stylesheet
 
@@ -34,8 +34,8 @@ HEADER STYLES
 *********************/
 
 .header {
-	height:100vh;
-	width:100vw;
+	height:700px;
+	width:100&;
 	position:relative;
 	padding-top:0px;
 }
@@ -375,9 +375,7 @@ CONTENT STYLES
 		// transform: translateZ(1);
 	}
 	.parallax__layer--back {
-		background-position: center 120px;
-		// transform: translateZ(-1px);
-		
+		background-repeat: no-repeat;
 		background: 	url('../images/Kat_Sepia.jpg') center 100px fixed;
 		// width:100%;
 	}

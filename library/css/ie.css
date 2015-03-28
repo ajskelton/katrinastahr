@@ -1,6 +1,6 @@
 /******************************************************************
-Site Name:
-Author:
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
 Stylesheet: IE Stylesheet
 
@@ -18,8 +18,8 @@ understand (what's inside the media queries). We also need to
 import the mixins file so SASS can understand the variables.
 ******************************************************************/
 /******************************************************************
-Site Name:
-Author:
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
 Stylesheet: Variables
 
@@ -40,8 +40,8 @@ use color variables properly:
 http://sachagreif.com/sass-color-variables/
 */
 /******************************************************************
-Site Name:
-Author:
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
 Stylesheet: Typography
 
@@ -115,8 +115,8 @@ p {
 }
 
 /******************************************************************
-Site Name:
-Author:
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
 Stylesheet: Mixins Stylesheet
 
@@ -160,8 +160,8 @@ probably best not to use it. I mean, were you going to anyway? */
 ADAPTABLE IMAGE GALLERY
 *********************/
 /******************************************************************
-Site Name:
-Author:
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
 Stylesheet: IE Grid Styles
 
@@ -174,8 +174,8 @@ whatever you use in here.
 
 ******************************************************************/
 /******************************************************************
-Site Name:
-Author:
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
 Stylesheet: 481px and Up Stylesheet
 
@@ -324,8 +324,8 @@ do they need tweaking?
 */
 /* end .footer-links */
 /******************************************************************
-Site Name:
-Author:
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
 Stylesheet: Tablet & Small Desktop Stylesheet
 
@@ -357,8 +357,8 @@ HEADER STYLES
 *********************/
 /* line 36, ../scss/breakpoints/_768up.scss */
 .header {
-  height: 100vh;
-  width: 100vw;
+  height: 700px;
+  width: 100 .header;
   position: relative;
   padding-top: 0px;
 }
@@ -637,11 +637,11 @@ CONTENT STYLES
 
 /* line 377, ../scss/breakpoints/_768up.scss */
 .parallax__layer--back {
-  background-position: center 120px;
+  background-repeat: no-repeat;
   background: url("../images/Kat_Sepia.jpg") center 100px fixed;
 }
 
-/* line 384, ../scss/breakpoints/_768up.scss */
+/* line 382, ../scss/breakpoints/_768up.scss */
 .hero {
   color: #fff;
   font-family: "walkway_boldregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -659,7 +659,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 407, ../scss/breakpoints/_768up.scss */
+/* line 405, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
@@ -670,8 +670,8 @@ mobile. Make sure to double check these!
 
 /* end .footer-links */
 /******************************************************************
-Site Name:
-Author:
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
 Stylesheet: Desktop Stylsheet
 

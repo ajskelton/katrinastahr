@@ -1,7 +1,7 @@
 /*! Made with Bones: http://themble.com/bones :) */
 /******************************************************************
-Site Name:
-Author:
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
 Stylesheet: Main Stylesheet
 
@@ -546,8 +546,8 @@ span.amp {
 }
 
 /******************************************************************
-Site Name:
-Author:
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
 Stylesheet: Variables
 
@@ -568,8 +568,8 @@ use color variables properly:
 http://sachagreif.com/sass-color-variables/
 */
 /******************************************************************
-Site Name:
-Author:
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
 Stylesheet: Typography
 
@@ -644,8 +644,8 @@ p {
 }
 
 /******************************************************************
-Site Name:
-Author:
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
 Stylesheet: Sass Functions
 
@@ -689,8 +689,8 @@ both compile to:
 width: 65%;
 *********************/
 /******************************************************************
-Site Name:
-Author:
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
 Stylesheet: Mixins Stylesheet
 
@@ -734,8 +734,8 @@ probably best not to use it. I mean, were you going to anyway? */
 ADAPTABLE IMAGE GALLERY
 *********************/
 /******************************************************************
-Site Name:
-Author:
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
 Stylesheet: Grid Stylesheet
 
@@ -1052,8 +1052,8 @@ I mean, you can do whatever you want. The world is your oyster. Unless
 you hate oysters, then the world is your peanut butter & jelly sandwich.
 *********************/
 /******************************************************************
-Site Name:
-Author:
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
 Stylesheet: Alert Styles
 
@@ -1093,8 +1093,8 @@ you can just remove this stylesheet.
 }
 
 /******************************************************************
-Site Name:
-Author:
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
 Stylesheet: Button Styles
 
@@ -1163,8 +1163,8 @@ and it will create a button dependant on those variables.
 }
 
 /******************************************************************
-Site Name:
-Author:
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
 Stylesheet: Form Styles
 
@@ -1473,8 +1473,8 @@ you set a great foundation, you won't need to add too many styles in
 the other stylesheets. Remember, keep it light: Speed is Important.
 *********************/
 /******************************************************************
-Site Name:
-Author:
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
 Stylesheet: Base Mobile Stylesheet
 
@@ -2493,8 +2493,8 @@ tweeners.
 *********************/
 @media only screen and (min-width: 481px) {
   /******************************************************************
-  Site Name:
-  Author:
+  Site Name: Katrina Stahr
+  Author: Red Cart Studios
   
   Stylesheet: 481px and Up Stylesheet
   
@@ -2651,8 +2651,8 @@ you can add resource intensive styles.
 *********************/
 @media only screen and (min-width: 768px) {
   /******************************************************************
-  Site Name:
-  Author:
+  Site Name: Katrina Stahr
+  Author: Red Cart Studios
   
   Stylesheet: Tablet & Small Desktop Stylesheet
   
@@ -2684,8 +2684,8 @@ you can add resource intensive styles.
   *********************/
   /* line 36, ../scss/breakpoints/_768up.scss */
   .header {
-    height: 100vh;
-    width: 100vw;
+    height: 700px;
+    width: 100 .header;
     position: relative;
     padding-top: 0px;
   }
@@ -2965,11 +2965,11 @@ you can add resource intensive styles.
 
   /* line 377, ../scss/breakpoints/_768up.scss */
   .parallax__layer--back {
-    background-position: center 120px;
+    background-repeat: no-repeat;
     background: url("../images/Kat_Sepia.jpg") center 100px fixed;
   }
 
-  /* line 384, ../scss/breakpoints/_768up.scss */
+  /* line 382, ../scss/breakpoints/_768up.scss */
   .hero {
     color: #fff;
     font-family: "walkway_boldregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2987,7 +2987,7 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  /* line 407, ../scss/breakpoints/_768up.scss */
+  /* line 405, ../scss/breakpoints/_768up.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.
@@ -3006,8 +3006,8 @@ you can add resource intensive styles.
 *********************/
 @media only screen and (min-width: 1030px) {
   /******************************************************************
-  Site Name:
-  Author:
+  Site Name: Katrina Stahr
+  Author: Red Cart Studios
   
   Stylesheet: Desktop Stylsheet
   
@@ -3097,8 +3097,8 @@ This is for the larger monitors and possibly full screen viewers.
 *********************/
 @media only screen and (min-width: 1240px) {
   /******************************************************************
-  Site Name: 
-  Author: 
+  Site Name: Katrina Stahr
+  Author: Red Cart Studios
   
   Stylesheet: Super Large Monitor Stylesheet
   
@@ -3115,8 +3115,8 @@ query for retina AND a certain size if you want. Go Nuts.
 *********************/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /******************************************************************
-  Site Name: 
-  Author: 
+  Site Name: Katrina Stahr
+  Author: Red Cart Studios
   
   Stylesheet: Retina Screens & Devices Stylesheet
   
@@ -3163,8 +3163,8 @@ be set to display none.
 *********************/
 @media print {
   /******************************************************************
-  Site Name:
-  Author:
+  Site Name: Katrina Stahr
+  Author: Red Cart Studios
   
   Stylesheet: Print Stylesheet
   
