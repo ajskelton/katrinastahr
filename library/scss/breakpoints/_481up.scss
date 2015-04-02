@@ -114,10 +114,12 @@ POSTS & CONTENT STYLES
 		}
 	}
 
-	.gallery {
-		ul {
-			@include grid(3);
-		}
+//	.gallery {
+//		ul {
+//			@include grid(3);
+//		}
+    .si_item {
+      padding:1em;
 	}
 
 } /* end .entry-content */

@@ -729,9 +729,6 @@ BOX SIZING
 /* @include box-sizing(border-box); */
 /* NOTE: value of "padding-box" is only supported in Gecko. So
 probably best not to use it. I mean, were you going to anyway? */
-/*********************
-ADAPTABLE IMAGE GALLERY
-*********************/
 /******************************************************************
 Site Name: Katrina Stahr
 Author: Red Cart Studios
@@ -2001,54 +1998,6 @@ section:before {
 
 /* end .wp-caption */
 /* image gallery styles */
-/* line 658, ../scss/breakpoints/_base.scss */
-.gallery {
-  margin: 0 0 1.5em 0;
-}
-/* line 673, ../scss/breakpoints/_base.scss */
-.gallery ul {
-  list-style: none;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-}
-/* line 83, ../scss/partials/_mixins.scss */
-.gallery ul li {
-  float: left;
-  width: 47.5%;
-  *width: 47%;
-}
-/* line 85, ../scss/partials/_mixins.scss */
-.gallery ul li:nth-child(1n) {
-  margin: 5% 0 0 0;
-}
-/* line 89, ../scss/partials/_mixins.scss */
-.gallery ul li:nth-child(1n) {
-  margin: 5% 5% 0 0;
-}
-/* line 95, ../scss/partials/_mixins.scss */
-.gallery ul li:nth-child(2n) {
-  margin-right: 0;
-}
-/* line 98, ../scss/partials/_mixins.scss */
-.gallery ul li:nth-child(-n+2) {
-  margin-top: 0;
-}
-/* line 101, ../scss/partials/_mixins.scss */
-.gallery ul li img, .gallery ul li a {
-  float: left;
-}
-/* line 104, ../scss/partials/_mixins.scss */
-.gallery ul li a {
-  text-align: center;
-  width: 100%;
-}
-/* line 676, ../scss/breakpoints/_base.scss */
-.gallery img {
-  width: 100%;
-  margin: 0;
-}
-
 /* end .gallery */
 /* gallery caption styles */
 /* line 691, ../scss/breakpoints/_base.scss */
@@ -2574,57 +2523,23 @@ tweeners.
   .entry-content table td {
     padding: 1.5em 1em;
   }
-  /* line 118, ../scss/breakpoints/_481up.scss */
-  .entry-content .gallery ul {
-    list-style: none;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-  }
-  /* line 83, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li {
-    float: left;
-    width: 31.66667%;
-    *width: 31.33333%;
-  }
-  /* line 85, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li:nth-child(1n) {
-    margin: 5% 0 0 0;
-  }
-  /* line 89, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li:nth-child(1n) {
-    margin: 2.5% 2.5% 0 0;
-  }
-  /* line 95, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li:nth-child(3n) {
-    margin-right: 0;
-  }
-  /* line 98, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li:nth-child(-n+3) {
-    margin-top: 0;
-  }
-  /* line 101, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li img, .entry-content .gallery ul li a {
-    float: left;
-  }
-  /* line 104, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li a {
-    text-align: center;
-    width: 100%;
+  /* line 121, ../scss/breakpoints/_481up.scss */
+  .entry-content .si_item {
+    padding: 1em;
   }
 
   /* end .entry-content */
-  /* line 126, ../scss/breakpoints/_481up.scss */
+  /* line 128, ../scss/breakpoints/_481up.scss */
   .social .icon-wrap {
     width: 36px;
   }
-  /* line 129, ../scss/breakpoints/_481up.scss */
+  /* line 131, ../scss/breakpoints/_481up.scss */
   .social .icon {
     width: 36px;
     height: 36px;
     padding: 5px;
   }
-  /* line 134, ../scss/breakpoints/_481up.scss */
+  /* line 136, ../scss/breakpoints/_481up.scss */
   .social .bandsintown {
     padding: 0;
   }
@@ -2882,58 +2797,24 @@ you can add resource intensive styles.
   /*********************
   CONTENT STYLES
   *********************/
-  /* line 340, ../scss/breakpoints/_768up.scss */
-  .entry-content .gallery ul {
-    list-style: none;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-  }
-  /* line 83, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li {
-    float: left;
-    width: 23.75%;
-    *width: 23.5%;
-  }
-  /* line 85, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li:nth-child(1n) {
-    margin: 5% 0 0 0;
-  }
-  /* line 89, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li:nth-child(1n) {
-    margin: 1.66667% 1.66667% 0 0;
-  }
-  /* line 95, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li:nth-child(4n) {
-    margin-right: 0;
-  }
-  /* line 98, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li:nth-child(-n+4) {
-    margin-top: 0;
-  }
-  /* line 101, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li img, .entry-content .gallery ul li a {
-    float: left;
-  }
-  /* line 104, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li a {
-    text-align: center;
-    width: 100%;
+  /* line 339, ../scss/breakpoints/_768up.scss */
+  .entry-content .si_item {
+    width: 25%;
   }
 
-  /* line 345, ../scss/breakpoints/_768up.scss */
+  /* line 348, ../scss/breakpoints/_768up.scss */
   .left-half {
     width: 48%;
     float: left;
   }
 
-  /* line 349, ../scss/breakpoints/_768up.scss */
+  /* line 352, ../scss/breakpoints/_768up.scss */
   .right-half {
     width: 48%;
     float: right;
   }
 
-  /* line 354, ../scss/breakpoints/_768up.scss */
+  /* line 357, ../scss/breakpoints/_768up.scss */
   .parallax__layer {
     position: absolute;
     top: 0;
@@ -2942,28 +2823,28 @@ you can add resource intensive styles.
     left: 0;
   }
 
-  /* line 362, ../scss/breakpoints/_768up.scss */
+  /* line 365, ../scss/breakpoints/_768up.scss */
   .parallax__layer--hero-back {
     transform: translateZ(0);
   }
 
-  /* line 366, ../scss/breakpoints/_768up.scss */
+  /* line 369, ../scss/breakpoints/_768up.scss */
   .parallax__layer--back-hero {
     background: url("../images/KatStahrWebsiteGrungePattern_Left.png") top left repeat-y fixed, url("../images/KatStahrWebsiteGrungePattern_Right.png") top right repeat-y fixed, url("../images/darkwood.jpg") top left repeat fixed;
   }
 
-  /* line 372, ../scss/breakpoints/_768up.scss */
+  /* line 375, ../scss/breakpoints/_768up.scss */
   .parallax__layer--base {
     background: url("../images/KatStahrWebsiteGrungePattern_Left.png") top left repeat-y fixed, url("../images/KatStahrWebsiteGrungePattern_Right.png") top right repeat-y fixed;
   }
 
-  /* line 377, ../scss/breakpoints/_768up.scss */
+  /* line 380, ../scss/breakpoints/_768up.scss */
   .parallax__layer--back {
     background-repeat: no-repeat;
     background: url("../images/Kat_Sepia.jpg") center 100px fixed;
   }
 
-  /* line 382, ../scss/breakpoints/_768up.scss */
+  /* line 385, ../scss/breakpoints/_768up.scss */
   .hero {
     color: #fff;
     font-family: "walkway_boldregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2981,7 +2862,7 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  /* line 405, ../scss/breakpoints/_768up.scss */
+  /* line 408, ../scss/breakpoints/_768up.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.
@@ -3040,46 +2921,8 @@ you can add resource intensive styles.
   .entry-content p {
     font-size: 1.2em;
   }
-  /* line 38, ../scss/breakpoints/_1030up.scss */
-  .entry-content .gallery ul {
-    list-style: none;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-  }
-  /* line 83, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li {
-    float: left;
-    width: 19%;
-    *width: 18.8%;
-  }
-  /* line 85, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li:nth-child(1n) {
-    margin: 5% 0 0 0;
-  }
-  /* line 89, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li:nth-child(1n) {
-    margin: 1.25% 1.25% 0 0;
-  }
-  /* line 95, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li:nth-child(5n) {
-    margin-right: 0;
-  }
-  /* line 98, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li:nth-child(-n+5) {
-    margin-top: 0;
-  }
-  /* line 101, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li img, .entry-content .gallery ul li a {
-    float: left;
-  }
-  /* line 104, ../scss/partials/_mixins.scss */
-  .entry-content .gallery ul li a {
-    text-align: center;
-    width: 100%;
-  }
 
-  /* line 43, ../scss/breakpoints/_1030up.scss */
+  /* line 38, ../scss/breakpoints/_1030up.scss */
   .hero {
     width: 824px;
     margin: -90px 0 0 -412px;

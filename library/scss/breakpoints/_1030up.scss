@@ -32,13 +32,8 @@ h3 {
 }
 .entry-content {
 	p {
-		font-size:1.2em;
-	}
-	.gallery {
-		ul {
-			@include grid(5);
-		}
-	}
+      font-size: 1.2em;
+    }
 }
 .hero {
 	width:824px;

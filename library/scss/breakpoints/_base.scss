@@ -656,7 +656,7 @@ section:before {
 
 		/* image gallery styles */
 		.gallery {
-			margin:0 0 1.5em 0;
+//			margin:0 0 1.5em 0;
 
 			dl {
 
@@ -670,13 +670,13 @@ section:before {
 
 			dd {}
 
-			ul {
-				@include grid(2);
-			}
-			img {
-				width:100%;
-				margin:0;
-			}
+//			ul {
+//				@include grid(2);
+//			}
+//			img {
+//				width:100%;
+//				margin:0;
+//			}
 
 		} /* end .gallery */
 
