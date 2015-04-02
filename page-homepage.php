@@ -167,6 +167,13 @@
 							</a>
 						</div>
 						<div class="icon-wrap">
+							<a href="https://instagram.com/KatrinaStahr" target="_blank">
+								<svg class="icon instagram">
+									<use xlink:href="#shape-instagram" />
+								</svg>
+							</a>
+						</div>
+						<div class="icon-wrap">
 							<a href="https://soundcloud.com/katrina-stahr">
 								<svg class="icon soundcloud">
 									<use xlink:href="#shape-soundcloud" />
