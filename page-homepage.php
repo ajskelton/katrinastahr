@@ -115,9 +115,9 @@
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
-		<section id="gallery" name="gallery" class="entry-content cf">
+		<section id="photos" name="photos" class="entry-content cf">
 			<header>
-				<h2>Gallery</h2>		
+				<h2>Photos</h2>		
 			</header>
 			<div class="wrap">
                 <?php echo do_shortcode( '[si_feed size=medium limit=16 user=1803529525]' ); ?>
