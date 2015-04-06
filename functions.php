@@ -290,7 +290,7 @@ function colorPalette($imageFile, $numColors, $granularity = 5)
 } 
 
 function getContrast50($hexcolor){
-    return (hexdec($hexcolor) > 0xffffff/2) ? 'black':'white';
+    return (hexdec($hexcolor) > 0xffffff/2) ? 'rgb(43, 43, 43)':'white';
 }
 
 
