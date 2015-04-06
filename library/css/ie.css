@@ -195,24 +195,29 @@ them in here, they won't work.
 /*********************
 NAVIGATION STYLES
 *********************/
+/* line 32, ../scss/breakpoints/_481up.scss */
+.nav li a {
+  padding: 0 20px 20px 20px;
+}
+
 /* .menu is clearfixed inside mixins.scss */
-/* line 33, ../scss/breakpoints/_481up.scss */
+/* line 39, ../scss/breakpoints/_481up.scss */
 .menu {
   /* end .menu ul */
 }
-/* line 34, ../scss/breakpoints/_481up.scss */
+/* line 40, ../scss/breakpoints/_481up.scss */
 .menu ul {
   /* end .menu ul li */
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 35, ../scss/breakpoints/_481up.scss */
+/* line 41, ../scss/breakpoints/_481up.scss */
 .menu ul li {
   /*
   plan your menus and drop-downs wisely.
   */
 }
-/* line 36, ../scss/breakpoints/_481up.scss */
+/* line 42, ../scss/breakpoints/_481up.scss */
 .menu ul li a {
   /*
   you can use hover styles here even though this size
@@ -225,55 +230,61 @@ NAVIGATION STYLES
 POSTS & CONTENT STYLES
 *********************/
 /* entry content */
-/* line 81, ../scss/breakpoints/_481up.scss */
+/* line 88, ../scss/breakpoints/_481up.scss */
 .entry-content {
   /* at this larger size, we can start to align images */
 }
-/* line 85, ../scss/breakpoints/_481up.scss */
+/* line 92, ../scss/breakpoints/_481up.scss */
 .entry-content .alignleft, .entry-content img.alignleft {
   margin-right: 1.5em;
   display: inline;
   float: left;
   margin-top: 6px;
 }
-/* line 91, ../scss/breakpoints/_481up.scss */
+/* line 98, ../scss/breakpoints/_481up.scss */
 .entry-content .alignright, .entry-content img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right;
 }
-/* line 96, ../scss/breakpoints/_481up.scss */
+/* line 103, ../scss/breakpoints/_481up.scss */
 .entry-content .aligncenter, .entry-content img.aligncenter {
   margin-right: auto;
   margin-left: auto;
   display: block;
   clear: both;
 }
-/* line 105, ../scss/breakpoints/_481up.scss */
+/* line 112, ../scss/breakpoints/_481up.scss */
 .entry-content .wp-playlist-item {
   padding: 1em 0;
 }
-/* line 112, ../scss/breakpoints/_481up.scss */
+/* line 119, ../scss/breakpoints/_481up.scss */
 .entry-content table td {
   padding: 1.5em 1em;
 }
-/* line 121, ../scss/breakpoints/_481up.scss */
+/* line 128, ../scss/breakpoints/_481up.scss */
 .entry-content .si_item {
   padding: 1em;
 }
+/* line 132, ../scss/breakpoints/_481up.scss */
+.entry-content .bandsintown td {
+  display: table-cell;
+  border-right: 1px solid black;
+  padding: 1.5em 1em;
+}
 
 /* end .entry-content */
-/* line 128, ../scss/breakpoints/_481up.scss */
+/* line 142, ../scss/breakpoints/_481up.scss */
 .social .icon-wrap {
   width: 36px;
 }
-/* line 131, ../scss/breakpoints/_481up.scss */
+/* line 145, ../scss/breakpoints/_481up.scss */
 .social .icon {
   width: 36px;
   height: 36px;
   padding: 5px;
 }
-/* line 136, ../scss/breakpoints/_481up.scss */
+/* line 150, ../scss/breakpoints/_481up.scss */
 .social .bandsintown {
   padding: 0;
 }
@@ -376,17 +387,18 @@ NAVIGATION STYLES
   font-size: 1.1em;
   display: block;
   color: #fff;
+  padding: 18px 10px;
   /*
   you can use hover styles here even though this size
   has the possibility of being a mobile device.
   */
 }
-/* line 82, ../scss/breakpoints/_768up.scss */
+/* line 83, ../scss/breakpoints/_768up.scss */
 .nav li a:hover, .nav li a:focus {
   color: #fff;
   text-decoration: underline;
 }
-/* line 94, ../scss/breakpoints/_768up.scss */
+/* line 95, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu,
 .nav li ul.children {
   margin-top: 0;
@@ -397,7 +409,7 @@ NAVIGATION STYLES
   z-index: 8999;
   /* highlight sub-menu current page */
 }
-/* line 103, ../scss/breakpoints/_768up.scss */
+/* line 104, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li,
 .nav li ul.children li {
   /*
@@ -406,7 +418,7 @@ NAVIGATION STYLES
   for usability. k, bai.
   */
 }
-/* line 105, ../scss/breakpoints/_768up.scss */
+/* line 106, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 10px;
@@ -415,18 +427,18 @@ NAVIGATION STYLES
   width: 180px;
   border-bottom: 1px solid #ccc;
 }
-/* line 122, ../scss/breakpoints/_768up.scss */
+/* line 123, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li:last-child a,
 .nav li ul.children li:last-child a {
   border-bottom: 0;
 }
-/* line 132, ../scss/breakpoints/_768up.scss */
+/* line 133, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li ul,
 .nav li ul.children li ul {
   top: 0;
   left: 100%;
 }
-/* line 147, ../scss/breakpoints/_768up.scss */
+/* line 148, ../scss/breakpoints/_768up.scss */
 .nav li:hover > ul {
   top: auto;
   visibility: visible;
@@ -436,7 +448,7 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 166, ../scss/breakpoints/_768up.scss */
+/* line 167, ../scss/breakpoints/_768up.scss */
 .hero {
   margin: -140px 0 0 -320px;
   width: 600px;
@@ -446,7 +458,7 @@ SIDEBARS & ASIDES
   left: 50%;
 }
 
-/* line 176, ../scss/breakpoints/_768up.scss */
+/* line 177, ../scss/breakpoints/_768up.scss */
 .hero-parallax {
   font-family: "walkway_boldregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 42px;
@@ -455,33 +467,33 @@ SIDEBARS & ASIDES
   width: 650px;
 }
 
-/* line 194, ../scss/breakpoints/_768up.scss */
+/* line 195, ../scss/breakpoints/_768up.scss */
 .parallax {
   height: 600px;
 }
 
-/* line 198, ../scss/breakpoints/_768up.scss */
+/* line 199, ../scss/breakpoints/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 202, ../scss/breakpoints/_768up.scss */
+/* line 203, ../scss/breakpoints/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 207, ../scss/breakpoints/_768up.scss */
+/* line 208, ../scss/breakpoints/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 212, ../scss/breakpoints/_768up.scss */
+/* line 213, ../scss/breakpoints/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 220, ../scss/breakpoints/_768up.scss */
+/* line 221, ../scss/breakpoints/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -498,24 +510,24 @@ SIDEBARS & ASIDES
 /* recent-comments widget */
 /* search widget */
 /* text widget */
-/* line 317, ../scss/breakpoints/_768up.scss */
+/* line 318, ../scss/breakpoints/_768up.scss */
 .wp-playlist-current-item {
   height: 100px;
 }
-/* line 319, ../scss/breakpoints/_768up.scss */
+/* line 320, ../scss/breakpoints/_768up.scss */
 .wp-playlist-current-item .wp-playlist-item-title {
   font-size: 1.5em;
 }
-/* line 322, ../scss/breakpoints/_768up.scss */
+/* line 323, ../scss/breakpoints/_768up.scss */
 .wp-playlist-current-item .wp-playlist-item-album {
   font-size: 1.5em;
 }
-/* line 325, ../scss/breakpoints/_768up.scss */
+/* line 326, ../scss/breakpoints/_768up.scss */
 .wp-playlist-current-item .wp-playlist-item-artist {
   font-size: 1.5em;
 }
 
-/* line 330, ../scss/breakpoints/_768up.scss */
+/* line 331, ../scss/breakpoints/_768up.scss */
 .wp-playlist-item-title {
   font-size: 1.5em;
 }
@@ -523,24 +535,24 @@ SIDEBARS & ASIDES
 /*********************
 CONTENT STYLES
 *********************/
-/* line 339, ../scss/breakpoints/_768up.scss */
+/* line 340, ../scss/breakpoints/_768up.scss */
 .entry-content .si_item {
   width: 25%;
 }
 
-/* line 348, ../scss/breakpoints/_768up.scss */
+/* line 349, ../scss/breakpoints/_768up.scss */
 .left-half {
   width: 48%;
   float: left;
 }
 
-/* line 352, ../scss/breakpoints/_768up.scss */
+/* line 353, ../scss/breakpoints/_768up.scss */
 .right-half {
   width: 48%;
   float: right;
 }
 
-/* line 357, ../scss/breakpoints/_768up.scss */
+/* line 358, ../scss/breakpoints/_768up.scss */
 .parallax__layer {
   position: absolute;
   top: 0;
@@ -549,28 +561,28 @@ CONTENT STYLES
   left: 0;
 }
 
-/* line 365, ../scss/breakpoints/_768up.scss */
+/* line 366, ../scss/breakpoints/_768up.scss */
 .parallax__layer--hero-back {
   transform: translateZ(0);
 }
 
-/* line 369, ../scss/breakpoints/_768up.scss */
+/* line 370, ../scss/breakpoints/_768up.scss */
 .parallax__layer--back-hero {
   background: url("../images/KatStahrWebsiteGrungePattern_Left.png") top left repeat-y fixed, url("../images/KatStahrWebsiteGrungePattern_Right.png") top right repeat-y fixed, url("../images/darkwood.jpg") top left repeat fixed;
 }
 
-/* line 375, ../scss/breakpoints/_768up.scss */
+/* line 376, ../scss/breakpoints/_768up.scss */
 .parallax__layer--base {
   background: url("../images/KatStahrWebsiteGrungePattern_Left.png") top left repeat-y fixed, url("../images/KatStahrWebsiteGrungePattern_Right.png") top right repeat-y fixed;
 }
 
-/* line 380, ../scss/breakpoints/_768up.scss */
+/* line 381, ../scss/breakpoints/_768up.scss */
 .parallax__layer--back {
   background-repeat: no-repeat;
   background: url("../images/Kat_Sepia.jpg") center 100px fixed;
 }
 
-/* line 385, ../scss/breakpoints/_768up.scss */
+/* line 386, ../scss/breakpoints/_768up.scss */
 .hero {
   color: #fff;
   font-family: "walkway_boldregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -588,7 +600,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 408, ../scss/breakpoints/_768up.scss */
+/* line 409, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.

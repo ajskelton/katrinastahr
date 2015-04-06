@@ -390,34 +390,7 @@ section:before {
 	color:$white;
 }
 
-.bandsintown {
-	margin:0 auto;
 
-	// border-collapse: collapse;
-	// border-spacing:.5rem;
-	tr {
-		margin-bottom: 5px;
-		border-bottom:1px solid black;
-	}
-	td {
-		padding:1em;
-		border-right:1px solid black;
-	}
-	a {
-	}
-	// td:first-child {
-	// 	background-color: $katrina-blue;
-	// }
-	// td:nth-child(2) {
-	// 	background-color: black;
-	// }
-	// td:nth-child(3) {
-	// 	background-color: gray;
-	// }
-	// td:nth-child(4) {
-	// 	background-color:$katrina-blue;
-	// }
-}
 
 #lightbox {
 	position:fixed;
@@ -629,6 +602,20 @@ section:before {
 				margin:0;
 				img {
 					margin:0;
+				}
+			}
+
+			.bandsintown {
+				margin:0 auto;
+
+				tr {
+					margin-bottom: 5px;
+					border-bottom:1px solid black;
+				}
+				td {
+					padding:1px 5px;
+					border-right:none;
+					display:block;
 				}
 			}
 
