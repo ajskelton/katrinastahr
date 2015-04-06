@@ -1688,7 +1688,7 @@ and more scalable.
   display: block;
   color: #fff;
   text-decoration: none;
-  padding: 0.75em;
+  padding: 0 5px 20px 5px;
   /*
   remember this is for mobile ONLY, so there's no need
   to even declare hover styles here, you can do it in
@@ -1728,7 +1728,7 @@ section:before {
 /* line 325, ../scss/breakpoints/_base.scss */
 .parallax {
   perspective: 1px;
-  height: 200px;
+  height: 230px;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -1774,8 +1774,8 @@ section:before {
   font-family: "walkway_boldregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   text-align: center;
+  width: 90%;
   z-index: 20;
-  width: 350px;
   margin: 0;
   position: absolute;
   top: 50%;
