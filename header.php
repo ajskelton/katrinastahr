@@ -70,7 +70,7 @@
 					</nav>
 				</div>
 				<div id="mobile-nav">
-					<a href="<?php echo home_url(); ?>" id="logo" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/KatStahrLogo.png" alt="Katrina Stahr"></a>
+					<a href="<?php echo home_url(); ?>" id="logo" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/KatrinaLogo.png" alt="Katrina Stahr"></a>
 					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 						<?php wp_nav_menu(array(
 	  					         'container' => false,                           // remove nav container
