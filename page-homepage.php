@@ -120,6 +120,8 @@
 				<h2>Photos</h2>		
 			</header>
 			<div class="wrap">
+			<p class="center">Check out Katrina's most recent Instagram photos.</p>
+
                 <?php echo do_shortcode( '[si_feed size=medium limit=16 user=1803529525]' ); ?>
 				<div class="quick-links">
 				<p>See more photos on</p>
