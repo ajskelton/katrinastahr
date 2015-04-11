@@ -77,7 +77,7 @@
 		?>
 
 	<div class="parallax">
-		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">Meet me under the moon tonight where I'll seduce you with a wink of an eye</h3>
+		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">Fall into my trap forever carry that torch for me sink into my velvet lips loose yourself in me fancy cars and diamond rings oh how you spoil me little do you know your trapped eternaly with me I'm your gatsby girl</h3>
 		<div class="parallax__layer parallax__layer--back" style="background-image: url('<?php echo $parallax_2['url']; ?>')"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
@@ -110,7 +110,7 @@
 		?>
 
 	<div class="parallax">
-		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">I glimpse the white light then I felt the chains arise spirit arise a voice says this place isn't done with you yet my second chance has arrived I'm singing AIAIA</h3>
+		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">I feel pain when you drink it rumbles through my soul lightening is gonna strike with your last sip from the bottle lord knows it's killing me inside but I keep holding on</h3>
 		<div class="parallax__layer parallax__layer--back" style="background-image: url('<?php echo $parallax_3['url']; ?>')"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
@@ -143,16 +143,17 @@
 		?>
 
 	<div class="parallax">
-		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">I see you near your crystal clear I feel you near I have no fear lift me up take me home with you  I have no fear</h3>
+		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">Your favorite perfume ruby red lipstick I'm waiting so patiently mood music's playing red wine and candles lit now is the time tonight is our night</h3>
 		<div class="parallax__layer parallax__layer--back" style="background-image: url('<?php echo $parallax_4['url']; ?>')"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
 		<section id="connect" name="connect">
 			<h2>Connect With Katrina</h2>
-			<div class="wrap cf">
-				<div class="left-half">
+			<div class="wrap squeeze cf">
+				<div class="">
 					<?php the_field('connect'); ?>
+					<h3>Get Social</h3>
 					<div class="social">
 						<div class="icon-wrap">
 							<a href="https://www.facebook.com/katrinastahr" target="_blank">
@@ -198,10 +199,6 @@
 						</div>
 					</div>
 				</div> <!-- end left-half -->
-				<div class="right-half">
-					<?php echo do_shortcode( '[contact-form-7 id="887" title="Contact form 1"]' ); ?>					
-				</div> <!-- end right-half -->
-
 			</div>
 		</section>
 
