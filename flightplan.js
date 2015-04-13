@@ -7,12 +7,9 @@ plan.target('development', [
     username: 'redcar7',
     port: 2222,
     agent: process.env.SSH_AUTH_SOCK
-  },
-  {
-    webRoot: '~/public_html/dev/'
   }
 ]);
-plan.taget('production', [
+plan.target('production', [
   {
     host: 'biz157.inmotionhosting.com',
     username: 'redcar7',
@@ -29,6 +26,13 @@ plan.local(function(local) {
 
   local.log('Copy files to remote hosts');
   var filesToCopy = local.exec('git ls-files', {silent: true});
+  // var webRoot = plan.runtime.options.webRoot;
+  if(plan.runtime.target === 'production') {
+    var webRoot = '~/public_html/clients/';
+  } 
+  if(plan.runtime.target === 'development') {
+    var webRoot = '~/public_html/dev/'
+  }
   // rsync files to all the destination's hosts
-  local.transfer(filesToCopy, 'katrinastahr/wp-content/themes/KatrinaStahr');
+  local.transfer(filesToCopy, webRoot + 'katrinastahr/wp-content/themes/KatrinaStahr');
 });
