@@ -29,9 +29,9 @@ plan.local(function(local) {
   // var webRoot = plan.runtime.options.webRoot;
   if(plan.runtime.target === 'production') {
     var webRoot = '~/public_html/clients/';
-  } 
+  }
   if(plan.runtime.target === 'development') {
-    var webRoot = '~/public_html/dev/'
+    var webRoot = '~/public_html/dev/';
   }
   // rsync files to all the destination's hosts
   local.transfer(filesToCopy, webRoot + 'katrinastahr/wp-content/themes/KatrinaStahr');
