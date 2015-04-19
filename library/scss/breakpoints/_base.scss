@@ -282,25 +282,6 @@ and more scalable.
 POSTS & CONTENT STYLES
 *********************/
 
-#videos, {
-	height:800px;
-}
-
-#hero {
-	// margin:5em 7em 0 7em;
-	// height:200px;
-}
-
-#about {
-	// background-color:red;
-}
-
-#music {
-	// background-color: yellow;
-	
-}
-
-
 section:before { 
   display: block; 
   content: " "; 
@@ -308,18 +289,6 @@ section:before {
   height: 115px; 
   visibility: hidden; 
 }
-
-// #shows {
-// 	background-color: blue;
-// }
-
-// #videos {
-// 	background-color: green;
-// }
-
-// #contact {
-// 	background-color: gray;
-// }
 
 #content {
 	margin-top: 1.5em;
@@ -349,19 +318,11 @@ section:before {
 	background: url('../images/darkwood.jpg') top left repeat fixed;
 }
 
-// .parallax__layer--base {
-// 	background: 	//url('../images/KatStahrWebsiteGrungePattern_Left.png') top left repeat-y fixed,
-// 					//url('../images/KatStahrWebsiteGrungePattern_Right.png') top right repeat-y fixed;
-// 	// transform: translateZ(1);
-// }
 .parallax__layer--back {
 	
-	// transform: translateZ(-1px);
 	background-position: -50px center;
 	background-attachment: fixed;
 	background-size:cover;
-	// background: 	url('../images/Kat_Sepia.jpg') center 100px fixed;
-	// width:100%;
 }
 .hero {
 	color:$white;
@@ -378,10 +339,7 @@ section:before {
 	font-size:24px;
 	text-align:center;
 	width:90%;
-	// height:184px;
-	// padding:20px;
 	z-index:20;
-	// width:350px;
 	margin:0;
 
 	position:absolute;
@@ -422,19 +380,15 @@ section:before {
 
 
 		.hentry {
-			// background-color: $white;
 			border-radius: 3px;
 			margin-bottom: 1.5em;
-			// border: 1px solid $border-color;
 
 			header {
-				// border-bottom: 1px solid $light-gray;
 				padding: 1.5em;
 			}
 
 			footer {
 				padding: 1.5em;
-				// border-top: 1px solid $light-gray;
 
 				p {
 					margin: 0;
