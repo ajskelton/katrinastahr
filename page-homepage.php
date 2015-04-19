@@ -149,7 +149,7 @@
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
-	<section id="photos" name="photos" class="entry-content cf">
+	<section id="videos" name="videos" class="entry-content cf">
 		<header>
 			<h2>Videos</h2>		
 		</header>
