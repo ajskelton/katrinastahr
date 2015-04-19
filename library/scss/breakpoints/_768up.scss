@@ -383,7 +383,8 @@ CONTENT STYLES
 	}
 	.parallax__layer--back {
 		background-repeat: no-repeat;
-		background: 	url('../images/Kat_Sepia.jpg') center 100px fixed;
+		background-position:center;
+		// background: 	url('../images/Kat_Sepia.jpg') center 100px fixed;
 		// width:100%;
 	}
 	.hero {
