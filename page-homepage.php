@@ -51,7 +51,7 @@
 		</section>
 
 	<div class="parallax">
-		<div class="parallax__layer parallax__layer--back" style="background-image: url('<?php echo $parallax_1['url']; ?>')"></div>
+		<div class="parallax__layer parallax__layer--back" style="background-image: url('<?php echo $parallax_1['url']; ?>')background-size:cover;"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
@@ -79,7 +79,7 @@
 
 	<div class="parallax">
 		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">Fall into my trap forever carry that torch for me sink into my velvet lips loose yourself in me fancy cars and diamond rings oh how you spoil me little do you know your trapped eternaly with me I'm your gatsby girl</h3>
-		<div class="parallax__layer parallax__layer--back" style="background-image: url('<?php echo $parallax_2['url']; ?>')"></div>
+		<div class="parallax__layer parallax__layer--back" style="background-image: url('<?php echo $parallax_2['url']; ?>');background-size:cover;"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
@@ -112,7 +112,7 @@
 
 	<div class="parallax">
 		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">I feel pain when you drink it rumbles through my soul lightening is gonna strike with your last sip from the bottle lord knows it's killing me inside but I keep holding on</h3>
-		<div class="parallax__layer parallax__layer--back" style="background-image: url('<?php echo $parallax_3['url']; ?>')"></div>
+		<div class="parallax__layer parallax__layer--back" style="background-image: url('<?php echo $parallax_3['url']; ?>');background-size:cover;"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
@@ -145,7 +145,7 @@
 
 	<div class="parallax">
 		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">Your favorite perfume ruby red lipstick I'm waiting so patiently mood music's playing red wine and candles lit now is the time tonight is our night</h3>
-		<div class="parallax__layer parallax__layer--back" style="background-image: url('<?php echo $parallax_4['url']; ?>')"></div>
+		<div class="parallax__layer parallax__layer--back" style="background-image: url('<?php echo $parallax_4['url']; ?>');background-size:cover;"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
@@ -153,14 +153,14 @@
 		<header>
 			<h2>Videos</h2>		
 		</header>
-		<div class="wrap">
+		<div class="wrap videos">
 			<?php the_field('videos'); ?>
 		</div>
 	</section>
 
 	<div class="parallax">
 		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">Your favorite perfume ruby red lipstick I'm waiting so patiently mood music's playing red wine and candles lit now is the time tonight is our night</h3>
-		<div class="parallax__layer parallax__layer--back" style="background-image: url('<?php echo $parallax_5['url']; ?>')"></div>
+		<div class="parallax__layer parallax__layer--back" style="background-image: url('<?php echo $parallax_5['url']; ?>');background-size:cover;"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 

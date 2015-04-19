@@ -342,6 +342,7 @@ section:before {
 
 .parallax__layer--hero-back {
 	transform: translateZ(0);
+	// background-size:cover;
 
 }
 .parallax__layer--back-hero {
@@ -358,6 +359,7 @@ section:before {
 	// transform: translateZ(-1px);
 	background-position: -50px center;
 	background-attachment: fixed;
+	background-size:cover;
 	// background: 	url('../images/Kat_Sepia.jpg') center 100px fixed;
 	// width:100%;
 }
