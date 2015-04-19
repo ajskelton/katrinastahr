@@ -125,12 +125,12 @@
 
                 <?php echo do_shortcode( '[si_feed size=medium limit=16 user=1803529525]' ); ?>
 				<div class="quick-links">
-				<p>See more photos on</p>
+					<p>See more photos on</p>
 					<div class="icon-wrap">
-                        <a href="https://instagram.com/katrinastahr">
-                            <svg class="icon instagram">
-                                <use xlink:href="#shape-instagram" />
-                            </svg>
+	                    		<a href="https://instagram.com/katrinastahr">
+	                         	 	<svg class="icon instagram">
+	                                		<use xlink:href="#shape-instagram" />
+	                            	</svg>
 						</a>
 					</div>
 				</div>
@@ -155,6 +155,16 @@
 		</header>
 		<div class="wrap videos">
 			<?php the_field('videos'); ?>
+			<div class="quick-links">
+					<p>See more videos on</p>
+					<div class="icon-wrap">
+	                    		<a href="https://www.youtube.com/channel/UCU2yXKuaarmTtg9d6EqEIXQ">
+	                         	 	<svg class="icon youtube">
+	                                		<use xlink:href="#shape-youtube" />
+	                            	</svg>
+						</a>
+					</div>
+				</div>
 		</div>
 	</section>
 
@@ -210,6 +220,13 @@
 							<a href="http://www.reverbnation.com/katrinastahr">
 								<svg class="icon reverbnation">
 									<use xlink:href="#shape-reverbnation" />
+								</svg>
+							</a>
+						</div>
+						<div class="icon-wrap">
+							<a href="https://www.youtube.com/channel/UCU2yXKuaarmTtg9d6EqEIXQ">
+								<svg class="icon youtube">
+									<use xlink:href="#shape-youtube" />
 								</svg>
 							</a>
 						</div>
