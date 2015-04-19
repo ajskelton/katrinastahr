@@ -11,6 +11,7 @@
 		$parallax_2 = get_field('parallax_2');
 		$parallax_3 = get_field('parallax_3');
 		$parallax_4 = get_field('parallax_4');
+		$parallax_5 = get_field('parallax_5');
  ?>
 
 	<div id="hero">
@@ -145,6 +146,21 @@
 	<div class="parallax">
 		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">Your favorite perfume ruby red lipstick I'm waiting so patiently mood music's playing red wine and candles lit now is the time tonight is our night</h3>
 		<div class="parallax__layer parallax__layer--back" style="background-image: url('<?php echo $parallax_4['url']; ?>')"></div>
+		<div class="parallax__layer parallax__layer--base"></div>
+	</div>
+
+	<section id="photos" name="photos" class="entry-content cf">
+		<header>
+			<h2>Videos</h2>		
+		</header>
+		<div class="wrap">
+			<?php the_field('videos'); ?>
+		</div>
+	</section>
+
+	<div class="parallax">
+		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">Your favorite perfume ruby red lipstick I'm waiting so patiently mood music's playing red wine and candles lit now is the time tonight is our night</h3>
+		<div class="parallax__layer parallax__layer--back" style="background-image: url('<?php echo $parallax_5['url']; ?>')"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 
