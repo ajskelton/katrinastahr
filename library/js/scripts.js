@@ -14,16 +14,6 @@
 
 
 /*
- * Get Viewport Dimensions
- * returns object with viewport dimensions to match css in width and height properties
- * ( source: http://andylangton.co.uk/blog/development/get-viewport-size-width-and-height-javascript )
-*/
-// function updateViewportDimensions() {
-// 	var w=window,d=document,e=d.documentElement,g=d.getElementsByTagName('body')[0],x=w.innerWidth||e.clientWidth||g.clientWidth,y=w.innerHeight||e.clientHeight||g.clientHeight;
-// 	return { width:x,height:y }
-// }
-// setting the viewport width
-// var viewport = updateViewportDimensions();
 
 
 /*
@@ -119,37 +109,24 @@ var timeToWaitForLast = 100;
 
 // })();
 // 
-if(_isMobile) {
-    _skrollrBody = document.getElementById('skrollr-body');
+// if(_isMobile) {
+//     _skrollrBody = document.getElementById('skrollr-body');
 
-    //Detect 3d transform if there's a skrollr-body (only needed for #skrollr-body).
-    if(_skrollrBody) {
-        _detect3DTransforms();
-    }
+//     //Detect 3d transform if there's a skrollr-body (only needed for #skrollr-body).
+//     if(_skrollrBody) {
+//         _detect3DTransforms();
+//     }
 
-    _initMobile();
-    _updateClass(documentElement, [SKROLLR_CLASS, SKROLLR_MOBILE_CLASS], [NO_SKROLLR_CLASS]);
-} else {
-    _updateClass(documentElement, [SKROLLR_CLASS, SKROLLR_DESKTOP_CLASS], [NO_SKROLLR_CLASS]);
-}
+//     _initMobile();
+//     _updateClass(documentElement, [SKROLLR_CLASS, SKROLLR_MOBILE_CLASS], [NO_SKROLLR_CLASS]);
+// } else {
+//     _updateClass(documentElement, [SKROLLR_CLASS, SKROLLR_DESKTOP_CLASS], [NO_SKROLLR_CLASS]);
+// }
 
 /*
  * Put all your regular jQuery in here.
 */
 jQuery(document).ready(function($) {
-
-	// var t = $('#hero').offset().top - 100;
-
-	// $(document).scroll(function(){
-	//   if($(this).scrollTop() > t)
-	//   {
-	//     $('#sticky-nav').css({"background": "#1276BD"});
-	//   }
-	//   else
-	//   {
-	//     $('#sticky-nav').css({"background": "none"});
-	//   }
-	// });
 
 	$('a[href^="#"]').on('click', function (e) {
 		e.preventDefault();
@@ -164,22 +141,19 @@ jQuery(document).ready(function($) {
 		});
 	});
 
-	//var s = skrollr.init();
-	//var offset = s.relativeToAbsolute(document.getElementById('hero'), 'top', 'bottom');
+	// $(function () {
+	// 	// initialize skrollr if the window width is large enough
+	// 	if ($(window).width() > 767) {
+	// 		skrollr.init();
+	// 	}
 
-	$(function () {
-		// initialize skrollr if the window width is large enough
-		if ($(window).width() > 767) {
-			skrollr.init();
-		}
-
-		// disable skrollr if the window is resized below 768px wide
-		$(window).on('resize', function () {
-			if ($(window).width() <= 767) {
-				skrollr.init().destroy(); // skrollr.init() returns the singleton created above
-			}
-		});
-	});
+	// 	// disable skrollr if the window is resized below 768px wide
+	// 	$(window).on('resize', function () {
+	// 		if ($(window).width() <= 767) {
+	// 			skrollr.init().destroy(); // skrollr.init() returns the singleton created above
+	// 		}
+	// 	});
+	// });
 
 
 	$('.lightbox-trigger').click(function(e) {

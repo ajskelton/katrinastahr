@@ -13,6 +13,7 @@
 		$parallax_4 = get_field('parallax_4');
 		$parallax_5 = get_field('parallax_5');
  ?>
+ <div id="skrollr-body">
 
 	<div id="hero">
 		<div class="parallax">

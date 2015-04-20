@@ -19,6 +19,7 @@ GENERAL STYLES
 
 body {
 	background-color:black;
+	margin-top:120px;
 }
 
 /*********************
@@ -58,7 +59,8 @@ NAVIGATION STYLES
 	height:120px;
 	position:fixed;
 	z-index: 20;
-	background-color: rgba(43,43,43,0);
+	background-color: rgba(43,43,43,1);
+	margin-top:-120px;
 }
 #mobile-nav {
 	display:none;
