@@ -118,6 +118,20 @@ var timeToWaitForLast = 100;
 //   };
 
 // })();
+// 
+if(_isMobile) {
+    _skrollrBody = document.getElementById('skrollr-body');
+
+    //Detect 3d transform if there's a skrollr-body (only needed for #skrollr-body).
+    if(_skrollrBody) {
+        _detect3DTransforms();
+    }
+
+    _initMobile();
+    _updateClass(documentElement, [SKROLLR_CLASS, SKROLLR_MOBILE_CLASS], [NO_SKROLLR_CLASS]);
+} else {
+    _updateClass(documentElement, [SKROLLR_CLASS, SKROLLR_DESKTOP_CLASS], [NO_SKROLLR_CLASS]);
+}
 
 /*
  * Put all your regular jQuery in here.
