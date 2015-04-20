@@ -14,14 +14,14 @@
 		$parallax_5 = get_field('parallax_5');
  ?>
 
-	<!-- <div id="hero">
+	<div id="hero">
 		<div class="parallax">
 			<div class="parallax__layer parallax__layer--back-hero"></div>
 			<div class="parallax__layer parallax__layer--base-hero">
 				<h3 class="hero-parallax main-hero"><?php the_field('hero_statement');?></h3>
 			</div>
 		</div>
-	</div> -->
+	</div>
 
 		<section id="about" name="about" class="entry-content cf">
 			<header>
@@ -50,10 +50,10 @@
 			</div>
 		</section>
 
-	<!-- <div class="parallax">
+	<div class="parallax">
 		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_1['url']; ?>') center center fixed;background-size:cover;"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
-	</div> -->
+	</div>
 
 		<section id="music" name="music" class="entry-content cf">
 			<h2>Music</h2>
@@ -77,11 +77,11 @@
 			$text_color = getContrast50($palette[0]);
 		?>
 
-	<!-- <div class="parallax">
+	<div class="parallax">
 		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">Fall into my trap forever carry that torch for me sink into my velvet lips loose yourself in me fancy cars and diamond rings oh how you spoil me little do you know your trapped eternaly with me I'm your gatsby girl</h3>
 		<div class="parallax__layer parallax__layer--back" style="background-image: url('<?php echo $parallax_2['url']; ?>');background-size:cover;"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
-	</div> -->
+	</div>
 
 		<section id="shows" name="shows" class="entry-content cf">
 			<h2>Upcoming Shows</h2>
@@ -110,10 +110,10 @@
 			$text_color = getContrast50($palette[0]);
 		?>
 
-	<!-- <div class="parallax">
+	<div class="parallax">
 		<div class="parallax__layer parallax__layer--back" style="background-image: url('<?php echo $parallax_3['url']; ?>');background-size:cover;"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
-	</div> -->
+	</div>
 
 		<section id="photos" name="photos" class="entry-content cf">
 			<header>
@@ -142,11 +142,11 @@
 				
 		?>
 
-	<!-- <div class="parallax">
+	<div class="parallax">
 		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">I feel pain when you drink it rumbles through my soul lightening is gonna strike with your last sip from the bottle lord knows it's killing me inside but I keep holding on</h3>
 		<div class="parallax__layer parallax__layer--back" style="background-image: url('<?php echo $parallax_4['url']; ?>');background-size:cover;"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
-	</div> -->
+	</div>
 
 	<section id="videos" name="videos" class="entry-content cf">
 		<header>
@@ -167,11 +167,11 @@
 		</div>
 	</section>
 
-	<!-- <div class="parallax">
+	<div class="parallax">
 		<h3 class="hero-parallax" style="color:<?php echo $text_color; ?>">Your favorite perfume ruby red lipstick I'm waiting so patiently mood music's playing red wine and candles lit now is the time tonight is our night</h3>
 		<div class="parallax__layer parallax__layer--back" style="background-image: url('<?php echo $parallax_5['url']; ?>');background-size:cover;"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
-	</div> -->
+	</div>
 
 		<section id="connect" name="connect">
 			<h2>Connect With Katrina</h2>
