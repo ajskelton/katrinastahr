@@ -75,7 +75,7 @@ LAYOUT & GRID STYLES
 }
 section {
 	background-color:white;
-	padding:0 0 6em 0;
+	// padding:0 0 6em 0;
 }
 #connect {
 	// background: url('../images/squared_metal.png') repeat top left;
@@ -566,6 +566,7 @@ section:before {
 				margin:0;
 				img {
 					margin:0;
+					border-radius:100px;
 				}
 			}
 
@@ -659,6 +660,7 @@ section:before {
 	.social {
 		text-align:center;
 		color:white;
+		margin:0 0 4em 0;
 		.icon-wrap {
 			margin:0 auto;
 			width:24px;
@@ -683,6 +685,7 @@ section:before {
 	.quick-links {
 		text-align:center;
 		color:white;
+		margin:2em 0;
 		.icon-wrap, p {
 			display:inline-block;
 		}
