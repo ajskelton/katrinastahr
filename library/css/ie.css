@@ -197,7 +197,7 @@ NAVIGATION STYLES
 *********************/
 /* line 32, ../scss/breakpoints/_481up.scss */
 .nav li a {
-  padding: 0 20px 20px 20px;
+  padding: 0 10px 20px 10px;
 }
 
 /* .menu is clearfixed inside mixins.scss */
@@ -267,11 +267,15 @@ POSTS & CONTENT STYLES
 .entry-content table td {
   padding: 1.5em 1em;
 }
-/* line 131, ../scss/breakpoints/_481up.scss */
+/* line 127, ../scss/breakpoints/_481up.scss */
+.entry-content img {
+  width: inherit;
+}
+/* line 135, ../scss/breakpoints/_481up.scss */
 .entry-content .si_item {
   padding: 1em;
 }
-/* line 135, ../scss/breakpoints/_481up.scss */
+/* line 139, ../scss/breakpoints/_481up.scss */
 .entry-content .bandsintown td {
   display: table-cell;
   border-right: 1px solid black;
@@ -279,17 +283,17 @@ POSTS & CONTENT STYLES
 }
 
 /* end .entry-content */
-/* line 145, ../scss/breakpoints/_481up.scss */
+/* line 149, ../scss/breakpoints/_481up.scss */
 .social .icon-wrap {
   width: 36px;
 }
-/* line 148, ../scss/breakpoints/_481up.scss */
+/* line 152, ../scss/breakpoints/_481up.scss */
 .social .icon {
   width: 36px;
   height: 36px;
   padding: 5px;
 }
-/* line 153, ../scss/breakpoints/_481up.scss */
+/* line 157, ../scss/breakpoints/_481up.scss */
 .social .bandsintown {
   padding: 0;
 }

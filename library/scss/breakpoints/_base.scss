@@ -217,7 +217,7 @@ and more scalable.
 			display: block;
 			color: $white;
 			text-decoration: none;
-			padding: 0 5px 20px 5px;
+			padding: 0 2px 20px 2px;
 
 			/*
 			remember this is for mobile ONLY, so there's no need
@@ -321,7 +321,7 @@ section:before {
 
 .parallax__layer--back {
 	
-	background-position: -50px center;
+	background-position: center;
 	background-attachment: fixed;
 	background-size:cover;
 }
@@ -530,6 +530,7 @@ section:before {
 			img {
 				margin: 0 0 1.5em 0;
 				max-width: 100%;
+				width:100%;
 				height: auto;
 			}
 
@@ -566,7 +567,7 @@ section:before {
 				margin:0;
 				img {
 					margin:0;
-					border-radius:100px;
+					border-radius:150px;
 				}
 			}
 
