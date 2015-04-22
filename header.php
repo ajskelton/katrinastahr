@@ -41,6 +41,10 @@
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
 
+		<?php
+		    header("Access-Control-Allow-Origin: http://www.redcartstudios.com");
+		?>
+
 		<?php require("library/svg-defs.svg"); ?>
 
 		<div id="container">
