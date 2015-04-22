@@ -2040,9 +2040,9 @@ input[type="submit"] {
 }
 /* line 675, ../scss/breakpoints/_base.scss */
 .social .icon {
-  height: 24px;
-  width: 24px;
-  padding: 2px;
+  height: 36px;
+  width: 36px;
+  padding: 4px;
   fill: white;
 }
 /* line 681, ../scss/breakpoints/_base.scss */
@@ -2900,7 +2900,7 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  /* line 415, ../scss/breakpoints/_768up.scss */
+  /* line 422, ../scss/breakpoints/_768up.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.
