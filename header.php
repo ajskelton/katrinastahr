@@ -28,7 +28,7 @@
 		<meta name="msapplication-TileColor" content="#f01d4f">
 		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/win8-tile-icon.png">
 
-		<meta property="og:image" content="http://www.katrinastahr.com/wp-content/uploads/2015/04/KatrinaImage.jpg" />
+		<meta property="og:image" content="http://redcartstudios.com/clients/katrinastahr/wp-content/uploads/2015/04/KatrinaStahr.jpg" />
 		<meta property="og:title" content="Katrina Stahr" />
 		<meta property="og:url" content="http://www.katrinastahr.com" />
 		<meta property="og:description" content="Northern California born singer/songwriter Katrina Stahr, a true melodic vessel armed with the power of a dream to change the world one lyric at a time" />
