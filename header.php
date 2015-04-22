@@ -33,6 +33,8 @@
 		<?php // wordpress head functions ?>
 		<?php wp_head(); ?>
 		<?php // end of wordpress head ?>
+		<script src="//use.typekit.net/wbq2ksd.js"></script>
+		<script>try{Typekit.load();}catch(e){}</script>
 
 		<?php // drop Google Analytics Here ?>
 		<?php // end analytics ?>
