@@ -28,6 +28,9 @@
 		<meta name="msapplication-TileColor" content="#f01d4f">
 		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/win8-tile-icon.png">
 
+		<meta property="og:image" content="http://www.katrinastahr.com/wp-content/uploads/2014/11/KatrinaPhotoshoot2.jpg" />
+		<meta property="og:title" content="Katrina Stahr" />
+
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<?php // wordpress head functions ?>
