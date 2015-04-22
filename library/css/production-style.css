@@ -604,13 +604,6 @@ FONT FACE (IN YOUR FACE)
       font-style: normal;
   }
 */
-@font-face {
-  font-family: 'walkway_boldregular';
-  src: url("../fonts/Walkway_Bold-webfont.eot");
-  src: url("../fonts/Walkway_Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Walkway_Bold-webfont.woff") format("woff"), url("../fonts/Walkway_Bold-webfont.ttf") format("truetype"), url("../fonts/Walkway_Bold-webfont.svg#walkway_boldregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
 /*
 The following is based of Typebase:
 https://github.com/devinhunt/typebase.css
@@ -624,7 +617,7 @@ I've edited it a bit, but it's a nice starting point.
 some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
-/* line 76, ../scss/partials/_typography.scss */
+/* line 77, ../scss/partials/_typography.scss */
 p {
   -ms-word-wrap: break-word;
   word-break: break-word;
@@ -1760,7 +1753,7 @@ section:before {
 /* line 328, ../scss/breakpoints/_base.scss */
 .hero {
   color: #fff;
-  font-family: "walkway_boldregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "tekton-pro-extended", "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 1.2em;
   text-align: center;
   padding: 20px;
@@ -1770,7 +1763,7 @@ section:before {
 /* line 337, ../scss/breakpoints/_base.scss */
 .hero-parallax {
   color: #323944;
-  font-family: "walkway_boldregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "tekton-pro-extended", "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 24px;
   text-align: center;
   width: 90%;
@@ -2765,7 +2758,7 @@ you can add resource intensive styles.
 
   /* line 182, ../scss/breakpoints/_768up.scss */
   .hero-parallax {
-    font-family: "walkway_boldregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "tekton-pro-extended", "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-size: 42px;
     text-align: center;
     z-index: 20;
@@ -2891,7 +2884,7 @@ you can add resource intensive styles.
   /* line 392, ../scss/breakpoints/_768up.scss */
   .hero {
     color: #fff;
-    font-family: "walkway_boldregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "tekton-pro-extended", "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-size: 2em;
     text-align: center;
     padding: 20px;

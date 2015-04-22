@@ -1,77 +1,693 @@
-/*
-Error: Undefined variable: "$walkway".
-        on line 184 of /Users/mranthonyskelton/webserver/KatrinaStahr/wp-content/themes/KatrinaStahr/library/scss/breakpoints/_768up.scss
-        from line 30 of /Users/mranthonyskelton/webserver/KatrinaStahr/wp-content/themes/KatrinaStahr/library/scss/ie.scss
+/******************************************************************
+Site Name: Katrina Stahr
+Author: Red Cart Studios
 
-Backtrace:
-/Users/mranthonyskelton/webserver/KatrinaStahr/wp-content/themes/KatrinaStahr/library/scss/breakpoints/_768up.scss:184
-/Users/mranthonyskelton/webserver/KatrinaStahr/wp-content/themes/KatrinaStahr/library/scss/ie.scss:30
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/script/tree/node.rb:50:in `perform'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `map'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `map'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:88:in `block in with_import'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:88:in `with_import'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `map'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:20:in `render'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/engine.rb:268:in `render'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/compass-1.0.3/bin/compass:44:in `call'
-/Users/mranthonyskelton/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
-/Users/mranthonyskelton/.rvm/gems/ruby-2.1.2/bin/compass:23:in `load'
-/Users/mranthonyskelton/.rvm/gems/ruby-2.1.2/bin/compass:23:in `<main>'
-/Users/mranthonyskelton/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
-/Users/mranthonyskelton/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Stylesheet: IE Stylesheet
+
+So instead of using the respond.js file to add media query support
+to IE, we're going to use SASS to create an easily readable css file.
+Here, we import all the styles the standard stylesheet gets, only
+without the media queries. No need to worry about editing anything!
+
+******************************************************************/
+/******************************************************************
+IMPORTS & DEPENDENCIES
+Remember, all the BASE styles are called already since IE can
+read those. Below, we need to import only the stuff IE can't
+understand (what's inside the media queries). We also need to
+import the mixins file so SASS can understand the variables.
+******************************************************************/
+/******************************************************************
+Site Name: Katrina Stahr
+Author: Red Cart Studios
+
+Stylesheet: Variables
+
+Here is where we declare all our variables like colors, fonts,
+base values, and defaults. We want to make sure this file ONLY
+contains variables that way our files don't get all messy.
+No one likes a mess.
+
+******************************************************************/
+/*********************
+COLORS
+Need help w/ choosing your colors? Try this site out:
+http://0to255.com/
+*********************/
+/*
+Here's a great tutorial on how to
+use color variables properly:
+http://sachagreif.com/sass-color-variables/
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$walkway\".\A         on line 184 of /Users/mranthonyskelton/webserver/KatrinaStahr/wp-content/themes/KatrinaStahr/library/scss/breakpoints/_768up.scss\A         from line 30 of /Users/mranthonyskelton/webserver/KatrinaStahr/wp-content/themes/KatrinaStahr/library/scss/ie.scss"; }
+/******************************************************************
+Site Name: Katrina Stahr
+Author: Red Cart Studios
+
+Stylesheet: Typography
+
+Need to import a font or set of icons for your site? Drop them in
+here or just use this to establish your typographical grid. Or not.
+Do whatever you want to...GOSH!
+
+Helpful Articles:
+http://trentwalton.com/2012/06/19/fluid-type/
+http://ia.net/blog/responsive-typography-the-basics/
+http://alistapart.com/column/responsive-typography-is-a-physical-discipline
+
+******************************************************************/
+/*********************
+FONT FACE (IN YOUR FACE)
+*********************/
+/*  To embed your own fonts, use this syntax
+  and place your fonts inside the
+  library/fonts folder. For more information
+  on embedding fonts, go to:
+  http://www.fontsquirrel.com/
+  Be sure to remove the comment brackets.
+*/
+/*  @font-face {
+      font-family: 'Font Name';
+      src: url('library/fonts/font-name.eot');
+      src: url('library/fonts/font-name.eot?#iefix') format('embedded-opentype'),
+             url('library/fonts/font-name.woff') format('woff'),
+             url('library/fonts/font-name.ttf') format('truetype'),
+             url('library/fonts/font-name.svg#font-name') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
+*/
+/*
+The following is based of Typebase:
+https://github.com/devinhunt/typebase.css
+I've edited it a bit, but it's a nice starting point.
+*/
+/*
+ i imported this one in the functions file so bones would look sweet.
+ don't forget to remove it for your site.
+*/
+/*
+some nice typographical defaults
+more here: http://www.newnet-soft.com/blog/csstypography
+*/
+/* line 77, ../scss/partials/_typography.scss */
+p {
+  -ms-word-wrap: break-word;
+  word-break: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  -webkit-hyphenate-before: 2;
+  -webkit-hyphenate-after: 3;
+  hyphenate-lines: 3;
+  -webkit-font-feature-settings: "liga", "dlig";
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga", "dlig";
+  -o-font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga", "dlig";
+}
+
+/******************************************************************
+Site Name: Katrina Stahr
+Author: Red Cart Studios
+
+Stylesheet: Mixins Stylesheet
+
+This is where you can take advantage of Sass' great features: Mixins.
+I won't go in-depth on how they work exactly,
+there are a few articles below that will help do that. What I will
+tell you is that this will help speed up simple changes like
+changing a color or adding CSS3 techniques gradients.
+
+A WORD OF WARNING: It's very easy to overdo it here. Be careful and
+remember less is more.
+
+Helpful:
+http://sachagreif.com/useful-sass-mixins/
+http://thesassway.com/intermediate/leveraging-sass-mixins-for-cleaner-code
+http://web-design-weekly.com/blog/2013/05/12/handy-sass-mixins/
+
+******************************************************************/
+/*********************
+TRANSITION
+*********************/
+/*
+I totally rewrote this to be cleaner and easier to use.
+You'll need to be using Sass 3.2+ for these to work.
+Thanks to @anthonyshort for the inspiration on these.
+USAGE: @include transition(all 0.2s ease-in-out);
+*/
+/*********************
+CSS3 GRADIENTS
+Be careful with these since they can
+really slow down your CSS. Don't overdo it.
+*********************/
+/* @include css-gradient(#dfdfdf,#f8f8f8); */
+/*********************
+BOX SIZING
+*********************/
+/* @include box-sizing(border-box); */
+/* NOTE: value of "padding-box" is only supported in Gecko. So
+probably best not to use it. I mean, were you going to anyway? */
+/******************************************************************
+Site Name: Katrina Stahr
+Author: Red Cart Studios
+
+Stylesheet: IE Grid Styles
+
+Since the example grid is based on media queries, so rather than
+setup some js library that would make IE8 and below understand
+media queries, let's just add some styles that serves a fixed grid.
+
+Again, if you want to roll your own, just remove this junk and put
+whatever you use in here.
+
+******************************************************************/
+/******************************************************************
+Site Name: Katrina Stahr
+Author: Red Cart Studios
+
+Stylesheet: 481px and Up Stylesheet
+
+This stylesheet is loaded for larger devices. It's set to
+481px because at 480px it would load on a landscaped iPhone.
+This isn't ideal because then you would be loading all those
+extra styles on that same mobile connection.
+
+A word of warning. This size COULD be a larger mobile device,
+so you still want to keep it pretty light and simply expand
+upon your base.scss styles.
+
+******************************************************************/
+/*
+IMPORTANT NOTE ABOUT SASS 3.3 & UP
+You can't use @extend within media queries
+anymore, so just be aware that if you drop
+them in here, they won't work.
+*/
+/*********************
+NAVIGATION STYLES
+*********************/
+/* line 32, ../scss/breakpoints/_481up.scss */
+.nav li a {
+  padding: 0 10px 20px 10px;
+}
+
+/* .menu is clearfixed inside mixins.scss */
+/* line 39, ../scss/breakpoints/_481up.scss */
+.menu {
+  /* end .menu ul */
+}
+/* line 40, ../scss/breakpoints/_481up.scss */
+.menu ul {
+  /* end .menu ul li */
+  /* highlight current page */
+  /* end current highlighters */
+}
+/* line 41, ../scss/breakpoints/_481up.scss */
+.menu ul li {
+  /*
+  plan your menus and drop-downs wisely.
+  */
+}
+/* line 42, ../scss/breakpoints/_481up.scss */
+.menu ul li a {
+  /*
+  you can use hover styles here even though this size
+  has the possibility of being a mobile device.
+  */
+}
+
+/* end .menu */
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+/* line 86, ../scss/breakpoints/_481up.scss */
+.parallax {
+  display: block;
+}
+
+/* entry content */
+/* line 91, ../scss/breakpoints/_481up.scss */
+.entry-content {
+  /* at this larger size, we can start to align images */
+}
+/* line 95, ../scss/breakpoints/_481up.scss */
+.entry-content .alignleft, .entry-content img.alignleft {
+  margin-right: 1.5em;
+  display: inline;
+  float: left;
+  margin-top: 6px;
+}
+/* line 101, ../scss/breakpoints/_481up.scss */
+.entry-content .alignright, .entry-content img.alignright {
+  margin-left: 1.5em;
+  display: inline;
+  float: right;
+}
+/* line 106, ../scss/breakpoints/_481up.scss */
+.entry-content .aligncenter, .entry-content img.aligncenter {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  clear: both;
+}
+/* line 115, ../scss/breakpoints/_481up.scss */
+.entry-content .wp-playlist-item {
+  padding: 1em 0;
+}
+/* line 122, ../scss/breakpoints/_481up.scss */
+.entry-content table td {
+  padding: 1.5em 1em;
+}
+/* line 127, ../scss/breakpoints/_481up.scss */
+.entry-content img {
+  width: inherit;
+}
+/* line 135, ../scss/breakpoints/_481up.scss */
+.entry-content .si_item {
+  padding: 1em;
+}
+/* line 139, ../scss/breakpoints/_481up.scss */
+.entry-content .bandsintown td {
+  display: table-cell;
+  border-right: 1px solid black;
+  padding: 1.5em 1em;
+}
+
+/* end .entry-content */
+/* line 149, ../scss/breakpoints/_481up.scss */
+.social .icon-wrap {
+  width: 36px;
+}
+/* line 152, ../scss/breakpoints/_481up.scss */
+.social .icon {
+  width: 36px;
+  height: 36px;
+  padding: 5px;
+}
+/* line 157, ../scss/breakpoints/_481up.scss */
+.social .bandsintown {
+  padding: 0;
+}
+
+/*********************
+FOOTER STYLES
+*********************/
+/*
+check your menus here. do they look good?
+do they need tweaking?
+*/
+/* end .footer-links */
+/******************************************************************
+Site Name: Katrina Stahr
+Author: Red Cart Studios
+
+Stylesheet: Tablet & Small Desktop Stylesheet
+
+Here's where you can start getting into the good stuff.
+This size will work on iPads, other tablets, and desktops.
+So you can start working with more styles, background images,
+and other resources. You'll also notice the grid starts to
+come into play. Have fun!
+
+******************************************************************/
+/*********************
+GENERAL STYLES
+*********************/
+/* line 20, ../scss/breakpoints/_768up.scss */
+body {
+  background-color: black;
+  margin-top: 120px;
+}
+
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+/* line 29, ../scss/breakpoints/_768up.scss */
+.wrap {
+  width: 760px;
+}
+
+/* line 32, ../scss/breakpoints/_768up.scss */
+.squeeze {
+  width: 600px;
+}
+
+/*********************
+HEADER STYLES
+*********************/
+/* line 40, ../scss/breakpoints/_768up.scss */
+.header {
+  height: 700px;
+  width: 100 .header;
+  position: relative;
+  padding-top: 0px;
+}
+
+/* line 47, ../scss/breakpoints/_768up.scss */
+#logo {
+  position: fixed;
+  margin: 0 0 0 2em;
+  padding: 10px 0 0 0;
+}
+
+/*********************
+NAVIGATION STYLES
+*********************/
+/* line 56, ../scss/breakpoints/_768up.scss */
+#sticky-nav {
+  display: block;
+  width: 100%;
+  height: 120px;
+  position: fixed;
+  z-index: 20;
+  background-color: #2b2b2b;
+  margin-top: -120px;
+}
+
+/* line 65, ../scss/breakpoints/_768up.scss */
+#mobile-nav {
+  display: none;
+}
+
+/* line 68, ../scss/breakpoints/_768up.scss */
+.nav {
+  border: 0;
+  margin-right: 24px;
+  margin-top: 32px;
+  float: right;
+  /* end .menu ul li */
+  /* highlight current page */
+  /* end current highlighters */
+}
+/* line 73, ../scss/breakpoints/_768up.scss */
+.nav li {
+  float: left;
+  position: relative;
+  /*
+  plan your menus and drop-downs wisely.
+  */
+  /* showing sub-menus */
+}
+/* line 77, ../scss/breakpoints/_768up.scss */
+.nav li a {
+  border-bottom: 0;
+  font-size: 1.1em;
+  display: block;
+  color: #fff;
+  padding: 19px 5px;
+  /*
+  you can use hover styles here even though this size
+  has the possibility of being a mobile device.
+  */
+}
+/* line 88, ../scss/breakpoints/_768up.scss */
+.nav li a:hover, .nav li a:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+/* line 100, ../scss/breakpoints/_768up.scss */
+.nav li ul.sub-menu,
+.nav li ul.children {
+  margin-top: 0;
+  border: 1px solid #ccc;
+  border-top: 0;
+  position: absolute;
+  visibility: hidden;
+  z-index: 8999;
+  /* highlight sub-menu current page */
+}
+/* line 109, ../scss/breakpoints/_768up.scss */
+.nav li ul.sub-menu li,
+.nav li ul.children li {
+  /*
+  if you need to go deeper, go nuts
+  just remember deeper menus suck
+  for usability. k, bai.
+  */
+}
+/* line 111, ../scss/breakpoints/_768up.scss */
+.nav li ul.sub-menu li a,
+.nav li ul.children li a {
+  padding-left: 10px;
+  border-right: 0;
+  display: block;
+  width: 180px;
+  border-bottom: 1px solid #ccc;
+}
+/* line 128, ../scss/breakpoints/_768up.scss */
+.nav li ul.sub-menu li:last-child a,
+.nav li ul.children li:last-child a {
+  border-bottom: 0;
+}
+/* line 138, ../scss/breakpoints/_768up.scss */
+.nav li ul.sub-menu li ul,
+.nav li ul.children li ul {
+  top: 0;
+  left: 100%;
+}
+/* line 153, ../scss/breakpoints/_768up.scss */
+.nav li:hover > ul {
+  top: auto;
+  visibility: visible;
+}
+
+/* end .nav */
+/*********************
+SIDEBARS & ASIDES
+*********************/
+/* line 172, ../scss/breakpoints/_768up.scss */
+.hero {
+  margin: -140px 0 0 -320px;
+  width: 600px;
+  height: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+/* line 182, ../scss/breakpoints/_768up.scss */
+.hero-parallax {
+  font-family: "tekton-pro-extended", "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 42px;
+  text-align: center;
+  z-index: 20;
+  width: 650px;
+}
+
+/* line 200, ../scss/breakpoints/_768up.scss */
+.parallax {
+  height: 600px;
+}
+
+/* line 204, ../scss/breakpoints/_768up.scss */
+.sidebar {
+  margin-top: 2.2em;
+}
+
+/* line 208, ../scss/breakpoints/_768up.scss */
+.widgettitle {
+  border-bottom: 2px solid #444;
+  margin-bottom: 0.75em;
+}
+
+/* line 213, ../scss/breakpoints/_768up.scss */
+.widget {
+  padding: 0 10px;
+  margin: 2.2em 0;
+}
+/* line 218, ../scss/breakpoints/_768up.scss */
+.widget ul li {
+  margin-bottom: 0.75em;
+  /* deep nesting */
+}
+/* line 226, ../scss/breakpoints/_768up.scss */
+.widget ul li ul {
+  margin-top: 0.75em;
+  padding-left: 1em;
+}
+
+/* links widget */
+/* meta widget */
+/* pages widget */
+/* recent-posts widget */
+/* archives widget */
+/* tag-cloud widget */
+/* calendar widget */
+/* category widget */
+/* recent-comments widget */
+/* search widget */
+/* text widget */
+/* line 323, ../scss/breakpoints/_768up.scss */
+.wp-playlist-current-item {
+  height: 100px;
+}
+/* line 325, ../scss/breakpoints/_768up.scss */
+.wp-playlist-current-item .wp-playlist-item-title {
+  font-size: 1.5em;
+}
+/* line 328, ../scss/breakpoints/_768up.scss */
+.wp-playlist-current-item .wp-playlist-item-album {
+  font-size: 1.5em;
+}
+/* line 331, ../scss/breakpoints/_768up.scss */
+.wp-playlist-current-item .wp-playlist-item-artist {
+  font-size: 1.5em;
+}
+
+/* line 336, ../scss/breakpoints/_768up.scss */
+.wp-playlist-item-title {
+  font-size: 1.5em;
+}
+
+/*********************
+CONTENT STYLES
+*********************/
+/* line 345, ../scss/breakpoints/_768up.scss */
+.entry-content .si_item {
+  width: 25%;
+}
+
+/* line 354, ../scss/breakpoints/_768up.scss */
+.left-half {
+  width: 48%;
+  float: left;
+}
+
+/* line 358, ../scss/breakpoints/_768up.scss */
+.right-half {
+  width: 48%;
+  float: right;
+}
+
+/* line 363, ../scss/breakpoints/_768up.scss */
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 371, ../scss/breakpoints/_768up.scss */
+.parallax__layer--hero-back {
+  transform: translateZ(0);
+}
+
+/* line 375, ../scss/breakpoints/_768up.scss */
+.parallax__layer--back-hero {
+  background: url("../images/KatStahrWebsiteGrungePattern_Left.png") top left repeat-y fixed, url("../images/KatStahrWebsiteGrungePattern_Right.png") top right repeat-y fixed, url("../images/darkwood.jpg") top left repeat fixed;
+}
+
+/* line 381, ../scss/breakpoints/_768up.scss */
+.parallax__layer--base {
+  background: url("../images/KatStahrWebsiteGrungePattern_Left.png") top left repeat-y fixed, url("../images/KatStahrWebsiteGrungePattern_Right.png") top right repeat-y fixed;
+}
+
+/* line 386, ../scss/breakpoints/_768up.scss */
+.parallax__layer--back {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 392, ../scss/breakpoints/_768up.scss */
+.hero {
+  color: #fff;
+  font-family: "tekton-pro-extended", "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+/*********************
+FOOTER STYLES
+*********************/
+/*
+you'll probably need to do quite a bit
+of overriding here if you styled them for
+mobile. Make sure to double check these!
+*/
+/* line 422, ../scss/breakpoints/_768up.scss */
+.footer-links ul li {
+  /*
+  be careful with the depth of your menus.
+  it's very rare to have multi-depth menus in
+  the footer.
+  */
+}
+
+/* end .footer-links */
+/******************************************************************
+Site Name: Katrina Stahr
+Author: Red Cart Studios
+
+Stylesheet: Desktop Stylsheet
+
+This is the desktop size. It's larger than an iPad so it will only
+be seen on the Desktop.
+
+******************************************************************/
+/* line 12, ../scss/breakpoints/_1030up.scss */
+.wrap {
+  width: 900px;
+  padding: 2em;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 18, ../scss/breakpoints/_1030up.scss */
+.squeeze {
+  width: 600px;
+}
+
+/* line 25, ../scss/breakpoints/_1030up.scss */
+#logo {
+  margin: 0 0 1em 2em;
+}
+
+/* line 28, ../scss/breakpoints/_1030up.scss */
+.nav {
+  margin-right: 48px;
+}
+/* line 31, ../scss/breakpoints/_1030up.scss */
+.nav li a {
+  font-size: 1.5em;
+  padding: 14px 12px;
+}
+
+/* line 38, ../scss/breakpoints/_1030up.scss */
+.entry-content p {
+  font-size: 1.2em;
+}
+
+/* line 42, ../scss/breakpoints/_1030up.scss */
+.hero {
+  width: 824px;
+  margin: -90px 0 0 -412px;
+}
+
+/*
+you can call the larger styles if you want, but there's really no need
+*/
+/******************************************************************
+ADDITIONAL IE FIXES
+These fixes are now ONLY seen by IE, so you don't have to worry
+about using prefixes, although it's best practice. For more info
+on using Modernizr classes, check out this link:
+http://www.modernizr.com/docs/
+******************************************************************/
+/*
+For example, you can use something like:
+
+.no-textshadow .class { ... }
+
+You can also target specific versions by using the classes applied to
+the html element. These can sometimes change, so take a look inside the
+header.php file to see what they are:
+
+
+.lt-ie8 .class { ... }
+
+*/
