@@ -256,19 +256,24 @@ POSTS & CONTENT STYLES
 .entry-content .wp-playlist-item {
   padding: 1em 0;
 }
-/* line 122, ../scss/breakpoints/_481up.scss */
+/* line 121, ../scss/breakpoints/_481up.scss */
+.entry-content .aboutimage {
+  width: 300px;
+  height: auto;
+}
+/* line 127, ../scss/breakpoints/_481up.scss */
 .entry-content table td {
   padding: 1.5em 1em;
 }
-/* line 127, ../scss/breakpoints/_481up.scss */
+/* line 132, ../scss/breakpoints/_481up.scss */
 .entry-content img {
   width: inherit;
 }
-/* line 135, ../scss/breakpoints/_481up.scss */
+/* line 140, ../scss/breakpoints/_481up.scss */
 .entry-content .si_item {
   padding: 1em;
 }
-/* line 139, ../scss/breakpoints/_481up.scss */
+/* line 144, ../scss/breakpoints/_481up.scss */
 .entry-content .bandsintown td {
   display: table-cell;
   border-right: 1px solid black;
@@ -276,17 +281,17 @@ POSTS & CONTENT STYLES
 }
 
 /* end .entry-content */
-/* line 149, ../scss/breakpoints/_481up.scss */
+/* line 154, ../scss/breakpoints/_481up.scss */
 .social .icon-wrap {
   width: 36px;
 }
-/* line 152, ../scss/breakpoints/_481up.scss */
+/* line 157, ../scss/breakpoints/_481up.scss */
 .social .icon {
   width: 36px;
   height: 36px;
   padding: 5px;
 }
-/* line 157, ../scss/breakpoints/_481up.scss */
+/* line 162, ../scss/breakpoints/_481up.scss */
 .social .bandsintown {
   padding: 0;
 }
@@ -544,24 +549,24 @@ SIDEBARS & ASIDES
 /*********************
 CONTENT STYLES
 *********************/
-/* line 345, ../scss/breakpoints/_768up.scss */
+/* line 346, ../scss/breakpoints/_768up.scss */
 .entry-content .si_item {
   width: 25%;
 }
 
-/* line 354, ../scss/breakpoints/_768up.scss */
+/* line 355, ../scss/breakpoints/_768up.scss */
 .left-half {
   width: 48%;
   float: left;
 }
 
-/* line 358, ../scss/breakpoints/_768up.scss */
+/* line 359, ../scss/breakpoints/_768up.scss */
 .right-half {
   width: 48%;
   float: right;
 }
 
-/* line 363, ../scss/breakpoints/_768up.scss */
+/* line 364, ../scss/breakpoints/_768up.scss */
 .parallax__layer {
   position: absolute;
   top: 0;
@@ -570,28 +575,28 @@ CONTENT STYLES
   left: 0;
 }
 
-/* line 371, ../scss/breakpoints/_768up.scss */
+/* line 372, ../scss/breakpoints/_768up.scss */
 .parallax__layer--hero-back {
   transform: translateZ(0);
 }
 
-/* line 375, ../scss/breakpoints/_768up.scss */
+/* line 376, ../scss/breakpoints/_768up.scss */
 .parallax__layer--back-hero {
   background: url("../images/KatStahrWebsiteGrungePattern_Left.png") top left repeat-y fixed, url("../images/KatStahrWebsiteGrungePattern_Right.png") top right repeat-y fixed, url("../images/darkwood.jpg") top left repeat fixed;
 }
 
-/* line 381, ../scss/breakpoints/_768up.scss */
+/* line 382, ../scss/breakpoints/_768up.scss */
 .parallax__layer--base {
   background: url("../images/KatStahrWebsiteGrungePattern_Left.png") top left repeat-y fixed, url("../images/KatStahrWebsiteGrungePattern_Right.png") top right repeat-y fixed;
 }
 
-/* line 386, ../scss/breakpoints/_768up.scss */
+/* line 387, ../scss/breakpoints/_768up.scss */
 .parallax__layer--back {
   background-repeat: no-repeat;
   background-position: center;
 }
 
-/* line 392, ../scss/breakpoints/_768up.scss */
+/* line 393, ../scss/breakpoints/_768up.scss */
 .hero {
   color: #fff;
   font-family: "tekton-pro-extended", "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -609,7 +614,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 422, ../scss/breakpoints/_768up.scss */
+/* line 423, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
