@@ -163,7 +163,9 @@ HEADER STYLES
 
 .header {
 	// background: url('../images/katrina.jpg') no-repeat center center;
-	position:relative;
+	position:fixed;
+	width:100%;
+	top:0;
 }
 
 	#logo {
@@ -184,7 +186,8 @@ HEADER STYLES
 		margin:0 auto;
 		display:block;
 		text-align:center;
-		max-height:50px;
+		max-height:52px;
+		padding:2px;
 		// background-color:rgba(43,43,43,1);
 	}
 
@@ -208,26 +211,28 @@ and more scalable.
 */
 
 .nav {
-	border-bottom: 0;
-	margin: 0 auto;
-	// right:0;
-	vertical-align: top;
-	// line-height: 120px;
-	// padding:0px;
-	// height:20px;
-	text-align:center;
+	margin: 0;
+	padding: 0;
+	width:100%;
+	box-shadow: 0px 1px 3px rgba(0,0,0,.7);
+	z-index: 15;
 
 	li {
-		// float:left;
-		// position:relative;
-		display:inline-block;
+		float:none;
+		position:relative;
+		margin:0;
 
 
 		a {
-			display: block;
+			display: table;
+			margin:0;
+			padding: 10px 2px;
 			color: $white;
-			text-decoration: none;
-			padding: 0 2px 20px 2px;
+			border-top:1px solid rgba(0,0,0,.15);
+			box-shadow:inset 0px 1px 3px rgba(255,255,255,.03);
+			text-shadow:none;
+			width:100%;
+			text-align:center;
 
 			/*
 			remember this is for mobile ONLY, so there's no need
@@ -236,7 +241,7 @@ and more scalable.
 			keep this file as small as possible!
 			*/
 			&:hover, &:focus {
-
+				max-height:0;
 			}
 		}
 
