@@ -128,14 +128,16 @@ var timeToWaitForLast = 100;
 */
 jQuery(document).ready(function($) {
 
-	$('.mobile').click(function() {
-		$('nav').toggleClass('active');
+	$('.mobile').click(function(e) {
+		e.preventDefault;
+		$('.nav').toggleClass('active');
 	});
 
 	
 
 	$('a[href^="#"]').on('click', function (e) {
 		e.preventDefault();
+
 
 		var target = this.hash;
 		$target = $(target);
@@ -145,6 +147,8 @@ jQuery(document).ready(function($) {
 		}, 900, 'swing', function () {
 			window.location.hash = target;
 		});
+		$('.nav').removeClass('active');
+
 	});
 
 	// $(function () {
