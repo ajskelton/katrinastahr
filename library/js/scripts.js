@@ -128,6 +128,12 @@ var timeToWaitForLast = 100;
 */
 jQuery(document).ready(function($) {
 
+	$('.mobile').click(function() {
+		$('nav').toggleClass('active');
+	});
+
+	
+
 	$('a[href^="#"]').on('click', function (e) {
 		e.preventDefault();
 
