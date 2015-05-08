@@ -170,12 +170,22 @@ HEADER STYLES
 		margin: 0 auto;
 		display:block;
 		text-align: center;
-		padding:1em 0;
+		background-color:rgba(43,43,43,1);
 		
 
 		a {
 			color: $white;
+			img {
+				max-height:50px;
+			}
 		}
+	}
+	.logo {
+		margin:0 auto;
+		display:block;
+		text-align:center;
+		max-height:50px;
+		// background-color:rgba(43,43,43,1);
 	}
 
 	#sticky-nav {

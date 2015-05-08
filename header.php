@@ -56,10 +56,8 @@
 			<?php $image = get_field('main_image'); ?>
 
 			<header class="header" role="banner" style="background: url('<?php echo $image['url']; ?>') no-repeat center center; background-size:cover;" itemscope itemtype="http://schema.org/WPHeader" >
-
+				<a href="<?php echo home_url(); ?>" id="logo" rel="nofollow"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/KatrinaLogo.png" alt="Katrina Stahr"></a>
 				<div id="sticky-nav">
-					<a href="<?php echo home_url(); ?>" id="logo" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/KatrinaLogo.png" alt="Katrina Stahr"></a>
-
 					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 						<?php wp_nav_menu(array(
 	  					         'container' => false,                           // remove nav container
@@ -78,7 +76,6 @@
 					</nav>
 				</div>
 				<div id="mobile-nav">
-					<a href="<?php echo home_url(); ?>" id="logo" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/KatrinaLogo.png" alt="Katrina Stahr"></a>
 					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 						<?php wp_nav_menu(array(
 	  					         'container' => false,                           // remove nav container
