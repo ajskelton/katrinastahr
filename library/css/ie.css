@@ -667,25 +667,39 @@ be seen on the Desktop.
 
 /* line 25, ../scss/breakpoints/_1030up.scss */
 #logo {
-  margin: 0 0 1em 2em;
+  margin: 12px 0 0 24px;
 }
 
-/* line 28, ../scss/breakpoints/_1030up.scss */
+/* line 29, ../scss/breakpoints/_1030up.scss */
+.logo {
+  max-height: 100px;
+}
+
+/* line 32, ../scss/breakpoints/_1030up.scss */
+nav {
+  height: 124px;
+}
+
+/* line 35, ../scss/breakpoints/_1030up.scss */
 .nav {
   margin-right: 48px;
 }
-/* line 31, ../scss/breakpoints/_1030up.scss */
+/* line 37, ../scss/breakpoints/_1030up.scss */
+.nav li {
+  line-height: 96px;
+}
+/* line 39, ../scss/breakpoints/_1030up.scss */
 .nav li a {
-  font-size: 1.5em;
+  font-size: 1.2em;
   padding: 14px 12px;
 }
 
-/* line 38, ../scss/breakpoints/_1030up.scss */
+/* line 46, ../scss/breakpoints/_1030up.scss */
 .entry-content p {
   font-size: 1.2em;
 }
 
-/* line 42, ../scss/breakpoints/_1030up.scss */
+/* line 50, ../scss/breakpoints/_1030up.scss */
 .hero {
   width: 824px;
   margin: -90px 0 0 -412px;
