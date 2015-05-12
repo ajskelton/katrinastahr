@@ -19,7 +19,7 @@ GENERAL STYLES
 
 body {
 	background-color:black;
-	margin-top:120px;
+	// margin-top:120px;
 }
 
 /*********************
@@ -39,15 +39,22 @@ HEADER STYLES
 
 .header {
 	height:700px;
-	width:100&;
+	width:100%;
 	position:relative;
 	padding-top:0px;
 }
 
 	#logo {
 		position:fixed;
-		margin:0 0 0 2em;
-		padding:10px 0 0 0;
+		// margin:0 0 0 2em;
+		z-index: 10;
+		background-color: rgba(43,43,43,0);
+		// padding:10px 0 0 0;
+	}
+	.logo {
+		max-height: 80px;
+		z-index: 10;
+		padding:0;
 	}
 
 /*********************
@@ -62,17 +69,31 @@ NAVIGATION STYLES
 	background-color: rgba(43,43,43,1);
 	margin-top:-120px;
 }
-#mobile-nav {
+a.mobile {
 	display:none;
+}
+nav {
+	background-color: rgba(43,43,43,1);
+	height:80px;
+	position:fixed;
+	width:100%;
+	z-index:9;
 }
 .nav {
 	border: 0;
-	margin-right:24px;
-	margin-top:32px;
+	background-color: rgba(43,43,43,0);
+	// margin-right:24px;
+	// margin-top:32px;
 	float:right;
+	max-height:inherit;
+	width:auto;
+	box-shadow: none;
+
 	li {
 		float: left;
 		position: relative;
+		margin-right:6px;
+		line-height: 42px;
 
 		a {
 			border-bottom: 0;
@@ -80,6 +101,10 @@ NAVIGATION STYLES
 			display:block;
 			color:$white;
 			padding:19px 5px;
+			width:100%;
+			float:none;
+			border:none;
+			box-shadow: none;
 
 			/*
 			you can use hover styles here even though this size
