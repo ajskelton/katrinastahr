@@ -137,8 +137,6 @@ h2, .h2 {
 	font-size: 2.5em;
 	margin: 0.8em 0;
 	line-height: 1.4em;
-	// padding-top:1em;
-	// margin-bottom: 0.375em;
 }
 
 h3, .h3 {
@@ -162,8 +160,6 @@ HEADER STYLES
 *********************/
 
 .header {
-	// background: url('../images/katrina.jpg') no-repeat center center;
-	// 
 	position:fixed;
 	width:100%;
 	top:0;
@@ -191,7 +187,6 @@ HEADER STYLES
 		text-align:center;
 		max-height:52px;
 		padding:2px;
-		// background-color:rgba(43,43,43,1);
 	}
 	
 
@@ -212,7 +207,6 @@ nav {
 }
 
 .nav {
-	// display:none;
 	width:100%;
 	margin: 0;
 	padding: 0;
@@ -311,14 +305,12 @@ a.mobile {
 	display:table;
 	margin:0;
 	padding:20px 15px;
-	// background: linear-gradient(to bottom, #353535 0%, #262626 100%);
 	position:absolute;
 	text-decoration:none;
 	color:white;
 	top:3px;
 	left:3px;
 	line-height:0;
-	// box-shadow: 0 2px 2px rgba(0,0,0,.35);
 	&:hover, &:focus, &:visited, &:visited:focus {
 		color:$white;
 	}
@@ -351,7 +343,6 @@ section:before {
 	height: 230px;
 	overflow-x: hidden;
 	overflow-y: auto;
-	// display:none;
 }
 
 .parallax__layer {
@@ -364,7 +355,6 @@ section:before {
 
 .parallax__layer--hero-back {
 	transform: translateZ(0);
-	// background-size:cover;
 
 }
 .parallax__layer--back-hero {
@@ -485,7 +475,6 @@ section:before {
 
 		/* entry content */
 		.entry-content {
-			// padding: 1.5em 1.5em 0;
 
 			p {
 				margin: 0 0 1.5em;
@@ -667,7 +656,6 @@ section:before {
 
 		/* image gallery styles */
 		.gallery {
-//			margin:0 0 1.5em 0;
 
 			dl {
 
@@ -680,14 +668,6 @@ section:before {
 			dt {}
 
 			dd {}
-
-//			ul {
-//				@include grid(2);
-//			}
-//			img {
-//				width:100%;
-//				margin:0;
-//			}
 
 		} /* end .gallery */
 
