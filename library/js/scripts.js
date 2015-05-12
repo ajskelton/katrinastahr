@@ -130,7 +130,7 @@ jQuery(document).ready(function($) {
 
 	$('.mobile').click(function(e) {
 		e.preventDefault;
-		$('.nav').toggleClass('active');
+		$('nav').toggleClass('active');
 	});
 
 	
@@ -147,7 +147,7 @@ jQuery(document).ready(function($) {
 		}, 900, 'swing', function () {
 			window.location.hash = target;
 		});
-		$('.nav').removeClass('active');
+		$('nav').removeClass('active');
 
 	});
 
