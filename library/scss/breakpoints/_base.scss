@@ -315,6 +315,9 @@ a.mobile {
 	left:3px;
 	line-height:0;
 	// box-shadow: 0 2px 2px rgba(0,0,0,.35);
+	&:hover, &:focus, &:visited, &:visited:focus {
+		color:$white;
+	}
 }
 
 .active {
