@@ -55,7 +55,7 @@
 
 			<?php $image = get_field('main_image'); ?>
 
-			<header class="header" role="banner" style="background: url('<?php echo $image['url']; ?>') no-repeat center center; background-size:cover;" itemscope itemtype="http://schema.org/WPHeader" >
+			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader" >
 				<a href="<?php echo home_url(); ?>" id="logo" rel="nofollow"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/KatrinaLogo.png" alt="Katrina Stahr"></a>
 					<a class="mobile" href="#">&#9776;</a>
 					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
@@ -75,3 +75,6 @@
 
 					</nav>
 			</header>
+			<div id="header-image" class="header-image"style="background: url('<?php echo $image['url']; ?>') no-repeat center center; background-size:cover;">
+				<p>New album coming soon to iTunes</p>
+			</div>

@@ -18,9 +18,6 @@ be seen on the Desktop.
 .squeeze {
 	width:600px;
 }
-// h3 {
-// 	margin-bottom: 0;
-// }
 
 #logo {
 	margin: 12px 0 0 24px;
@@ -40,6 +37,15 @@ nav {
 			font-size:1.2em;
 			padding:14px 12px;
 		}
+	}
+}
+.header-image {
+	margin-top:100px;
+	height: 775px;
+	p {
+		font-size:2em;
+		left:50px;
+		bottom:50px;
 	}
 }
 .entry-content {

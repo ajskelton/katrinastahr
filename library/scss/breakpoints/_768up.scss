@@ -38,9 +38,9 @@ HEADER STYLES
 *********************/
 
 .header {
-	height:700px;
+	// height:700px;
 	width:100%;
-	position:relative;
+	position:fixed;
 	padding-top:0px;
 }
 
@@ -55,6 +55,14 @@ HEADER STYLES
 		max-height: 80px;
 		z-index: 10;
 		padding:0;
+	}
+	.header-image {
+		margin-top:80px;
+		height:700px;
+
+		p {
+			font-size:1.2em;
+		}
 	}
 
 /*********************
