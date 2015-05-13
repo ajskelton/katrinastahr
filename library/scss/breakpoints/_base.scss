@@ -705,6 +705,8 @@ section:before {
 			color:white;
 			border:none;
 			padding:5px 15px;
+			display:block;
+			margin:0 auto;
 		}
 
 	// the tag output
@@ -1064,6 +1066,34 @@ COMMENT STYLES
 		font-size: 0.9em;
 	}
 
+	form {
+		width:95%;
+		max-width:550px;
+		margin:0 auto;
+
+		p {
+		 	text-align:center;
+			margin:0;
+		}
+	}
+
+	input[type="email"] {
+		width:80%;
+		float:left;
+	}
+	input[type="submit"] {
+		width:18%;
+		float:right;
+		height:40px;
+		border-radius:5px;
+		font-size:15px;
+		padding:5px 10px;
+	}
+
+	.mc4wp-alert {
+		text-align:center;
+		padding:5px;
+	}
 
 
 /******************************************************************

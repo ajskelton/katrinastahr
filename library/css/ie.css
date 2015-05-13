@@ -276,17 +276,17 @@ POSTS & CONTENT STYLES
 }
 
 /* end .entry-content */
-/* line 154, ../scss/breakpoints/_481up.scss */
+/* line 157, ../scss/breakpoints/_481up.scss */
 .social .icon-wrap {
   width: 36px;
 }
-/* line 157, ../scss/breakpoints/_481up.scss */
+/* line 160, ../scss/breakpoints/_481up.scss */
 .social .icon {
   width: 36px;
   height: 36px;
   padding: 5px;
 }
-/* line 162, ../scss/breakpoints/_481up.scss */
+/* line 165, ../scss/breakpoints/_481up.scss */
 .social .bandsintown {
   padding: 0;
 }
@@ -633,6 +633,38 @@ CONTENT STYLES
   width: 100%;
 }
 
+/* line 441, ../scss/breakpoints/_768up.scss */
+.newsletter {
+  background-color: white;
+}
+/* line 444, ../scss/breakpoints/_768up.scss */
+.newsletter form {
+  max-width: 575px;
+}
+/* line 448, ../scss/breakpoints/_768up.scss */
+.newsletter p {
+  width: 50%;
+  text-align: left;
+  padding: 5px;
+}
+/* line 453, ../scss/breakpoints/_768up.scss */
+.newsletter p:first-child {
+  float: left;
+}
+/* line 456, ../scss/breakpoints/_768up.scss */
+.newsletter p:nth-of-type(2) {
+  float: right;
+}
+/* line 460, ../scss/breakpoints/_768up.scss */
+.newsletter input[type="email"] {
+  height: 46px;
+  margin: 0;
+}
+/* line 464, ../scss/breakpoints/_768up.scss */
+.newsletter input[type="submit"] {
+  height: 45px;
+}
+
 /*********************
 FOOTER STYLES
 *********************/
@@ -641,7 +673,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 456, ../scss/breakpoints/_768up.scss */
+/* line 482, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.

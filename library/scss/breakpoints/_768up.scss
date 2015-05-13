@@ -438,7 +438,33 @@ CONTENT STYLES
 	// 		padding:2px;
 	// 	}
 	// }
+	.newsletter {
+		background-color:white;
 
+		form {
+			max-width:575px;
+		}
+
+		p {
+			width:50%;
+			text-align:left;
+			padding:5px;
+
+			&:first-child {
+				float:left;
+			}
+			&:nth-of-type(2) {
+				float:right;
+			}
+		}
+		input[type="email"] {
+			height:46px;
+			margin:0;
+		}
+		input[type="submit"] {
+			height:45px;
+		}
+	}
 
 	
 

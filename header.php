@@ -78,3 +78,6 @@
 			<div id="header-image" class="header-image"style="background: url('<?php echo $image['url']; ?>') no-repeat center center; background-size:cover;">
 				<p>New album coming soon to iTunes</p>
 			</div>
+			<div class="newsletter cf">
+				<?php echo do_shortcode('[mc4wp_form]'); ?>
+			</div>
