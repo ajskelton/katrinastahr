@@ -188,6 +188,22 @@ HEADER STYLES
 		max-height:52px;
 		padding:2px;
 	}
+	.header-image {
+		margin-top:52px;
+		height:300px;
+		position:relative;
+		// 
+		p {
+			text-align:center;
+			padding:10px;
+			background-color: rgba(42,42,42,.6);
+			margin:0;
+			position:absolute;
+			bottom:25px;
+			left:25px;
+			color: white;
+		}
+	}
 	
 
 /*********************
