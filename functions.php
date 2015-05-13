@@ -293,6 +293,10 @@ function getContrast50($hexcolor){
     return (hexdec($hexcolor) > 0xffffff/2) ? 'rgb(43, 43, 43)':'white';
 }
 
+function continue_reading( $atts, $content = null ) {
+  return "<span class='readmore'>Read more...</span><div class='message'>" . $content . "</div>";
+}
+add_shortcode( 'continue_reading', 'continue_reading');
 
 
 
