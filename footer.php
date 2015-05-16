@@ -18,7 +18,7 @@
 						)); ?>
 					</nav>
 
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. Web Design by <a class="redcart" href="http://www.redcartstudios.com" target="_blank">Red Cart Studios</a></p>
+					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> Katrina Stahr, Katrina Stahr Music, ASCAP, NSAI. &#8212; Web Design by <a class="redcart" href="http://www.redcartstudios.com" target="_blank">Red Cart Studios</a></p>
 
 				</div>
 
