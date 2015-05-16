@@ -200,7 +200,7 @@ HEADER STYLES
 			margin:0;
 			position:absolute;
 			bottom:25px;
-			left:25px;
+			right:25px;
 			color: white;
 		}
 	}
@@ -788,8 +788,9 @@ section:before {
 	}
 	.itunes {
 		height:40px;
-		display:inline;
+		display:block;
 		width:120px;
+		margin: 0 auto;
 	}
 
 /******************************************************************
