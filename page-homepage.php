@@ -30,6 +30,7 @@
 			</header>
 			<div class="wrap">
 				<?php the_field('about_section'); ?>
+				<?php db_twitter_feed() ?>
 				<div class="quick-links">
 					<p>Follow Katrina on</p>
 					<div class="icon-wrap">
