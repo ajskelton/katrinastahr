@@ -76,7 +76,12 @@
 					</nav>
 			</header>
 			<div id="header-image" class="header-image"style="background: url('<?php echo $image['url']; ?>') no-repeat center center; background-size:cover;">
-				<p>New album coming soon to iTunes</p>
+				<p>
+					New album coming soon
+					<svg class="itunes">
+						<use xlink:href="#shape-itunes-preorder" />
+					</svg>
+				</p>
 			</div>
 			<div class="newsletter cf">
 				<?php echo do_shortcode('[mc4wp_form]'); ?>
