@@ -71,6 +71,13 @@
 							</svg>
 						</a>
 					</div>
+					<div class="icon-wrap">
+						<a href="#" id="">
+							<svg class="icon spotify">
+								<use xlink:href="#shape-spotify" />
+							</svg>
+						</a>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -229,6 +236,13 @@
 							<a href="https://www.youtube.com/channel/UCU2yXKuaarmTtg9d6EqEIXQ">
 								<svg class="icon youtube">
 									<use xlink:href="#shape-youtube" />
+								</svg>
+							</a>
+						</div>
+						<div class="icon-wrap">
+							<a href="#" id="">
+								<svg class="icon spotify">
+									<use xlink:href="#shape-spotify" />
 								</svg>
 							</a>
 						</div>
