@@ -448,12 +448,12 @@ CONTENT STYLES
 		background-color:white;
 
 		form {
-			max-width:575px;
+			max-width:700px;
 		}
 
 		p {
 			width:50%;
-			text-align:left;
+			text-align:right;
 			padding:5px;
 
 			&:first-child {
@@ -466,9 +466,11 @@ CONTENT STYLES
 		input[type="email"] {
 			height:46px;
 			margin:0;
+			width:73%;
 		}
 		input[type="submit"] {
 			height:45px;
+			width:25%;
 		}
 	}
 

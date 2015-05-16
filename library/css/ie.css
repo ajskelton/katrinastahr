@@ -282,17 +282,27 @@ POSTS & CONTENT STYLES
 }
 
 /* end .entry-content */
-/* line 162, ../scss/breakpoints/_481up.scss */
+/* line 161, ../scss/breakpoints/_481up.scss */
+.newsletter input[type="submit"] {
+  font-size: 20px;
+}
+
+/* line 166, ../scss/breakpoints/_481up.scss */
+.hero-parallax {
+  font-size: 24px;
+}
+
+/* line 171, ../scss/breakpoints/_481up.scss */
 .social .icon-wrap {
   width: 36px;
 }
-/* line 165, ../scss/breakpoints/_481up.scss */
+/* line 174, ../scss/breakpoints/_481up.scss */
 .social .icon {
   width: 36px;
   height: 36px;
   padding: 5px;
 }
-/* line 170, ../scss/breakpoints/_481up.scss */
+/* line 179, ../scss/breakpoints/_481up.scss */
 .social .bandsintown {
   padding: 0;
 }
@@ -652,12 +662,12 @@ CONTENT STYLES
 }
 /* line 450, ../scss/breakpoints/_768up.scss */
 .newsletter form {
-  max-width: 575px;
+  max-width: 700px;
 }
 /* line 454, ../scss/breakpoints/_768up.scss */
 .newsletter p {
   width: 50%;
-  text-align: left;
+  text-align: right;
   padding: 5px;
 }
 /* line 459, ../scss/breakpoints/_768up.scss */
@@ -672,10 +682,12 @@ CONTENT STYLES
 .newsletter input[type="email"] {
   height: 46px;
   margin: 0;
+  width: 73%;
 }
-/* line 470, ../scss/breakpoints/_768up.scss */
+/* line 471, ../scss/breakpoints/_768up.scss */
 .newsletter input[type="submit"] {
   height: 45px;
+  width: 25%;
 }
 
 /*********************
@@ -686,7 +698,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 488, ../scss/breakpoints/_768up.scss */
+/* line 490, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
@@ -756,8 +768,6 @@ nav {
 /* line 45, ../scss/breakpoints/_1030up.scss */
 .header-image p {
   font-size: 2em;
-  left: 50px;
-  bottom: 50px;
 }
 
 /* line 52, ../scss/breakpoints/_1030up.scss */

@@ -153,10 +153,19 @@ POSTS & CONTENT STYLES
 		}
 	}
 
-	
+
 
 } /* end .entry-content */
 
+.newsletter {
+	input[type="submit"] {
+		font-size:20px;
+	}
+}
+
+.hero-parallax {
+	font-size:24px;
+}
 
 .social {
 	.icon-wrap {

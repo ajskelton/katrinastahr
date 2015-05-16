@@ -1089,19 +1089,22 @@ COMMENT STYLES
 			margin:0;
 		}
 	}
-
-	input[type="email"] {
-		width:80%;
-		float:left;
+	.mc4wp-form {
+		input[type="email"] {
+			width:80%;
+			float:left;
+			word-break:normal;
+		}
+		input[type="submit"] {
+			width:18%;
+			float:right;
+			height:40px;
+			border-radius:5px;
+			font-size:12px;
+			padding:5px 10px;
+		}
 	}
-	input[type="submit"] {
-		width:18%;
-		float:right;
-		height:40px;
-		border-radius:5px;
-		font-size:15px;
-		padding:5px 10px;
-	}
+	
 
 	.mc4wp-alert {
 		text-align:center;

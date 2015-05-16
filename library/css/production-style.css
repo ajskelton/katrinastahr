@@ -2443,22 +2443,22 @@ form p {
 }
 
 /* line 1093, ../scss/breakpoints/_base.scss */
-input[type="email"] {
+.mc4wp-form input[type="email"] {
   width: 80%;
   float: left;
+  word-break: normal;
 }
-
-/* line 1097, ../scss/breakpoints/_base.scss */
-input[type="submit"] {
+/* line 1098, ../scss/breakpoints/_base.scss */
+.mc4wp-form input[type="submit"] {
   width: 18%;
   float: right;
   height: 40px;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 12px;
   padding: 5px 10px;
 }
 
-/* line 1106, ../scss/breakpoints/_base.scss */
+/* line 1109, ../scss/breakpoints/_base.scss */
 .mc4wp-alert {
   text-align: center;
   padding: 5px;
@@ -2467,34 +2467,34 @@ input[type="submit"] {
 /******************************************************************
 COMMENT FORM STYLES
 ******************************************************************/
-/* line 1116, ../scss/breakpoints/_base.scss */
+/* line 1119, ../scss/breakpoints/_base.scss */
 .comment-respond {
   padding: 1.5em;
   border-top: 1px solid #f8f9fa;
 }
 
-/* line 1122, ../scss/breakpoints/_base.scss */
+/* line 1125, ../scss/breakpoints/_base.scss */
 #reply-title {
   margin: 0;
 }
 
-/* line 1126, ../scss/breakpoints/_base.scss */
+/* line 1129, ../scss/breakpoints/_base.scss */
 .logged-in-as {
   color: #9fa6b4;
   font-style: italic;
   margin: 0;
 }
-/* line 1131, ../scss/breakpoints/_base.scss */
+/* line 1134, ../scss/breakpoints/_base.scss */
 .logged-in-as a {
   color: #5c6b80;
 }
 
-/* line 1136, ../scss/breakpoints/_base.scss */
+/* line 1139, ../scss/breakpoints/_base.scss */
 .comment-form-comment {
   margin: 1.5em 0 0.75em;
 }
 
-/* line 1140, ../scss/breakpoints/_base.scss */
+/* line 1143, ../scss/breakpoints/_base.scss */
 .form-allowed-tags {
   padding: 1.5em;
   background-color: #f8f9fa;
@@ -2502,14 +2502,14 @@ COMMENT FORM STYLES
 }
 
 /* comment submit button */
-/* line 1147, ../scss/breakpoints/_base.scss */
+/* line 1150, ../scss/breakpoints/_base.scss */
 #submit {
   float: right;
   font-size: 1em;
 }
 
 /* comment form title */
-/* line 1154, ../scss/breakpoints/_base.scss */
+/* line 1157, ../scss/breakpoints/_base.scss */
 #comment-form-title {
   margin: 0 0 1.1em;
 }
@@ -2517,13 +2517,13 @@ COMMENT FORM STYLES
 /* cancel comment reply link */
 /* logged in comments */
 /* allowed tags */
-/* line 1167, ../scss/breakpoints/_base.scss */
+/* line 1170, ../scss/breakpoints/_base.scss */
 #allowed_tags {
   margin: 1.5em 10px 0.7335em 0;
 }
 
 /* no comments */
-/* line 1172, ../scss/breakpoints/_base.scss */
+/* line 1175, ../scss/breakpoints/_base.scss */
 .nocomments {
   margin: 0 20px 1.1em;
 }
@@ -2531,12 +2531,12 @@ COMMENT FORM STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 1188, ../scss/breakpoints/_base.scss */
+/* line 1191, ../scss/breakpoints/_base.scss */
 .widget ul li {
   /* deep nesting */
 }
 
-/* line 1205, ../scss/breakpoints/_base.scss */
+/* line 1208, ../scss/breakpoints/_base.scss */
 .no-widgets {
   background-color: #fff;
   padding: 1.5em;
@@ -2549,14 +2549,14 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 1218, ../scss/breakpoints/_base.scss */
+/* line 1221, ../scss/breakpoints/_base.scss */
 .footer {
   clear: both;
   background-color: #323944;
   color: #f8f9fa;
 }
 
-/* line 1223, ../scss/breakpoints/_base.scss */
+/* line 1226, ../scss/breakpoints/_base.scss */
 a.redcart {
   color: white;
 }
@@ -2697,17 +2697,27 @@ tweeners.
   }
 
   /* end .entry-content */
-  /* line 162, ../scss/breakpoints/_481up.scss */
+  /* line 161, ../scss/breakpoints/_481up.scss */
+  .newsletter input[type="submit"] {
+    font-size: 20px;
+  }
+
+  /* line 166, ../scss/breakpoints/_481up.scss */
+  .hero-parallax {
+    font-size: 24px;
+  }
+
+  /* line 171, ../scss/breakpoints/_481up.scss */
   .social .icon-wrap {
     width: 36px;
   }
-  /* line 165, ../scss/breakpoints/_481up.scss */
+  /* line 174, ../scss/breakpoints/_481up.scss */
   .social .icon {
     width: 36px;
     height: 36px;
     padding: 5px;
   }
-  /* line 170, ../scss/breakpoints/_481up.scss */
+  /* line 179, ../scss/breakpoints/_481up.scss */
   .social .bandsintown {
     padding: 0;
   }
@@ -3076,12 +3086,12 @@ you can add resource intensive styles.
   }
   /* line 450, ../scss/breakpoints/_768up.scss */
   .newsletter form {
-    max-width: 575px;
+    max-width: 700px;
   }
   /* line 454, ../scss/breakpoints/_768up.scss */
   .newsletter p {
     width: 50%;
-    text-align: left;
+    text-align: right;
     padding: 5px;
   }
   /* line 459, ../scss/breakpoints/_768up.scss */
@@ -3096,10 +3106,12 @@ you can add resource intensive styles.
   .newsletter input[type="email"] {
     height: 46px;
     margin: 0;
+    width: 73%;
   }
-  /* line 470, ../scss/breakpoints/_768up.scss */
+  /* line 471, ../scss/breakpoints/_768up.scss */
   .newsletter input[type="submit"] {
     height: 45px;
+    width: 25%;
   }
 
   /*********************
@@ -3110,7 +3122,7 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  /* line 488, ../scss/breakpoints/_768up.scss */
+  /* line 490, ../scss/breakpoints/_768up.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.
@@ -3188,8 +3200,6 @@ you can add resource intensive styles.
   /* line 45, ../scss/breakpoints/_1030up.scss */
   .header-image p {
     font-size: 2em;
-    left: 50px;
-    bottom: 50px;
   }
 
   /* line 52, ../scss/breakpoints/_1030up.scss */
