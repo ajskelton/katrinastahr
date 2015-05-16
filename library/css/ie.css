@@ -220,55 +220,56 @@ POSTS & CONTENT STYLES
 /* line 86, ../scss/breakpoints/_481up.scss */
 .parallax {
   display: block;
+  height: 300px;
 }
 
 /* entry content */
-/* line 91, ../scss/breakpoints/_481up.scss */
+/* line 92, ../scss/breakpoints/_481up.scss */
 .entry-content {
   /* at this larger size, we can start to align images */
 }
-/* line 95, ../scss/breakpoints/_481up.scss */
+/* line 96, ../scss/breakpoints/_481up.scss */
 .entry-content .alignleft, .entry-content img.alignleft {
   margin-right: 1.5em;
   display: inline;
   float: left;
   margin-top: 6px;
 }
-/* line 101, ../scss/breakpoints/_481up.scss */
+/* line 102, ../scss/breakpoints/_481up.scss */
 .entry-content .alignright, .entry-content img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right;
 }
-/* line 106, ../scss/breakpoints/_481up.scss */
+/* line 107, ../scss/breakpoints/_481up.scss */
 .entry-content .aligncenter, .entry-content img.aligncenter {
   margin-right: auto;
   margin-left: auto;
   display: block;
   clear: both;
 }
-/* line 115, ../scss/breakpoints/_481up.scss */
+/* line 116, ../scss/breakpoints/_481up.scss */
 .entry-content .wp-playlist-item {
   padding: 1em 0;
 }
-/* line 121, ../scss/breakpoints/_481up.scss */
+/* line 122, ../scss/breakpoints/_481up.scss */
 .entry-content .aboutimage {
   width: 300px;
   height: auto;
 }
-/* line 127, ../scss/breakpoints/_481up.scss */
+/* line 128, ../scss/breakpoints/_481up.scss */
 .entry-content table td {
   padding: 1.5em 1em;
 }
-/* line 132, ../scss/breakpoints/_481up.scss */
+/* line 133, ../scss/breakpoints/_481up.scss */
 .entry-content img {
   width: inherit;
 }
-/* line 140, ../scss/breakpoints/_481up.scss */
+/* line 141, ../scss/breakpoints/_481up.scss */
 .entry-content .si_item {
   padding: 1em;
 }
-/* line 144, ../scss/breakpoints/_481up.scss */
+/* line 145, ../scss/breakpoints/_481up.scss */
 .entry-content .bandsintown td {
   display: table-cell;
   border-right: 1px solid black;
@@ -276,17 +277,17 @@ POSTS & CONTENT STYLES
 }
 
 /* end .entry-content */
-/* line 157, ../scss/breakpoints/_481up.scss */
+/* line 158, ../scss/breakpoints/_481up.scss */
 .social .icon-wrap {
   width: 36px;
 }
-/* line 160, ../scss/breakpoints/_481up.scss */
+/* line 161, ../scss/breakpoints/_481up.scss */
 .social .icon {
   width: 36px;
   height: 36px;
   padding: 5px;
 }
-/* line 165, ../scss/breakpoints/_481up.scss */
+/* line 166, ../scss/breakpoints/_481up.scss */
 .social .bandsintown {
   padding: 0;
 }
@@ -514,27 +515,32 @@ SIDEBARS & ASIDES
 }
 
 /* line 237, ../scss/breakpoints/_768up.scss */
+.parallax__layer--back {
+  background-attachment: fixed;
+}
+
+/* line 241, ../scss/breakpoints/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 241, ../scss/breakpoints/_768up.scss */
+/* line 245, ../scss/breakpoints/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 246, ../scss/breakpoints/_768up.scss */
+/* line 250, ../scss/breakpoints/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 251, ../scss/breakpoints/_768up.scss */
+/* line 255, ../scss/breakpoints/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 259, ../scss/breakpoints/_768up.scss */
+/* line 263, ../scss/breakpoints/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -551,24 +557,24 @@ SIDEBARS & ASIDES
 /* recent-comments widget */
 /* search widget */
 /* text widget */
-/* line 356, ../scss/breakpoints/_768up.scss */
+/* line 360, ../scss/breakpoints/_768up.scss */
 .wp-playlist-current-item {
   height: 100px;
 }
-/* line 358, ../scss/breakpoints/_768up.scss */
+/* line 362, ../scss/breakpoints/_768up.scss */
 .wp-playlist-current-item .wp-playlist-item-title {
   font-size: 1.5em;
 }
-/* line 361, ../scss/breakpoints/_768up.scss */
+/* line 365, ../scss/breakpoints/_768up.scss */
 .wp-playlist-current-item .wp-playlist-item-album {
   font-size: 1.5em;
 }
-/* line 364, ../scss/breakpoints/_768up.scss */
+/* line 368, ../scss/breakpoints/_768up.scss */
 .wp-playlist-current-item .wp-playlist-item-artist {
   font-size: 1.5em;
 }
 
-/* line 369, ../scss/breakpoints/_768up.scss */
+/* line 373, ../scss/breakpoints/_768up.scss */
 .wp-playlist-item-title {
   font-size: 1.5em;
 }
@@ -576,24 +582,24 @@ SIDEBARS & ASIDES
 /*********************
 CONTENT STYLES
 *********************/
-/* line 379, ../scss/breakpoints/_768up.scss */
+/* line 383, ../scss/breakpoints/_768up.scss */
 .entry-content .si_item {
   width: 25%;
 }
 
-/* line 388, ../scss/breakpoints/_768up.scss */
+/* line 392, ../scss/breakpoints/_768up.scss */
 .left-half {
   width: 48%;
   float: left;
 }
 
-/* line 392, ../scss/breakpoints/_768up.scss */
+/* line 396, ../scss/breakpoints/_768up.scss */
 .right-half {
   width: 48%;
   float: right;
 }
 
-/* line 397, ../scss/breakpoints/_768up.scss */
+/* line 401, ../scss/breakpoints/_768up.scss */
 .parallax__layer {
   position: absolute;
   top: 0;
@@ -602,28 +608,28 @@ CONTENT STYLES
   left: 0;
 }
 
-/* line 405, ../scss/breakpoints/_768up.scss */
+/* line 409, ../scss/breakpoints/_768up.scss */
 .parallax__layer--hero-back {
   transform: translateZ(0);
 }
 
-/* line 409, ../scss/breakpoints/_768up.scss */
+/* line 413, ../scss/breakpoints/_768up.scss */
 .parallax__layer--back-hero {
   background: url("../images/KatStahrWebsiteGrungePattern_Left.png") top left repeat-y fixed, url("../images/KatStahrWebsiteGrungePattern_Right.png") top right repeat-y fixed, url("../images/darkwood.jpg") top left repeat fixed;
 }
 
-/* line 415, ../scss/breakpoints/_768up.scss */
+/* line 419, ../scss/breakpoints/_768up.scss */
 .parallax__layer--base {
   background: url("../images/KatStahrWebsiteGrungePattern_Left.png") top left repeat-y fixed, url("../images/KatStahrWebsiteGrungePattern_Right.png") top right repeat-y fixed;
 }
 
-/* line 420, ../scss/breakpoints/_768up.scss */
+/* line 424, ../scss/breakpoints/_768up.scss */
 .parallax__layer--back {
   background-repeat: no-repeat;
   background-position: center;
 }
 
-/* line 426, ../scss/breakpoints/_768up.scss */
+/* line 430, ../scss/breakpoints/_768up.scss */
 .hero {
   color: #fff;
   font-family: "tekton-pro-extended", "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -633,34 +639,34 @@ CONTENT STYLES
   width: 100%;
 }
 
-/* line 441, ../scss/breakpoints/_768up.scss */
+/* line 445, ../scss/breakpoints/_768up.scss */
 .newsletter {
   background-color: white;
 }
-/* line 444, ../scss/breakpoints/_768up.scss */
+/* line 448, ../scss/breakpoints/_768up.scss */
 .newsletter form {
   max-width: 575px;
 }
-/* line 448, ../scss/breakpoints/_768up.scss */
+/* line 452, ../scss/breakpoints/_768up.scss */
 .newsletter p {
   width: 50%;
   text-align: left;
   padding: 5px;
 }
-/* line 453, ../scss/breakpoints/_768up.scss */
+/* line 457, ../scss/breakpoints/_768up.scss */
 .newsletter p:first-child {
   float: left;
 }
-/* line 456, ../scss/breakpoints/_768up.scss */
+/* line 460, ../scss/breakpoints/_768up.scss */
 .newsletter p:nth-of-type(2) {
   float: right;
 }
-/* line 460, ../scss/breakpoints/_768up.scss */
+/* line 464, ../scss/breakpoints/_768up.scss */
 .newsletter input[type="email"] {
   height: 46px;
   margin: 0;
 }
-/* line 464, ../scss/breakpoints/_768up.scss */
+/* line 468, ../scss/breakpoints/_768up.scss */
 .newsletter input[type="submit"] {
   height: 45px;
 }
@@ -673,7 +679,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 482, ../scss/breakpoints/_768up.scss */
+/* line 486, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
