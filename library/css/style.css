@@ -1819,7 +1819,6 @@ section:before {
 /* line 380, ../scss/breakpoints/_base.scss */
 .parallax__layer--back {
   background-position: center;
-  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -1837,7 +1836,7 @@ section:before {
 .hero-parallax {
   color: #323944;
   font-family: "tekton-pro-extended", "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-size: 24px;
+  font-size: 16px;
   text-align: center;
   width: 90%;
   z-index: 20;

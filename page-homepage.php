@@ -52,7 +52,7 @@
 		</section>
 
 	<div class="parallax">
-		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_1['url']; ?>') center center fixed;background-size:cover;"></div>
+		<div class="parallax__layer parallax__layer--back" style="background: url('<?php echo $parallax_1['url']; ?>') center center;background-size:cover;"></div>
 		<div class="parallax__layer parallax__layer--base"></div>
 	</div>
 

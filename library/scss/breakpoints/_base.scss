@@ -380,7 +380,7 @@ section:before {
 .parallax__layer--back {
 	
 	background-position: center;
-	background-attachment: fixed;
+	// background-attachment: fixed;
 	background-size:cover;
 }
 .hero {
@@ -395,7 +395,7 @@ section:before {
 .hero-parallax {
 	color:$black;
 	font-family: $script;
-	font-size:24px;
+	font-size:16px;
 	text-align:center;
 	width:90%;
 	z-index:20;
