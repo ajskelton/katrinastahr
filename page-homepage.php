@@ -42,7 +42,7 @@
 			</header>
 			<div class="wrap">
 				<?php the_field('about_section'); ?>
-				<h3>Recent Tweets</h3>
+				<h3>Latest Twitter Feed</h3>
 				<?php db_twitter_feed() ?>
 				<div class="quick-links">
 					<p>Follow Katrina on</p>
