@@ -3100,44 +3100,34 @@ you can add resource intensive styles.
   .newsletter form {
     max-width: 700px;
   }
-  /* line 454, ../scss/breakpoints/_768up.scss */
-  .newsletter p {
-    width: 50%;
+  /* line 453, ../scss/breakpoints/_768up.scss */
+  .newsletter .description {
+    width: 226px;
     text-align: right;
-    padding: 5px;
+    padding: 6px 10px 6px 0;
   }
-  /* line 459, ../scss/breakpoints/_768up.scss */
-  .newsletter p:first-child {
+  /* line 458, ../scss/breakpoints/_768up.scss */
+  .newsletter p {
     float: left;
+    width: 464px;
   }
   /* line 462, ../scss/breakpoints/_768up.scss */
-  .newsletter p:nth-of-type(2) {
-    float: right;
-  }
-  /* line 466, ../scss/breakpoints/_768up.scss */
-  .newsletter input[type="email"] {
-    height: 46px;
-    margin: 0;
-    width: 73%;
-  }
-  /* line 471, ../scss/breakpoints/_768up.scss */
-  .newsletter input[type="submit"] {
-    height: 45px;
-    width: 25%;
+  .newsletter input[type="email"], .newsletter input[type="submit"] {
+    margin: 10px 0;
   }
 
-  /* line 478, ../scss/breakpoints/_768up.scss */
+  /* line 468, ../scss/breakpoints/_768up.scss */
   .tweets .tweet {
     float: left;
     width: 25%;
     padding-right: 0.75em;
     border: none;
   }
-  /* line 486, ../scss/breakpoints/_768up.scss */
+  /* line 476, ../scss/breakpoints/_768up.scss */
   .tweets .tweet .tweet_content .tweet_profile_img {
     display: none;
   }
-  /* line 492, ../scss/breakpoints/_768up.scss */
+  /* line 482, ../scss/breakpoints/_768up.scss */
   .tweets .tweet .tweet_content .tweet_text {
     padding: 10px;
   }
@@ -3150,7 +3140,7 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  /* line 519, ../scss/breakpoints/_768up.scss */
+  /* line 509, ../scss/breakpoints/_768up.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.

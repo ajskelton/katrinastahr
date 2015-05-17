@@ -450,27 +450,17 @@ CONTENT STYLES
 		form {
 			max-width:700px;
 		}
-
-		p {
-			width:50%;
+		.description {
+			width:226px;
 			text-align:right;
-			padding:5px;
-
-			&:first-child {
-				float:left;
-			}
-			&:nth-of-type(2) {
-				float:right;
-			}
+			padding: 6px 10px 6px 0;
 		}
-		input[type="email"] {
-			height:46px;
-			margin:0;
-			width:73%;
+		p {
+			float:left;
+			width: 464px;
 		}
-		input[type="submit"] {
-			height:45px;
-			width:25%;
+		input[type="email"], input[type="submit"] {
+			margin: 10px 0;
 		}
 	}
 
