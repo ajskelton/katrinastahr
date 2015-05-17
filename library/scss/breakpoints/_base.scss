@@ -796,6 +796,36 @@ section:before {
 		margin: 0 auto;
 	}
 
+	.tweets {
+		.tweet {
+			// border:none;
+			// float:left;
+			// width:25%;
+			// padding-right:0.75em;
+
+			.tweet_content {
+				padding:0;
+				.tweet_profile_img {
+					display:none;
+				}
+				.tweet_primary_meta {
+
+				}
+				.tweet_text {
+					word-break: break-word;
+					background-color: #ddd;
+					padding:5px;
+				}
+				.tweet_media {
+
+				}
+				.tweet_secondary_meta {
+
+				}
+			}
+		}
+	}
+
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/

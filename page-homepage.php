@@ -43,7 +43,9 @@
 			<div class="wrap">
 				<?php the_field('about_section'); ?>
 				<h3>Latest Twitter Feed</h3>
-				<?php db_twitter_feed() ?>
+					<div class="cf">
+						<?php db_twitter_feed() ?>				
+					</div>
 				<div class="quick-links">
 					<p>Follow Katrina on</p>
 					<div class="icon-wrap">
