@@ -6,14 +6,26 @@
 
 <?php get_header(); ?>
 
-<?php  $about_image = get_field('about_image');
+<?php  $image = get_field('main_image'); 
+		$about_image = get_field('about_image');
 		$parallax_1 = get_field('parallax_1');
 		$parallax_2 = get_field('parallax_2');
 		$parallax_3 = get_field('parallax_3');
 		$parallax_4 = get_field('parallax_4');
 		$parallax_5 = get_field('parallax_5');
  ?>
- <div id="skrollr-body">
+
+	 <div id="header-image" class="header-image"style="background: url('<?php echo $image['url']; ?>') no-repeat center center; background-size:cover;">
+		<p>
+			New album coming soon
+			<svg class="itunes">
+				<use xlink:href="#shape-itunes-preorder" />
+			</svg>
+		</p>
+	</div>
+	<div class="newsletter cf">
+		<?php echo do_shortcode('[mc4wp_form]'); ?>
+	</div>
 
 	<div id="hero">
 		<div class="parallax">

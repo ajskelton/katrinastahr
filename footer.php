@@ -24,8 +24,6 @@
 
 			</footer>
 
-		</div> <!-- end skrollr-body -->
-
 		</div>
 
 		<?php // all js scripts are loaded in library/bones.php ?>
