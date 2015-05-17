@@ -294,7 +294,7 @@ function getContrast50($hexcolor){
 }
 
 function continue_reading( $atts, $content = null ) {
-  return "<span class='readmore'>Read more...</span><div class='message'>" . $content . "</div>";
+  return "<span class='readmore cf'>Read more...</span><div class='message'>" . $content . "</div>";
 }
 add_shortcode( 'continue_reading', 'continue_reading');
 
