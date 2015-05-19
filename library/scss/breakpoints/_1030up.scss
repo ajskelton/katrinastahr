@@ -8,7 +8,9 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop.
 
 ******************************************************************/
-
+body {
+	margin-top:92px;
+}
 .wrap {
 	width:900px;
 	padding:2em;
