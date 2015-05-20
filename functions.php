@@ -298,6 +298,13 @@ function continue_reading( $atts, $content = null ) {
 }
 add_shortcode( 'continue_reading', 'continue_reading');
 
+add_filter('upload_mimes','restrict_mime');
+function restrict_mime($mimes) {
+    $mimes['ai'] = 'application/postscript';
+
+    return $mimes;
+}
+
 
 
 
