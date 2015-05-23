@@ -680,6 +680,13 @@ CONTENT STYLES
   width: 100%;
 }
 
+/* line 476, ../scss/breakpoints/_768up.scss */
+.amazon-badge {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 /* line 482, ../scss/breakpoints/_768up.scss */
 .newsletter {
   background-color: white;

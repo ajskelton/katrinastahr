@@ -17,10 +17,13 @@
 
 	 <div id="header-image" class="header-image"style="background: url('<?php echo $image['url']; ?>') no-repeat center center; background-size:cover;">
 		<p>
-			New album coming soon
-			<svg class="itunes">
-				<use xlink:href="#shape-itunes-preorder" />
-			</svg>
+			Pre-Order on Amazon.com Now!
+			<a href="http://www.amazon.com/Greystone-Road-Katrina-Stahr/dp/B00XWVS7PY" target="_blank">
+				<!-- <svg class="amazon">
+					<use xlink:href="#shape-amazon_a" />
+				</svg> -->
+				<img class="amazon-badge" src="<?php echo get_template_directory_uri();?>/library/svg/amazon.svg" alt="">
+			</a>
 		</p>
 	</div>
 	<div class="newsletter cf">
@@ -86,7 +89,7 @@
 						</a>
 					</div>
 					<div class="icon-wrap">
-						<a href="#" id="">
+						<a href="http://www.spotify.com" id="">
 							<svg class="icon spotify">
 								<use xlink:href="#shape-spotify" />
 							</svg>
@@ -254,7 +257,7 @@
 							</a>
 						</div>
 						<div class="icon-wrap">
-							<a href="#" id="">
+							<a href="http://www.spotify.com" id="">
 								<svg class="icon spotify">
 									<use xlink:href="#shape-spotify" />
 								</svg>
