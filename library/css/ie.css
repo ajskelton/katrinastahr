@@ -307,6 +307,18 @@ POSTS & CONTENT STYLES
   padding: 0;
 }
 
+/* line 183, ../scss/breakpoints/_481up.scss */
+.itunes {
+  height: 50px;
+  width: 130px;
+}
+
+/* line 187, ../scss/breakpoints/_481up.scss */
+.amazon-badge {
+  width: 130px;
+  padding: 13px;
+}
+
 /*********************
 FOOTER STYLES
 *********************/
@@ -682,31 +694,37 @@ CONTENT STYLES
 
 /* line 476, ../scss/breakpoints/_768up.scss */
 .amazon-badge {
-  width: 300px;
+  width: 215px;
   padding: 10px;
   border-radius: 10px;
 }
 
-/* line 482, ../scss/breakpoints/_768up.scss */
+/* line 481, ../scss/breakpoints/_768up.scss */
+.itunes {
+  width: 175px;
+  height: 60px;
+}
+
+/* line 486, ../scss/breakpoints/_768up.scss */
 .newsletter {
   background-color: white;
 }
-/* line 485, ../scss/breakpoints/_768up.scss */
+/* line 489, ../scss/breakpoints/_768up.scss */
 .newsletter form {
   max-width: 700px;
 }
-/* line 488, ../scss/breakpoints/_768up.scss */
+/* line 492, ../scss/breakpoints/_768up.scss */
 .newsletter .description {
   width: 226px;
   text-align: right;
   padding: 6px 10px 6px 0;
 }
-/* line 493, ../scss/breakpoints/_768up.scss */
+/* line 497, ../scss/breakpoints/_768up.scss */
 .newsletter p {
   float: left;
   width: 464px;
 }
-/* line 497, ../scss/breakpoints/_768up.scss */
+/* line 501, ../scss/breakpoints/_768up.scss */
 .newsletter input[type="email"], .newsletter input[type="submit"] {
   margin: 10px 0;
 }
@@ -719,7 +737,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 517, ../scss/breakpoints/_768up.scss */
+/* line 521, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.

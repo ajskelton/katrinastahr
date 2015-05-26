@@ -193,7 +193,7 @@ HEADER STYLES
 		height:300px;
 		position:relative;
 		// 
-		p {
+		.order-box {
 			text-align:center;
 			padding:10px;
 			background-color: rgba(42,42,42,.6);
@@ -202,6 +202,10 @@ HEADER STYLES
 			bottom:25px;
 			right:25px;
 			color: white;
+
+			p {
+				margin: 3px 0;
+			}
 		}
 	}
 	
@@ -791,17 +795,17 @@ section:before {
 	}
 	.itunes {
 		height:40px;
-		display:block;
-		width:120px;
+		display:inline-block;
+		width:110px;
 		margin: 0 auto;
 	}
 
 	.amazon-badge {
-		width:200px;
-		display:block;
+		width:110px;
+		display:inline-block;
 		margin:0 auto;
 		background-color: white;
-		padding:5px;
+		padding:11px;
 		border-radius: 5px;
 	}
 

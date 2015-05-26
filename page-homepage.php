@@ -16,15 +16,19 @@
  ?>
 
 	 <div id="header-image" class="header-image"style="background: url('<?php echo $image['url']; ?>') no-repeat center center; background-size:cover;">
-		<p>
-			Pre-Order on Amazon.com Now!
+		<div class="order-box">
+			<p>
+				Pre-Order Greystone Road Now!
+			</p>
 			<a href="http://www.amazon.com/Greystone-Road-Katrina-Stahr/dp/B00XWVS7PY" target="_blank">
-				<!-- <svg class="amazon">
-					<use xlink:href="#shape-amazon_a" />
-				</svg> -->
 				<img class="amazon-badge" src="<?php echo get_template_directory_uri();?>/library/svg/amazon.svg" alt="">
 			</a>
-		</p>
+			<a href="https://itunes.apple.com/album/id996614432" target="_blank">
+				<svg class="icon itunes">
+					<use xlink:href="#shape-itunes-preorder" />
+				</svg>
+			</a>
+		</div>
 	</div>
 	<div class="newsletter cf">
 		<?php echo do_shortcode('[mc4wp_form]'); ?>
