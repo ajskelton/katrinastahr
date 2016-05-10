@@ -460,9 +460,7 @@ CONTENT STYLES
 	}
 	.parallax__layer--back {
 		background-repeat: no-repeat;
-		background-position:center;
-		// background: 	url('../images/Kat_Sepia.jpg') center 100px fixed;
-		// width:100%;
+		background-position-y: 124px;
 	}
 	.hero {
 		color:$white;

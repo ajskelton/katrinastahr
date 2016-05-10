@@ -3133,10 +3133,10 @@ you can add resource intensive styles.
   /* line 461, ../scss/breakpoints/_768up.scss */
   .parallax__layer--back {
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-y: 124px;
   }
 
-  /* line 467, ../scss/breakpoints/_768up.scss */
+  /* line 465, ../scss/breakpoints/_768up.scss */
   .hero {
     color: #fff;
     font-family: "tekton-pro-extended", "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -3146,39 +3146,39 @@ you can add resource intensive styles.
     width: 100%;
   }
 
-  /* line 476, ../scss/breakpoints/_768up.scss */
+  /* line 474, ../scss/breakpoints/_768up.scss */
   .amazon-badge {
     width: 215px;
     padding: 10px;
     border-radius: 10px;
   }
 
-  /* line 481, ../scss/breakpoints/_768up.scss */
+  /* line 479, ../scss/breakpoints/_768up.scss */
   .itunes {
     width: 175px;
     height: 60px;
   }
 
-  /* line 486, ../scss/breakpoints/_768up.scss */
+  /* line 484, ../scss/breakpoints/_768up.scss */
   .newsletter {
     background-color: white;
   }
-  /* line 489, ../scss/breakpoints/_768up.scss */
+  /* line 487, ../scss/breakpoints/_768up.scss */
   .newsletter form {
     max-width: 700px;
   }
-  /* line 492, ../scss/breakpoints/_768up.scss */
+  /* line 490, ../scss/breakpoints/_768up.scss */
   .newsletter .description {
     width: 226px;
     text-align: right;
     padding: 6px 10px 6px 0;
   }
-  /* line 497, ../scss/breakpoints/_768up.scss */
+  /* line 495, ../scss/breakpoints/_768up.scss */
   .newsletter p {
     float: left;
     width: 464px;
   }
-  /* line 501, ../scss/breakpoints/_768up.scss */
+  /* line 499, ../scss/breakpoints/_768up.scss */
   .newsletter input[type="email"], .newsletter input[type="submit"] {
     margin: 10px 0;
   }
@@ -3191,7 +3191,7 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  /* line 521, ../scss/breakpoints/_768up.scss */
+  /* line 519, ../scss/breakpoints/_768up.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.
