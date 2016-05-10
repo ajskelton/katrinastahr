@@ -18,7 +18,7 @@
 	 <div id="header-image" class="header-image"style="background: url('<?php echo $image['url']; ?>') no-repeat center center; background-size:cover;">
 		<div class="order-box">
 			<p>
-				Pre-Order Greystone Road Now!
+				Order Greystone Road Now!
 			</p>
 			<a href="http://www.amazon.com/Greystone-Road-Katrina-Stahr/dp/B00XWVS7PY" target="_blank">
 				<img class="amazon-badge" src="<?php echo get_template_directory_uri();?>/library/svg/amazon.svg" alt="">
