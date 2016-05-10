@@ -55,7 +55,7 @@
 
 			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader" >
 				<a href="<?php echo home_url(); ?>" id="logo" rel="nofollow"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/KatrinaLogo.png" alt="Katrina Stahr"></a>
-					<a class="mobile" href="#">&#9776;</a>
+					<a class="mobile" href="#">Menu</a>
 					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 						<?php wp_nav_menu(array(
 	  					         'container' => false,                           // remove nav container
