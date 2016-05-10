@@ -47,6 +47,13 @@ module.exports = function(grunt) {
 			}
 		}
 	},
+	cssmin: {
+		target: {
+			files: {
+				'library/css/production-style.min.css': 'library/css/production-style.css'
+			}
+		}
+	},
 	watch: {
 		options: {
 			livereload:false,
@@ -60,7 +67,7 @@ module.exports = function(grunt) {
 		},
 		css: {
 			files: '**/*.scss',
-			tasks: ['compass', 'autoprefixer', 'notify:css']
+			tasks: ['compass', 'autoprefixer', 'cssmin']
 		},
 	},
 	notify: {
